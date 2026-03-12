@@ -1,31 +1,11 @@
 {
   "masterBoard": {
     "name": "AIM_Team_Master_Board",
-    "org": "Kochava",
+    "org": "Sachin900388",
     "statusColumns": ["Backlog", "Ready", "In Progress", "Blocked", "Done"]
   },
   "projects": {
-    "github": [
-      {
-        "id": 1,
-        "name": "AIM Incrementality",
-        "projectNumber": 19,
-        "viewId": 3,
-        "url": "https://github.com/orgs/Kochava/projects/19/views/3"
-      },
-      {
-        "id": 2,
-        "name": "SlingTV",
-        "projectNumber": 33,
-        "url": "https://github.com/orgs/Kochava/projects/33"
-      },
-      {
-        "id": 3,
-        "name": "Atlas MCP",
-        "projectNumber": 28,
-        "url": "https://github.com/orgs/Kochava/projects/28"
-      }
-    ],
+    "github": [],
     "asana": [
       {
         "id": 4,

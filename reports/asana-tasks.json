@@ -550,6 +550,116 @@
     }
   },
   {
+    "id": "1213565343380850",
+    "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-06T14:17:10.537Z",
+    "updatedAt": "2026-03-12T12:20:43.381Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213628183740835",
+    "title": "Publishers option in the dynamic filter",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740835",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T12:18:28.439Z",
+    "updatedAt": "2026-03-12T12:20:25.114Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796561",
     "title": "Recommendation : Cost Curves (UI and API)",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796561",
@@ -994,7 +1104,7 @@
     "title": "UX Review feedback items",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213379802839677",
     "type": "ISSUE",
-    "status": "QA Drop 2",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -1004,10 +1114,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "https://docs.google.com/document/d/1dzBqVOknTawGb_p9Yi__hEfRcBgum7SB1A1JBtBdVy8/edit?tab=t.0",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-12T11:01:33.077Z",
     "createdAt": "2026-02-20T16:41:19.768Z",
-    "updatedAt": "2026-03-12T08:57:06.734Z",
+    "updatedAt": "2026-03-12T11:01:33.195Z",
     "dueOn": "2026-03-12",
     "tags": [],
     "customFields": [
@@ -1033,7 +1143,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -2200,61 +2310,6 @@
     }
   },
   {
-    "id": "1213565343380850",
-    "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
-    "type": "ISSUE",
-    "status": "R3 : Frontend | Teams",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-06T14:17:10.537Z",
-    "updatedAt": "2026-03-06T14:17:55.083Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1212318371796600",
     "title": "Team : Member Management",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796600",
@@ -2933,6 +2988,116 @@
     "completedAt": null,
     "createdAt": "2026-02-25T05:38:32.726Z",
     "updatedAt": "2026-02-25T05:38:47.661Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213628093793492",
+    "title": "Bulk delete for apps",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628093793492",
+    "type": "ISSUE",
+    "status": "Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T10:28:57.671Z",
+    "updatedAt": "2026-03-12T10:29:16.293Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213628183740826",
+    "title": "Cancel button in apps v2 > Settings Accordions",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740826",
+    "type": "ISSUE",
+    "status": "Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T10:42:24.255Z",
+    "updatedAt": "2026-03-12T11:01:20.847Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3740,6 +3905,116 @@
     }
   },
   {
+    "id": "1213565343380850",
+    "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-06T14:17:10.537Z",
+    "updatedAt": "2026-03-12T12:20:43.381Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213628183740835",
+    "title": "Publishers option in the dynamic filter",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740835",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T12:18:28.439Z",
+    "updatedAt": "2026-03-12T12:20:25.114Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796561",
     "title": "Recommendation : Cost Curves (UI and API)",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796561",
@@ -4184,7 +4459,7 @@
     "title": "UX Review feedback items",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213379802839677",
     "type": "ISSUE",
-    "status": "QA Drop 2",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -4194,10 +4469,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "https://docs.google.com/document/d/1dzBqVOknTawGb_p9Yi__hEfRcBgum7SB1A1JBtBdVy8/edit?tab=t.0",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-12T11:01:33.077Z",
     "createdAt": "2026-02-20T16:41:19.768Z",
-    "updatedAt": "2026-03-12T08:57:06.734Z",
+    "updatedAt": "2026-03-12T11:01:33.195Z",
     "dueOn": "2026-03-12",
     "tags": [],
     "customFields": [
@@ -4223,7 +4498,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -5390,61 +5665,6 @@
     }
   },
   {
-    "id": "1213565343380850",
-    "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
-    "type": "ISSUE",
-    "status": "R3 : Frontend | Teams",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-06T14:17:10.537Z",
-    "updatedAt": "2026-03-06T14:17:55.083Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1212318371796600",
     "title": "Team : Member Management",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796600",
@@ -6123,6 +6343,116 @@
     "completedAt": null,
     "createdAt": "2026-02-25T05:38:32.726Z",
     "updatedAt": "2026-02-25T05:38:47.661Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213628093793492",
+    "title": "Bulk delete for apps",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628093793492",
+    "type": "ISSUE",
+    "status": "Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T10:28:57.671Z",
+    "updatedAt": "2026-03-12T10:29:16.293Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213628183740826",
+    "title": "Cancel button in apps v2 > Settings Accordions",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740826",
+    "type": "ISSUE",
+    "status": "Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T10:42:24.255Z",
+    "updatedAt": "2026-03-12T11:01:20.847Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

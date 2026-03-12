@@ -57,7 +57,52 @@ async function getMasterProjectId() {
     await fs.readFile(path.join(__dirname, '../config/project-config.json'), 'utf-8')
   );
 
-  const query = `
+  const owner = projectConfig.masterBoard.org;
+  const projectNumber = parseInt(process.env.MASTER_PROJECT_NUMBER);
+
+  // Try user query first (for personal accounts)
+  const userQuery = `
+    query($login: String!, $number: Int!) {
+      user(login: $login) {
+        projectV2(number: $number) {
+          id
+          title
+          fields(first: 20) {
+            nodes {
+              ... on ProjectV2Field {
+                id
+                name
+              }
+              ... on ProjectV2SingleSelectField {
+                id
+                name
+                options {
+                  id
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  try {
+    const result = await graphqlWithAuth(userQuery, {
+      login: owner,
+      number: projectNumber,
+    });
+
+    if (result.user && result.user.projectV2) {
+      return result.user.projectV2;
+    }
+  } catch (error) {
+    // Fall through to organization query
+  }
+
+  // Try organization query
+  const orgQuery = `
     query($org: String!, $number: Int!) {
       organization(login: $org) {
         projectV2(number: $number) {
@@ -84,12 +129,12 @@ async function getMasterProjectId() {
     }
   `;
 
-  const result = await graphqlWithAuth(query, {
-    org: projectConfig.masterBoard.org,
-    number: parseInt(process.env.MASTER_PROJECT_NUMBER),
+  const result = await graphqlWithAuth(orgQuery, {
+    org: owner,
+    number: projectNumber,
   });
 
-  return result.organization.projectV2;
+  return result.organization?.projectV2;
 }
 
 /**

@@ -1,0 +1,40 @@
+{
+  "initialCount": 197,
+  "days": [
+    {
+      "date": "Mar 9",
+      "ideal": 169,
+      "actual": 151
+    },
+    {
+      "date": "Mar 10",
+      "ideal": 141,
+      "actual": 197
+    },
+    {
+      "date": "Mar 11",
+      "ideal": 113,
+      "actual": 197
+    },
+    {
+      "date": "Mar 12",
+      "ideal": 84,
+      "actual": 197
+    },
+    {
+      "date": "Mar 13",
+      "ideal": 56,
+      "actual": 197
+    },
+    {
+      "date": "Mar 14",
+      "ideal": 28,
+      "actual": 197
+    },
+    {
+      "date": "Mar 15",
+      "ideal": 0,
+      "actual": 197
+    }
+  ]
+}

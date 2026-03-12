@@ -1,0 +1,78 @@
+name: Generate Reports Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      report_type:
+        description: 'Type of report to generate'
+        required: true
+        type: choice
+        options:
+          - daily-standup
+          - weekly-metrics
+          - charts
+          - all
+
+jobs:
+  generate-reports:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest tasks
+        if: inputs.report_type != 'charts'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          ASANA_TOKEN: ${{ secrets.ASANA_TOKEN }}
+          GITHUB_ORG: 'Kochava'
+          ASANA_WORKSPACE_GID: '8559678460204'
+          DEVELOPERS_FILE: 'developers aim.csv'
+        run: |
+          echo "Fetching GitHub tasks..."
+          npm run fetch-github
+          echo "Fetching Asana tasks..."
+          npm run fetch-asana
+
+      - name: Generate daily standup
+        if: inputs.report_type == 'daily-standup' || inputs.report_type == 'all'
+        run: npm run generate-standup
+
+      - name: Generate weekly metrics
+        if: inputs.report_type == 'weekly-metrics' || inputs.report_type == 'all'
+        run: npm run generate-metrics
+
+      - name: Generate charts
+        if: inputs.report_type == 'charts' || inputs.report_type == 'all'
+        run: npm run generate-charts
+
+      - name: Commit reports
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: manually generated ${{ inputs.report_type }} report"
+            git push
+          fi
+
+      - name: Upload reports as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-${{ github.run_id }}
+          path: reports/
+          retention-days: 30

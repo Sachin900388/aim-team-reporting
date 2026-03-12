@@ -1,0 +1,83 @@
+name: Sync Tasks to Master Board
+
+on:
+  schedule:
+    # Run at 9 AM Pacific Time (17:00 UTC)
+    - cron: '0 17 * * *'
+    # Run at 5 PM Pacific Time (01:00 UTC next day)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync tasks to master board
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          ASANA_TOKEN: ${{ secrets.ASANA_TOKEN }}
+          MASTER_PROJECT_NUMBER: ${{ vars.MASTER_PROJECT_NUMBER }}
+          GITHUB_ORG: 'Kochava'
+          ASANA_WORKSPACE_GID: '8559678460204'
+          DEVELOPERS_FILE: 'developers aim.csv'
+        run: |
+          echo "Starting task sync..."
+          npm run sync
+
+      - name: Generate daily standup report
+        run: |
+          echo "Generating daily standup..."
+          npm run generate-standup
+
+      - name: Generate weekly metrics (Mondays only)
+        if: github.event.schedule == '0 17 * * 1' || github.event_name == 'workflow_dispatch'
+        run: |
+          echo "Generating weekly metrics..."
+          npm run generate-metrics
+          npm run generate-charts
+
+      - name: Commit reports
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update reports [$(date +'%Y-%m-%d %H:%M')]"
+            git push
+          fi
+
+      - name: Create summary
+        run: |
+          echo "## Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Task sync completed successfully" >> $GITHUB_STEP_SUMMARY
+          echo "📊 Reports generated and committed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f reports/sync-report.json ]; then
+            echo "### Sync Statistics" >> $GITHUB_STEP_SUMMARY
+            node -e "
+              const report = require('./reports/sync-report.json');
+              console.log('- Created: ' + report.stats.created);
+              console.log('- Skipped: ' + report.stats.skipped);
+              console.log('- Errors: ' + report.stats.errors);
+            " >> $GITHUB_STEP_SUMMARY
+          fi

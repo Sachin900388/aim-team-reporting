@@ -1,0 +1,79 @@
+{
+  "masterBoard": {
+    "name": "AIM_Team_Master_Board",
+    "org": "Kochava",
+    "statusColumns": ["Backlog", "Ready", "In Progress", "Blocked", "Done"]
+  },
+  "projects": {
+    "github": [
+      {
+        "id": 1,
+        "name": "AIM Incrementality",
+        "projectNumber": 19,
+        "viewId": 3,
+        "url": "https://github.com/orgs/Kochava/projects/19/views/3"
+      },
+      {
+        "id": 2,
+        "name": "SlingTV",
+        "projectNumber": 33,
+        "url": "https://github.com/orgs/Kochava/projects/33"
+      },
+      {
+        "id": 3,
+        "name": "Atlas MCP",
+        "projectNumber": 28,
+        "url": "https://github.com/orgs/Kochava/projects/28"
+      }
+    ],
+    "asana": [
+      {
+        "id": 4,
+        "name": "AIM Migration Bug Tracking",
+        "projectGid": "1212206740699577",
+        "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/list/1212207026274839",
+        "type": "migration"
+      },
+      {
+        "id": 5,
+        "name": "AIM Migration Project",
+        "projectGid": "1212206740699577",
+        "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/list/1212207026274839",
+        "type": "migration"
+      },
+      {
+        "id": 6,
+        "name": "AIM Customer Integration",
+        "projectGid": "1212696147313746",
+        "url": "https://app.asana.com/1/8559678460204/project/1212696147313746/list/1212696177823905",
+        "type": "customer"
+      },
+      {
+        "id": 7,
+        "name": "AIM Unplanned Work",
+        "projectGid": "1209147801260461",
+        "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/list/1209157351679821",
+        "type": "unplanned"
+      },
+      {
+        "id": 8,
+        "name": "AIM ETL Requirements",
+        "projectGid": "1209209910929196",
+        "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/list/1209214210702339",
+        "type": "etl"
+      }
+    ]
+  },
+  "sync": {
+    "schedule": {
+      "morning": "09:00",
+      "evening": "17:00",
+      "timezone": "America/Los_Angeles"
+    },
+    "filters": {
+      "excludeSubtasks": true,
+      "excludeArchived": true,
+      "onlyTeamMembers": true
+    }
+  }
+}

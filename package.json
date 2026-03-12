@@ -1,0 +1,28 @@
+{
+  "name": "aim-team-master-board",
+  "version": "1.0.0",
+  "description": "Automated task tracking and reporting for AIM team across GitHub and Asana projects",
+  "main": "index.js",
+  "scripts": {
+    "sync": "node scripts/sync-to-master-board.js",
+    "fetch-github": "node scripts/fetch-github-tasks.js",
+    "fetch-asana": "node scripts/fetch-asana-tasks.js",
+    "generate-standup": "node scripts/generate-standup.js",
+    "generate-metrics": "node scripts/generate-metrics.js",
+    "generate-charts": "node scripts/generate-charts.js"
+  },
+  "keywords": ["github", "asana", "project-management", "automation"],
+  "author": "AIM Team",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/graphql": "^7.0.2",
+    "asana": "^3.0.8",
+    "axios": "^1.6.7",
+    "csv-parse": "^5.5.3",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "description": "Maps source project statuses to master board columns",
+  "mappings": {
+    "github": {
+      "Backlog": "Backlog",
+      "Todo": "Ready",
+      "To Do": "Ready",
+      "Ready": "Ready",
+      "In Progress": "In Progress",
+      "In Review": "In Progress",
+      "Blocked": "Blocked",
+      "Done": "Done",
+      "Completed": "Done",
+      "Closed": "Done"
+    },
+    "asana": {
+      "default": {
+        "Backlog": "Backlog",
+        "Not Started": "Ready",
+        "Ready to Start": "Ready",
+        "In Progress": "In Progress",
+        "Working on it": "In Progress",
+        "Blocked": "Blocked",
+        "Waiting": "Blocked",
+        "Complete": "Done",
+        "Done": "Done",
+        "Approved": "Done"
+      },
+      "project_specific": {
+        "1212206740699577": {
+          "comment": "AIM Migration Bug Tracking - will be populated after first fetch"
+        },
+        "1212696147313746": {
+          "comment": "AIM Customer Integration - will be populated after first fetch"
+        },
+        "1209147801260461": {
+          "comment": "AIM Unplanned Work - will be populated after first fetch"
+        },
+        "1209209910929196": {
+          "comment": "AIM ETL Requirements - will be populated after first fetch"
+        }
+      }
+    }
+  },
+  "defaultMapping": "Ready"
+}

@@ -660,6 +660,61 @@
     }
   },
   {
+    "id": "1213628183740849",
+    "title": "Integrate accounts-api mmm_enabled with UI",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T15:01:09.537Z",
+    "updatedAt": "2026-03-12T15:01:30.791Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796561",
     "title": "Recommendation : Cost Curves (UI and API)",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796561",
@@ -4015,6 +4070,61 @@
     }
   },
   {
+    "id": "1213628183740849",
+    "title": "Integrate accounts-api mmm_enabled with UI",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-12T15:01:09.537Z",
+    "updatedAt": "2026-03-12T15:01:30.791Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796561",
     "title": "Recommendation : Cost Curves (UI and API)",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796561",
@@ -6710,151 +6820,6 @@
     }
   },
   {
-    "id": "1209246973962066",
-    "title": "AIM | Deactivate Pixel Federation Account",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1209246973962066",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Anupam Bhattacharyya",
-    "description": "[Stack] | [Name of request]:\nAIM | Deactivate Pixel Federation Account\n\nYour Name:\nRhiannon Taplin\n\nYour Email:\nrtaplin@kochava.com\n\nAdvertiser Name(s):\nPixel Federation\n\nPublisher Name(s):\nNA\n\n———————————————\nThis task was submitted through Product Request Form - General\nhttps://form.asana.com/?k=EaWD1wPmnVGh2y8uHTZGDg&d=8559678460204",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2025-01-27T09:47:24.248Z",
-    "updatedAt": "2025-11-17T21:44:43.305Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "High",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "BACKLOG",
-        "value": "BACKLOG-434",
-        "type": "text"
-      },
-      {
-        "name": "BU",
-        "value": "AIM",
-        "type": "enum"
-      },
-      {
-        "name": "What is needed",
-        "value": "Deactivate Pixel Federation Account",
-        "type": "text"
-      },
-      {
-        "name": "Why is it needed",
-        "value": "Pixel Federation is not going ahead and we need to stop ingesting their data",
-        "type": "text"
-      },
-      {
-        "name": "How can it be accomplished",
-        "value": "Deactivate Pixel Federation account",
-        "type": "text"
-      },
-      {
-        "name": "Preferred due date",
-        "value": "2025-01-31T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Contractually sold in",
-        "value": "No",
-        "type": "enum"
-      },
-      {
-        "name": "Prevents contract signing",
-        "value": "No",
-        "type": "enum"
-      },
-      {
-        "name": "Rank in Queue",
-        "value": "13",
-        "type": "number"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1208571457110080",
     "title": "AIM | Backlog | Misspelling on logout page",
     "url": "https://app.asana.com/1/8559678460204/project/1208095273053660/task/1208571457110080",
@@ -7472,6 +7437,151 @@
         "name": "Dev Escalation Resolution",
         "value": null,
         "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1209246973962066",
+    "title": "AIM | Deactivate Pixel Federation Account",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1209246973962066",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "[Stack] | [Name of request]:\nAIM | Deactivate Pixel Federation Account\n\nYour Name:\nRhiannon Taplin\n\nYour Email:\nrtaplin@kochava.com\n\nAdvertiser Name(s):\nPixel Federation\n\nPublisher Name(s):\nNA\n\n———————————————\nThis task was submitted through Product Request Form - General\nhttps://form.asana.com/?k=EaWD1wPmnVGh2y8uHTZGDg&d=8559678460204",
+    "completed": true,
+    "completedAt": "2026-03-12T14:48:56.834Z",
+    "createdAt": "2025-01-27T09:47:24.248Z",
+    "updatedAt": "2026-03-12T14:48:58.396Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "BACKLOG",
+        "value": "BACKLOG-434",
+        "type": "text"
+      },
+      {
+        "name": "BU",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "What is needed",
+        "value": "Deactivate Pixel Federation Account",
+        "type": "text"
+      },
+      {
+        "name": "Why is it needed",
+        "value": "Pixel Federation is not going ahead and we need to stop ingesting their data",
+        "type": "text"
+      },
+      {
+        "name": "How can it be accomplished",
+        "value": "Deactivate Pixel Federation account",
+        "type": "text"
+      },
+      {
+        "name": "Preferred due date",
+        "value": "2025-01-31T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Contractually sold in",
+        "value": "No",
+        "type": "enum"
+      },
+      {
+        "name": "Prevents contract signing",
+        "value": "No",
+        "type": "enum"
+      },
+      {
+        "name": "Rank in Queue",
+        "value": "13",
+        "type": "number"
       }
     ],
     "source": {

@@ -715,6 +715,61 @@
     }
   },
   {
+    "id": "1213640095128891",
+    "title": "Apps tile view scroll not working sometimes",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213640095128891",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-13T05:54:34.827Z",
+    "updatedAt": "2026-03-13T05:54:50.045Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796561",
     "title": "Recommendation : Cost Curves (UI and API)",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796561",
@@ -939,7 +994,7 @@
     "title": "Apps & Assets Cleanup",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213446361564739",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -949,10 +1004,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-13T05:54:29.180Z",
     "createdAt": "2026-02-26T07:49:07.346Z",
-    "updatedAt": "2026-03-12T08:57:10.020Z",
+    "updatedAt": "2026-03-13T05:54:29.342Z",
     "dueOn": "2026-03-12",
     "tags": [],
     "customFields": [
@@ -978,7 +1033,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -2657,7 +2712,7 @@
     "completed": true,
     "completedAt": "2026-02-09T12:56:48.028Z",
     "createdAt": "2025-12-05T13:27:38.175Z",
-    "updatedAt": "2026-02-24T14:42:39.432Z",
+    "updatedAt": "2026-03-13T14:51:24.182Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4125,6 +4180,61 @@
     }
   },
   {
+    "id": "1213640095128891",
+    "title": "Apps tile view scroll not working sometimes",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213640095128891",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-13T05:54:34.827Z",
+    "updatedAt": "2026-03-13T05:54:50.045Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796561",
     "title": "Recommendation : Cost Curves (UI and API)",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796561",
@@ -4349,7 +4459,7 @@
     "title": "Apps & Assets Cleanup",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213446361564739",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -4359,10 +4469,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-13T05:54:29.180Z",
     "createdAt": "2026-02-26T07:49:07.346Z",
-    "updatedAt": "2026-03-12T08:57:10.020Z",
+    "updatedAt": "2026-03-13T05:54:29.342Z",
     "dueOn": "2026-03-12",
     "tags": [],
     "customFields": [
@@ -4388,7 +4498,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -6067,7 +6177,7 @@
     "completed": true,
     "completedAt": "2026-02-09T12:56:48.028Z",
     "createdAt": "2025-12-05T13:27:38.175Z",
-    "updatedAt": "2026-02-24T14:42:39.432Z",
+    "updatedAt": "2026-03-13T14:51:24.182Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

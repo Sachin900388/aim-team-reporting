@@ -4,7 +4,8 @@
   "description": "Automated task tracking and reporting for AIM team across GitHub and Asana projects",
   "main": "index.js",
   "scripts": {
-    "sync": "node scripts/sync-to-master-board.js",
+    "sync": "node scripts/sync-to-asana-master.js",
+    "sync-github": "node scripts/sync-to-master-board.js",
     "fetch-github": "node scripts/fetch-github-tasks.js",
     "fetch-asana": "node scripts/fetch-asana-tasks.js",
     "generate-standup": "node scripts/generate-standup.js",

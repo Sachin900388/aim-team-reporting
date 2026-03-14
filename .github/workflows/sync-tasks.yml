@@ -29,24 +29,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch tasks from Asana
+      - name: Sync tasks to Asana Master Dashboard
         env:
           ASANA_TOKEN: ${{ secrets.ASANA_TOKEN }}
           ASANA_WORKSPACE_GID: '8559678460204'
-          DEVELOPERS_FILE: 'developers aim.csv'
-        run: |
-          echo "Fetching Asana tasks..."
-          npm run fetch-asana
-
-      - name: Fetch tasks from GitHub (if projects accessible)
-        continue-on-error: true
-        env:
           GITHUB_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           GITHUB_ORG: 'Sachin900388'
           DEVELOPERS_FILE: 'developers aim.csv'
         run: |
-          echo "Fetching GitHub tasks..."
-          npm run fetch-github || echo "GitHub projects not accessible, skipping"
+          echo "Syncing tasks to Asana Master Dashboard..."
+          npm run sync
 
       - name: Generate daily standup report
         run: |

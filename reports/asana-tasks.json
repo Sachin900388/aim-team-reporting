@@ -550,6 +550,61 @@
     }
   },
   {
+    "id": "1213225327838513",
+    "title": "Add support for Ad Networks Logo for MMP Partners",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213225327838513",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-02-11T05:45:27.807Z",
+    "updatedAt": "2026-03-17T06:00:43.799Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213565343380850",
     "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
@@ -661,7 +716,7 @@
   },
   {
     "id": "1213628183740849",
-    "title": "Integrate accounts-api mmm_enabled with UI",
+    "title": "Support new account types : TBD",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
     "type": "ISSUE",
     "status": "QA Drop 3",
@@ -677,7 +732,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-12T15:01:30.791Z",
+    "updatedAt": "2026-03-17T06:00:16.325Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -719,7 +774,7 @@
     "title": "Apps tile view scroll not working sometimes",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213640095128891",
     "type": "ISSUE",
-    "status": "QA Drop 3",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -729,10 +784,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-17T05:58:58.804Z",
     "createdAt": "2026-03-13T05:54:34.827Z",
-    "updatedAt": "2026-03-13T05:54:50.045Z",
+    "updatedAt": "2026-03-17T05:58:58.968Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -758,7 +813,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -2933,61 +2988,6 @@
     "completedAt": null,
     "createdAt": "2026-02-10T15:27:10.364Z",
     "updatedAt": "2026-02-11T05:44:45.022Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1213225327838513",
-    "title": "Add support for Ad Networks Logo for MMP Partners",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213225327838513",
-    "type": "ISSUE",
-    "status": "Backlogs",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-02-11T05:45:27.807Z",
-    "updatedAt": "2026-03-02T05:34:09.611Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4015,6 +4015,61 @@
     }
   },
   {
+    "id": "1213225327838513",
+    "title": "Add support for Ad Networks Logo for MMP Partners",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213225327838513",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-02-11T05:45:27.807Z",
+    "updatedAt": "2026-03-17T06:00:43.799Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213565343380850",
     "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
@@ -4126,7 +4181,7 @@
   },
   {
     "id": "1213628183740849",
-    "title": "Integrate accounts-api mmm_enabled with UI",
+    "title": "Support new account types : TBD",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
     "type": "ISSUE",
     "status": "QA Drop 3",
@@ -4142,7 +4197,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-12T15:01:30.791Z",
+    "updatedAt": "2026-03-17T06:00:16.325Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4184,7 +4239,7 @@
     "title": "Apps tile view scroll not working sometimes",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213640095128891",
     "type": "ISSUE",
-    "status": "QA Drop 3",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -4194,10 +4249,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-17T05:58:58.804Z",
     "createdAt": "2026-03-13T05:54:34.827Z",
-    "updatedAt": "2026-03-13T05:54:50.045Z",
+    "updatedAt": "2026-03-17T05:58:58.968Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4223,7 +4278,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -6398,61 +6453,6 @@
     "completedAt": null,
     "createdAt": "2026-02-10T15:27:10.364Z",
     "updatedAt": "2026-02-11T05:44:45.022Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1213225327838513",
-    "title": "Add support for Ad Networks Logo for MMP Partners",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213225327838513",
-    "type": "ISSUE",
-    "status": "Backlogs",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-02-11T05:45:27.807Z",
-    "updatedAt": "2026-03-02T05:34:09.611Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12201,7 +12201,7 @@
     "title": "Add support for multiple date format",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1211650348131704",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -12214,7 +12214,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-10-15T14:12:49.696Z",
-    "updatedAt": "2026-01-20T13:27:19.455Z",
+    "updatedAt": "2026-03-17T09:12:14.992Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12240,7 +12240,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "In Progress",
         "type": "enum"
       }
     ],

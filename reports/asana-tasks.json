@@ -550,6 +550,61 @@
     }
   },
   {
+    "id": "1213718344612553",
+    "title": "Soft delete in mmm-portal k4a webhooks",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213718344612553",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-18T08:48:11.981Z",
+    "updatedAt": "2026-03-18T08:48:38.014Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213225327838513",
     "title": "Add support for Ad Networks Logo for MMP Partners",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213225327838513",
@@ -2767,7 +2822,7 @@
     "completed": true,
     "completedAt": "2026-02-09T12:56:48.028Z",
     "createdAt": "2025-12-05T13:27:38.175Z",
-    "updatedAt": "2026-03-13T14:51:24.182Z",
+    "updatedAt": "2026-03-18T16:29:09.264Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3208,6 +3263,61 @@
     "completedAt": null,
     "createdAt": "2026-03-12T10:42:24.255Z",
     "updatedAt": "2026-03-12T11:01:20.847Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213726180138276",
+    "title": "Ability to save selected metrics in MMM insights > Performance view",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213726180138276",
+    "type": "ISSUE",
+    "status": "Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-18T15:44:08.501Z",
+    "updatedAt": "2026-03-18T15:45:02.925Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4015,6 +4125,61 @@
     }
   },
   {
+    "id": "1213718344612553",
+    "title": "Soft delete in mmm-portal k4a webhooks",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213718344612553",
+    "type": "ISSUE",
+    "status": "QA Drop 3",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-18T08:48:11.981Z",
+    "updatedAt": "2026-03-18T08:48:38.014Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213225327838513",
     "title": "Add support for Ad Networks Logo for MMP Partners",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213225327838513",
@@ -6232,7 +6397,7 @@
     "completed": true,
     "completedAt": "2026-02-09T12:56:48.028Z",
     "createdAt": "2025-12-05T13:27:38.175Z",
-    "updatedAt": "2026-03-13T14:51:24.182Z",
+    "updatedAt": "2026-03-18T16:29:09.264Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6673,6 +6838,61 @@
     "completedAt": null,
     "createdAt": "2026-03-12T10:42:24.255Z",
     "updatedAt": "2026-03-12T11:01:20.847Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213726180138276",
+    "title": "Ability to save selected metrics in MMM insights > Performance view",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213726180138276",
+    "type": "ISSUE",
+    "status": "Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-18T15:44:08.501Z",
+    "updatedAt": "2026-03-18T15:45:02.925Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -9227,61 +9447,6 @@
     }
   },
   {
-    "id": "1209361682273656",
-    "title": "Kochava Cost Integration",
-    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1209361682273656",
-    "type": "ISSUE",
-    "status": "Untitled section",
-    "assignees": [
-      {
-        "gid": "1210331029137256",
-        "name": "Jaya Kumar",
-        "email": "jkumar@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Jaya Kumar",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2025-02-10T15:09:23.721Z",
-    "updatedAt": "2025-10-22T06:38:39.165Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": "10",
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": "15",
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": "P0",
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM ETL Requirements",
-      "projectId": 8,
-      "projectGid": "1209209910929196"
-    }
-  },
-  {
     "id": "1210577984731145",
     "title": "Test Run of ETL Pipeline for Verification",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1210577984731145",
@@ -11816,7 +11981,7 @@
     "title": "Raw data tables with original column names for debug and audit purposes",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1212513486746361",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -11829,7 +11994,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-12-18T10:27:13.477Z",
-    "updatedAt": "2026-01-12T14:38:28.221Z",
+    "updatedAt": "2026-03-18T15:55:08.345Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11855,7 +12020,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "In Progress",
         "type": "enum"
       }
     ],

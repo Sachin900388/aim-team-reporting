@@ -2822,7 +2822,7 @@
     "completed": true,
     "completedAt": "2026-02-09T12:56:48.028Z",
     "createdAt": "2025-12-05T13:27:38.175Z",
-    "updatedAt": "2026-03-18T16:29:09.264Z",
+    "updatedAt": "2026-03-19T11:21:00.688Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6397,7 +6397,7 @@
     "completed": true,
     "completedAt": "2026-02-09T12:56:48.028Z",
     "createdAt": "2025-12-05T13:27:38.175Z",
-    "updatedAt": "2026-03-18T16:29:09.264Z",
+    "updatedAt": "2026-03-19T11:21:00.688Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -10272,6 +10272,61 @@
     }
   },
   {
+    "id": "1213732940031869",
+    "title": "Data sanitizer for Apps flyer ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213732940031869",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Data sanitizer for Apps flyer to remove SQL injections disguised as Network names",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-19T16:29:10.981Z",
+    "updatedAt": "2026-03-19T16:30:47.335Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1210832856683044",
     "title": "Populate Events table during ETL's Initialization. ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1210832856683044",
@@ -11196,6 +11251,61 @@
       {
         "name": "Status",
         "value": "Complete",
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213732976593844",
+    "title": "Old ETL | Ratings and Rankings | Apptopia",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213732976593844",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-19T10:52:31.465Z",
+    "updatedAt": "2026-03-19T14:11:39.600Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
         "type": "enum"
       }
     ],
@@ -12366,7 +12476,7 @@
     "title": "Add support for multiple date format",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1211650348131704",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Untitled section",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -12379,7 +12489,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-10-15T14:12:49.696Z",
-    "updatedAt": "2026-03-17T09:12:14.992Z",
+    "updatedAt": "2026-03-19T14:11:25.511Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12405,7 +12515,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": null,
         "type": "enum"
       }
     ],

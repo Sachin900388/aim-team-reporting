@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sync": "node scripts/sync-to-asana-master.js",
+    "clear-dashboard": "node scripts/clear-master-dashboard.js",
+    "resync": "node scripts/clear-master-dashboard.js && node scripts/sync-to-asana-master.js",
     "sync-github": "node scripts/sync-to-master-board.js",
     "fetch-github": "node scripts/fetch-github-tasks.js",
     "fetch-asana": "node scripts/fetch-asana-tasks.js",

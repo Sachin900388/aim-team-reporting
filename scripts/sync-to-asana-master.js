@@ -108,17 +108,33 @@ ${task.description || task.notes || 'No description available'}
   // Task name with source indicator
   const taskName = `[${task.source.projectName}] ${task.title}`;
 
+  // Get assignee GID from the task
+  let assigneeGid = null;
+  if (task.assignees && task.assignees.length > 0) {
+    // For Asana tasks, use the GID directly
+    if (task.source.platform === 'asana' && task.assignees[0].gid) {
+      assigneeGid = task.assignees[0].gid;
+    }
+  }
+
   try {
+    const taskData = {
+      name: taskName,
+      notes: description,
+      projects: [MASTER_PROJECT_GID],
+      memberships: [{
+        project: MASTER_PROJECT_GID,
+        section: targetSectionGid
+      }]
+    };
+
+    // Add assignee if available
+    if (assigneeGid) {
+      taskData.assignee = assigneeGid;
+    }
+
     const result = await tasksApi.createTask({
-      data: {
-        name: taskName,
-        notes: description,
-        projects: [MASTER_PROJECT_GID],
-        memberships: [{
-          project: MASTER_PROJECT_GID,
-          section: targetSectionGid
-        }]
-      }
+      data: taskData
     }, {});
 
     return result.data;

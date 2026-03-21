@@ -20936,7 +20936,7 @@
     "title": "Old ETL | Ratings and Rankings | Apptopia",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213732976593844",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -20949,7 +20949,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-19T10:52:31.465Z",
-    "updatedAt": "2026-03-20T13:46:17.171Z",
+    "updatedAt": "2026-03-21T15:39:21.342Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -20975,7 +20975,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {

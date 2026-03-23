@@ -17,7 +17,7 @@
     "completed": true,
     "completedAt": "2025-12-24T16:47:42.253Z",
     "createdAt": "2025-12-05T13:24:22.809Z",
-    "updatedAt": "2026-03-20T11:56:33.441Z",
+    "updatedAt": "2026-03-23T08:16:52.464Z",
     "dueOn": "2025-12-24",
     "tags": [],
     "customFields": [
@@ -1474,7 +1474,7 @@
     "title": "Support new account types in frontend",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
     "type": "ISSUE",
-    "status": "QA Drop 3",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -1487,7 +1487,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-20T13:36:18.996Z",
+    "updatedAt": "2026-03-23T05:34:23.665Z",
     "dueOn": "2026-03-24",
     "tags": [],
     "customFields": [
@@ -1513,7 +1513,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "In Progress",
         "type": "enum"
       },
       {
@@ -1789,7 +1789,7 @@
     "title": "Update aim branches with main",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213742944037998",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -1799,10 +1799,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-23T05:30:49.423Z",
     "createdAt": "2026-03-20T10:35:24.499Z",
-    "updatedAt": "2026-03-20T13:36:29.024Z",
+    "updatedAt": "2026-03-23T05:30:49.583Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -1828,7 +1828,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -7052,7 +7052,7 @@
     "completed": true,
     "completedAt": "2025-12-24T16:47:42.253Z",
     "createdAt": "2025-12-05T13:24:22.809Z",
-    "updatedAt": "2026-03-20T11:56:33.441Z",
+    "updatedAt": "2026-03-23T08:16:52.464Z",
     "dueOn": "2025-12-24",
     "tags": [],
     "customFields": [
@@ -8509,7 +8509,7 @@
     "title": "Support new account types in frontend",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
     "type": "ISSUE",
-    "status": "QA Drop 3",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -8522,7 +8522,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-20T13:36:18.996Z",
+    "updatedAt": "2026-03-23T05:34:23.665Z",
     "dueOn": "2026-03-24",
     "tags": [],
     "customFields": [
@@ -8548,7 +8548,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "In Progress",
         "type": "enum"
       },
       {
@@ -8824,7 +8824,7 @@
     "title": "Update aim branches with main",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213742944037998",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -8834,10 +8834,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-23T05:30:49.423Z",
     "createdAt": "2026-03-20T10:35:24.499Z",
-    "updatedAt": "2026-03-20T13:36:29.024Z",
+    "updatedAt": "2026-03-23T05:30:49.583Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -8863,7 +8863,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {

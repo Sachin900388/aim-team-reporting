@@ -5054,10 +5054,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Data sanitizer for Apps flyer to remove SQL injections disguised as Network names",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-27T04:22:24.529Z",
     "createdAt": "2026-03-19T16:29:10.981Z",
-    "updatedAt": "2026-03-26T14:17:54.425Z",
+    "updatedAt": "2026-03-27T04:22:24.728Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -5144,10 +5144,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-27T04:22:45.150Z",
     "createdAt": "2026-03-19T10:52:31.465Z",
-    "updatedAt": "2026-03-26T14:17:17.689Z",
+    "updatedAt": "2026-03-27T04:22:45.266Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -5504,10 +5504,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Initial analysis by Claude\n\n\nSupported Date Formats\n\nBased on the parsing logic in TypeConversion.cs:132-156:\n\nFormat Category\nFormat Pattern\nExample\nStatus\nNotes\nISO 8601 (Recommended)\nyyyy-MM-dd\n2024-01-15\n✅ Tested\nBest choice - unambiguous\n\n\nyyyy-MM-ddTHH:mm:ssZ\n2024-01-15T10:30:00Z\n✅ Tested\nUTC timezone indicator\n\n\nyyyy-MM-ddTHH:mm:ss.fffZ\n2024-01-15T10:30:00.000Z\n✅ Tested\nWith milliseconds\n\n\nyyyy-MM-dd HH:mm:ss\n2024-01-15 10:30:00\n✅ Tested\nSpace separator\nISO with Timezone Offset\nyyyy-MM-ddTHH:mm:ss.fff+HH:mm\n2025-10-04T00:00:00.000+08:00\n✅ Tested\nPositive offset\n\n\nyyyy-MM-ddTHH:mm:ss.fff-HH:mm\n2025-01-01T00:00:00.000-05:00\n✅ Tested\nNegative offset\nSlash-Separated\nyyyy/MM/dd\n2025/10/11\n✅ Tested\nUsed by Branch API\n\n\nMM/dd/yyyy\n01/15/2024\n✅ Supported\nUS format only\nMonth Names (Abbreviated)\nMMM dd, yyyy\nJan 15, 2024\n✅ Supported\nUS style with comma\n\n\ndd MMM yyyy\n15 Jan 2024\n✅ Supported\nEU style\n\n\nMMM dd yyyy\nJan 15 2024\n✅ Supported\nNo comma\n\n\ndd-MMM-yyyy\n15-Jan-2024\n✅ Supported\nDash separator\nMonth Names (Full)\nMMMM dd, yyyy\nJanuary 15, 2024\n✅ Supported\nUS style with comma\n\n\ndd MMMM yyyy\n15 January 2024\n✅ Supported\nEU style\n\n\nMMMM dd yyyy\nJanuary 15 2024\n✅ Supported\nNo comma\nDateTime Combinations\nyyyy-MM-dd HH:mm\n2024-01-15 10:30\n✅ Supported\nNo seconds\n\n\nyyyy-MM-dd HH:mm:ss.fff\n2024-01-15 10:30:00.123\n✅ Supported\nWith milliseconds\n\n\nMM/dd/yyyy HH:mm:ss\n01/15/2024 10:30:00\n✅ Supported\nUS format with time\n\n\n\nUnsupported / Problematic Formats\n\nFormat Category\nFormat Pattern\nExample\nStatus\nIssue\nEU Format (Problematic)\ndd/MM/yyyy\n15/01/2024\n⚠️ FAILS\nDay > 12: Parse fails entirely\n\n\ndd/MM/yyyy\n12/01/2024\n❌ WRONG\nParsed as Jan 12 instead of Dec 1\n\n\ndd/MM/yyyy HH:mm:ss\n15/01/2024 10:30:00\n⚠️ FAILS\nSame issue as above\nOther Separators\ndd.MM.yyyy\n15.01.2024\n❌ Unsupported\nDot separator not recognized\n\n\ndd-MM-yyyy\n15-01-2024\n❌ Unsupported\nAmbiguous - might fail\nReversed Formats\nyyyy/dd/MM\n2024/15/01\n❌ Unsupported\nNon-standard format\nTwo-Digit Year\nMM/dd/yy\n01/15/24\n⚠️ Risky\nYear interpretation unclear (1924 vs 2024)\n\n\ndd/MM/yy\n15/01/24\n❌ Unsupported\nSame EU format issues + year ambiguity\nCompact Formats\nyyyyMMdd\n20240115\n❌ Unsupported\nNo separators - not recognized\n\n\nddMMyyyy\n15012024\n❌ Unsupported\nNo separators - not recognized\nRelative Dates\ntoday, yesterday\ntoday\n❌ Unsupported\nNot parsed\n\n\n+7 days, -3 weeks\n+7 days\n❌ Unsupported\nNot parsed\nUnix Timestamps\nEpoch seconds\n1705305600\n❌ Unsupported\nParsed as number, not date\n\n\nEpoch milliseconds\n1705305600000\n❌ Unsupported\nParsed as number, not date\nOther Languages\ndd mois yyyy\n15 janvier 2024\n❌ Unsupported\nNon-English month names\n\n\ndd mes yyyy\n15 enero 2024\n❌ Unsupported\nSpanish months\nWeekday Formats\nDay, MMM dd yyyy\nMon, Jan 15 2024\n⚠️ Maybe\nWeekday ignored if present, might work\nAmbiguous Separators\nyyyy MM dd\n2024 01 15\n⚠️ Maybe\nSpaces as separators - unreliable\n\n\n\nFormat Status Legend\n\nSymbol\nStatus\nMeaning\n✅ Tested\nGuaranteed\nTest cases exist in codebase, guaranteed to work\n✅ Supported\nVery Likely\nNo test cases but InvariantCulture supports it\n⚠️ FAILS\nWill Fail\nParse will throw error or return false\n❌ WRONG\nData Corruption\nParses successfully but gives WRONG date\n❌ Unsupported\nNot Recognized\nFormat not supported by parser\n\n\n\nRecommendations\n\n✅Safe Formats(Use These)\n    ISO 8601: 2024-01-15 (BEST CHOICE)\n    Month names: Jan 15, 2024 or 15 Jan 2024\n    ISO with time: 2024-01-15 10:30:00\n❌Dangerous Formats(Avoid These)\n    EU format: 15/01/2024 - Will fail or corrupt data\n    Two-digit years: 01/15/24 - Ambiguous\n    No separators: 20240115 - Not recognized\n⚠️If You Must Use EU Format\nYou need to implement custom parsing logic (see my previous response with Option 1 or Option 2).\nWould you like me to implement support for EU format, or help you standardize the date formats in your data sources?",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-27T04:23:42.031Z",
     "createdAt": "2025-10-15T14:12:49.696Z",
-    "updatedAt": "2026-03-25T18:30:04.739Z",
+    "updatedAt": "2026-03-27T04:23:42.140Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -5543,7 +5543,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {

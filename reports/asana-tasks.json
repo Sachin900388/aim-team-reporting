@@ -364,7 +364,7 @@
     "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -374,10 +374,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-30T10:57:18.848Z",
     "createdAt": "2026-03-06T14:17:10.537Z",
-    "updatedAt": "2026-03-26T10:56:05.487Z",
+    "updatedAt": "2026-03-30T14:36:10.958Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -403,12 +403,12 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": "2026-03-24T00:00:00.000Z",
+        "value": "2026-03-30T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -544,7 +544,7 @@
     "title": "Support new account types in frontend",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -554,10 +554,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-30T10:57:48.567Z",
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-26T10:56:05.417Z",
+    "updatedAt": "2026-03-30T14:36:23.715Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -583,12 +583,12 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": "2026-03-24T00:00:00.000Z",
+        "value": "2026-03-30T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -724,7 +724,7 @@
     "title": "Drop 2 QA bugs",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213742944037991",
     "type": "ISSUE",
-    "status": "QA Drop 3",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -734,10 +734,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-30T10:58:33.130Z",
     "createdAt": "2026-03-20T05:36:42.325Z",
-    "updatedAt": "2026-03-24T14:14:18.766Z",
+    "updatedAt": "2026-03-30T14:36:09.325Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -763,17 +763,17 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-03-30T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -799,96 +799,6 @@
       {
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
-        "type": "date"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1213798380215803",
-    "title": "Show Partner Configurations as a separate menu item",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213798380215803",
-    "type": "ISSUE",
-    "status": "QA Drop 3",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-24T14:50:52.499Z",
-    "updatedAt": "2026-03-24T14:52:08.806Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
         "type": "date"
       }
     ],
@@ -997,17 +907,17 @@
     "status": "QA Drop 3",
     "assignees": [
       {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
       }
     ],
-    "primaryAssignee": "Lovepreet Singh",
+    "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-25T09:15:07.031Z",
-    "updatedAt": "2026-03-25T09:17:22.618Z",
+    "updatedAt": "2026-03-30T15:25:42.333Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2419,6 +2329,186 @@
       {
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213879734140005",
+    "title": "Add metric generation feature to mmm-portal-api",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:21:21.798Z",
+    "updatedAt": "2026-03-30T14:36:54.264Z",
+    "dueOn": "2026-04-01",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Asana",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213879313797868",
+    "title": "Test Account Creation and App Sync on Console 6",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879313797868",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T10:30:39.584Z",
+    "updatedAt": "2026-03-30T14:36:49.342Z",
+    "dueOn": "2026-03-31",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Asana",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
         "type": "date"
       }
     ],
@@ -2794,7 +2884,7 @@
     "title": "Support to filter Left Nav and other pages based on MMP and MMM feature flags and permissions for MMM only, MMP only and MMM + MMP customers ",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213565343380850",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -2804,10 +2894,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-30T10:57:18.848Z",
     "createdAt": "2026-03-06T14:17:10.537Z",
-    "updatedAt": "2026-03-26T10:56:05.487Z",
+    "updatedAt": "2026-03-30T14:36:10.958Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2833,12 +2923,12 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": "2026-03-24T00:00:00.000Z",
+        "value": "2026-03-30T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -2974,7 +3064,7 @@
     "title": "Support new account types in frontend",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628183740849",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -2984,10 +3074,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-30T10:57:48.567Z",
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-26T10:56:05.417Z",
+    "updatedAt": "2026-03-30T14:36:23.715Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3013,12 +3103,12 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": "2026-03-24T00:00:00.000Z",
+        "value": "2026-03-30T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -3154,7 +3244,7 @@
     "title": "Drop 2 QA bugs",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213742944037991",
     "type": "ISSUE",
-    "status": "QA Drop 3",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -3164,10 +3254,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-03-30T10:58:33.130Z",
     "createdAt": "2026-03-20T05:36:42.325Z",
-    "updatedAt": "2026-03-24T14:14:18.766Z",
+    "updatedAt": "2026-03-30T14:36:09.325Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3193,17 +3283,17 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-03-30T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -3229,96 +3319,6 @@
       {
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
-        "type": "date"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1213798380215803",
-    "title": "Show Partner Configurations as a separate menu item",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213798380215803",
-    "type": "ISSUE",
-    "status": "QA Drop 3",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-24T14:50:52.499Z",
-    "updatedAt": "2026-03-24T14:52:08.806Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
         "type": "date"
       }
     ],
@@ -3427,17 +3427,17 @@
     "status": "QA Drop 3",
     "assignees": [
       {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
       }
     ],
-    "primaryAssignee": "Lovepreet Singh",
+    "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-25T09:15:07.031Z",
-    "updatedAt": "2026-03-25T09:17:22.618Z",
+    "updatedAt": "2026-03-30T15:25:42.333Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4860,6 +4860,186 @@
     }
   },
   {
+    "id": "1213879734140005",
+    "title": "Add metric generation feature to mmm-portal-api",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:21:21.798Z",
+    "updatedAt": "2026-03-30T14:36:54.264Z",
+    "dueOn": "2026-04-01",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Asana",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213879313797868",
+    "title": "Test Account Creation and App Sync on Console 6",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879313797868",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T10:30:39.584Z",
+    "updatedAt": "2026-03-30T14:36:49.342Z",
+    "dueOn": "2026-03-31",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Asana",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1209246973962066",
     "title": "AIM | Deactivate Pixel Federation Account",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1209246973962066",
@@ -5057,7 +5237,7 @@
     "completed": true,
     "completedAt": "2026-03-27T04:22:24.529Z",
     "createdAt": "2026-03-19T16:29:10.981Z",
-    "updatedAt": "2026-03-27T04:22:24.728Z",
+    "updatedAt": "2026-03-30T14:36:22.030Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -5088,7 +5268,7 @@
       },
       {
         "name": "End Date",
-        "value": "2026-03-26T00:00:00.000Z",
+        "value": "2026-03-27T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -5147,7 +5327,7 @@
     "completed": true,
     "completedAt": "2026-03-27T04:22:45.150Z",
     "createdAt": "2026-03-19T10:52:31.465Z",
-    "updatedAt": "2026-03-27T04:22:45.266Z",
+    "updatedAt": "2026-03-30T14:36:20.238Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -5178,7 +5358,7 @@
       },
       {
         "name": "End Date",
-        "value": "2026-03-26T00:00:00.000Z",
+        "value": "2026-03-27T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -5507,7 +5687,7 @@
     "completed": true,
     "completedAt": "2026-03-27T04:23:42.031Z",
     "createdAt": "2025-10-15T14:12:49.696Z",
-    "updatedAt": "2026-03-27T04:23:42.140Z",
+    "updatedAt": "2026-03-30T14:36:07.730Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -5538,7 +5718,7 @@
       },
       {
         "name": "End Date",
-        "value": "2026-03-26T00:00:00.000Z",
+        "value": "2026-03-27T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -5569,6 +5749,366 @@
       {
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213879944998966",
+    "title": "New ETL - Big Query connector ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998966",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:24:55.871Z",
+    "updatedAt": "2026-03-30T09:28:18.005Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": "1",
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-02T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213879944998970",
+    "title": "New ETL - Singular connector ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998970",
+    "type": "ISSUE",
+    "status": "Not Started",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:25:19.750Z",
+    "updatedAt": "2026-03-30T14:36:55.611Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": "2",
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213879944998972",
+    "title": "New ETL - Adjust connector ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998972",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:25:21.291Z",
+    "updatedAt": "2026-03-30T14:36:52.902Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": "3",
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213877413643902",
+    "title": "New ETL - Redshift connector ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213877413643902",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:26:39.188Z",
+    "updatedAt": "2026-03-30T14:36:51.775Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": "5",
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P2",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "Low",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
         "type": "date"
       }
     ],

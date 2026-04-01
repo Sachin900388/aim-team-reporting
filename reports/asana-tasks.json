@@ -904,7 +904,7 @@
     "title": "Test Advertiser & App sync b/w dash api and mmm portal api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213804251948526",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -914,10 +914,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-01T08:36:30.961Z",
     "createdAt": "2026-03-25T09:15:07.031Z",
-    "updatedAt": "2026-03-31T13:00:05.485Z",
+    "updatedAt": "2026-04-01T15:06:50.892Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -943,7 +943,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -953,7 +953,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -2344,7 +2344,7 @@
     "title": "Add metric generation feature to mmm-portal-api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -2354,10 +2354,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-01T15:07:13.675Z",
     "createdAt": "2026-03-30T09:21:21.798Z",
-    "updatedAt": "2026-03-31T18:30:17.298Z",
+    "updatedAt": "2026-04-01T15:07:13.866Z",
     "dueOn": "2026-04-01",
     "tags": [],
     "customFields": [
@@ -2383,7 +2383,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -2434,7 +2434,7 @@
     "title": "Test Account Creation and App Sync on Console 6",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879313797868",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -2444,11 +2444,11 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-01T15:07:33.541Z",
     "createdAt": "2026-03-30T10:30:39.584Z",
-    "updatedAt": "2026-03-30T18:30:34.298Z",
-    "dueOn": "2026-03-31",
+    "updatedAt": "2026-04-01T15:07:33.680Z",
+    "dueOn": null,
     "tags": [],
     "customFields": [
       {
@@ -2473,7 +2473,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -3514,7 +3514,7 @@
     "title": "Test Advertiser & App sync b/w dash api and mmm portal api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213804251948526",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -3524,10 +3524,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-01T08:36:30.961Z",
     "createdAt": "2026-03-25T09:15:07.031Z",
-    "updatedAt": "2026-03-31T13:00:05.485Z",
+    "updatedAt": "2026-04-01T15:06:50.892Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3553,7 +3553,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -3563,7 +3563,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -4954,7 +4954,7 @@
     "title": "Add metric generation feature to mmm-portal-api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -4964,10 +4964,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-01T15:07:13.675Z",
     "createdAt": "2026-03-30T09:21:21.798Z",
-    "updatedAt": "2026-03-31T18:30:17.298Z",
+    "updatedAt": "2026-04-01T15:07:13.866Z",
     "dueOn": "2026-04-01",
     "tags": [],
     "customFields": [
@@ -4993,7 +4993,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -5044,7 +5044,7 @@
     "title": "Test Account Creation and App Sync on Console 6",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879313797868",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -5054,11 +5054,11 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-01T15:07:33.541Z",
     "createdAt": "2026-03-30T10:30:39.584Z",
-    "updatedAt": "2026-03-30T18:30:34.298Z",
-    "dueOn": "2026-03-31",
+    "updatedAt": "2026-04-01T15:07:33.680Z",
+    "dueOn": null,
     "tags": [],
     "customFields": [
       {
@@ -5083,7 +5083,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -5687,8 +5687,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-12-18T10:27:13.477Z",
-    "updatedAt": "2026-03-24T14:19:00.229Z",
-    "dueOn": "2026-04-03",
+    "updatedAt": "2026-04-01T16:06:54.680Z",
+    "dueOn": null,
     "tags": [],
     "customFields": [
       {
@@ -5718,12 +5718,12 @@
       },
       {
         "name": "End Date",
-        "value": "2026-04-03T00:00:00.000Z",
+        "value": null,
         "type": "date"
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "OnHold",
         "type": "enum"
       },
       {
@@ -5957,8 +5957,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:24:55.871Z",
-    "updatedAt": "2026-03-30T09:28:18.005Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-01T16:05:40.477Z",
+    "dueOn": "2026-04-02",
     "tags": [],
     "customFields": [
       {
@@ -5993,12 +5993,12 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "In QA or Review",
         "type": "enum"
       },
       {
         "name": "Workstream",
-        "value": null,
+        "value": "Others",
         "type": "enum"
       },
       {
@@ -6284,6 +6284,96 @@
       {
         "name": "Priority",
         "value": "Low",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213897823320336",
+    "title": "Old ETL - Planet Art event data automation",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213897823320336",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-01T12:49:09.593Z",
+    "updatedAt": "2026-04-01T16:04:30.484Z",
+    "dueOn": "2026-04-02",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-02T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "Unplanned Work",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
         "type": "enum"
       },
       {

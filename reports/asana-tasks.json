@@ -5944,7 +5944,7 @@
     "title": "New ETL - Big Query connector ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998966",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -5954,10 +5954,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-02T15:19:07.323Z",
     "createdAt": "2026-03-30T09:24:55.871Z",
-    "updatedAt": "2026-04-01T18:30:17.540Z",
+    "updatedAt": "2026-04-02T15:19:07.439Z",
     "dueOn": "2026-04-02",
     "tags": [],
     "customFields": [
@@ -5983,7 +5983,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -5993,7 +5993,7 @@
       },
       {
         "name": "State",
-        "value": "In QA or Review",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -6031,7 +6031,7 @@
   },
   {
     "id": "1213879944998970",
-    "title": "New ETL - Singular connector ",
+    "title": "New ETL - Singular connector - AI SDLC",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998970",
     "type": "ISSUE",
     "status": "Not Started",
@@ -6047,7 +6047,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:19.750Z",
-    "updatedAt": "2026-03-30T14:36:55.611Z",
+    "updatedAt": "2026-04-02T15:20:11.465Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6121,7 +6121,7 @@
   },
   {
     "id": "1213879944998972",
-    "title": "New ETL - Adjust connector ",
+    "title": "New ETL - Adjust connector - AI SDLC ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998972",
     "type": "ISSUE",
     "status": "Untitled section",
@@ -6137,8 +6137,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:21.291Z",
-    "updatedAt": "2026-03-30T14:36:52.902Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-02T15:28:15.918Z",
+    "dueOn": "2026-04-07",
     "tags": [],
     "customFields": [
       {
@@ -6168,12 +6168,12 @@
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-04-07T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "In Progress",
         "type": "enum"
       },
       {
@@ -6193,7 +6193,7 @@
       },
       {
         "name": "Priority",
-        "value": null,
+        "value": "High",
         "type": "enum"
       },
       {
@@ -6211,7 +6211,7 @@
   },
   {
     "id": "1213877413643902",
-    "title": "New ETL - Redshift connector ",
+    "title": "New ETL - Redshift connector - AI SDLC ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213877413643902",
     "type": "ISSUE",
     "status": "Untitled section",
@@ -6227,7 +6227,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:26:39.188Z",
-    "updatedAt": "2026-03-30T14:36:51.775Z",
+    "updatedAt": "2026-04-02T15:20:20.289Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6304,7 +6304,7 @@
     "title": "Old ETL - Planet Art event data automation",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213897823320336",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -6314,10 +6314,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-02T15:17:57.274Z",
     "createdAt": "2026-04-01T12:49:09.593Z",
-    "updatedAt": "2026-04-01T18:30:16.732Z",
+    "updatedAt": "2026-04-02T15:18:41.087Z",
     "dueOn": "2026-04-02",
     "tags": [],
     "customFields": [
@@ -6343,7 +6343,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -6353,7 +6353,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -6374,6 +6374,96 @@
       {
         "name": "Priority",
         "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213911821609139",
+    "title": "New ETL - Kochava connector - AI SDLC",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213911821609139",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-02T15:20:20.104Z",
+    "updatedAt": "2026-04-02T15:27:10.598Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P2",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
         "type": "enum"
       },
       {

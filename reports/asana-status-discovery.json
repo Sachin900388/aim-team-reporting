@@ -1,11 +1,13 @@
 {
   "1212206740699577": [
     "Complete",
-    "In Progress",
     "QA Drop 3",
-    "Untitled section",
+    "Not Started",
+    "Prod Deployment",
     "R1 : Frontend | Performance Overview (AIM)",
+    "Production Deployment",
     "Backlogs",
+    "In Progress",
     "Standup Tasks"
   ],
   "1212696147313746": [],
@@ -15,7 +17,8 @@
   "1209209910929196": [
     "Complete",
     "Untitled section",
-    "In Progress",
-    "Not Started"
+    "Blocked",
+    "Not Started",
+    "In Progress"
   ]
 }

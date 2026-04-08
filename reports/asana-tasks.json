@@ -80,6 +80,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -107,7 +112,7 @@
     "completed": true,
     "completedAt": "2026-04-07T12:05:30.480Z",
     "createdAt": "2026-02-11T05:37:41.876Z",
-    "updatedAt": "2026-04-07T12:51:01.459Z",
+    "updatedAt": "2026-04-08T14:02:54.520Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -170,6 +175,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -197,7 +207,7 @@
     "completed": true,
     "completedAt": "2026-03-20T10:45:11.460Z",
     "createdAt": "2026-03-18T08:48:11.981Z",
-    "updatedAt": "2026-03-24T14:13:49.850Z",
+    "updatedAt": "2026-04-08T14:02:05.560Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -260,6 +270,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -287,7 +302,7 @@
     "completed": true,
     "completedAt": "2026-03-20T10:46:44.840Z",
     "createdAt": "2026-02-11T05:45:27.807Z",
-    "updatedAt": "2026-03-24T14:13:48.560Z",
+    "updatedAt": "2026-04-08T14:02:04.112Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -350,6 +365,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -377,7 +397,7 @@
     "completed": true,
     "completedAt": "2026-03-30T10:57:18.848Z",
     "createdAt": "2026-03-06T14:17:10.537Z",
-    "updatedAt": "2026-03-30T14:36:10.958Z",
+    "updatedAt": "2026-04-08T14:01:46.655Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -440,6 +460,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -530,6 +555,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -557,7 +587,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-06T10:21:59.821Z",
-    "updatedAt": "2026-04-07T15:48:09.254Z",
+    "updatedAt": "2026-04-08T14:02:06.998Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -620,6 +650,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -647,7 +682,7 @@
     "completed": true,
     "completedAt": "2026-03-30T10:57:48.567Z",
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-30T14:36:23.715Z",
+    "updatedAt": "2026-04-08T14:02:53.058Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -710,6 +745,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -737,7 +777,7 @@
     "completed": true,
     "completedAt": "2026-03-17T05:58:58.804Z",
     "createdAt": "2026-03-13T05:54:34.827Z",
-    "updatedAt": "2026-03-24T14:13:46.191Z",
+    "updatedAt": "2026-04-08T14:02:00.423Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -800,6 +840,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -827,7 +872,7 @@
     "completed": true,
     "completedAt": "2026-03-30T10:58:33.130Z",
     "createdAt": "2026-03-20T05:36:42.325Z",
-    "updatedAt": "2026-03-30T14:36:09.325Z",
+    "updatedAt": "2026-04-08T14:01:44.654Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -890,6 +935,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -917,7 +967,7 @@
     "completed": true,
     "completedAt": "2026-03-23T05:30:49.423Z",
     "createdAt": "2026-03-20T10:35:24.499Z",
-    "updatedAt": "2026-03-24T14:14:17.467Z",
+    "updatedAt": "2026-04-08T14:02:51.341Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -980,6 +1030,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1007,7 +1062,7 @@
     "completed": true,
     "completedAt": "2026-04-01T08:36:30.961Z",
     "createdAt": "2026-03-25T09:15:07.031Z",
-    "updatedAt": "2026-04-07T05:14:14.161Z",
+    "updatedAt": "2026-04-08T14:02:31.421Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1070,6 +1125,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1160,6 +1220,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1250,6 +1315,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1277,7 +1347,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-07T16:11:20.667Z",
+    "updatedAt": "2026-04-08T14:00:50.512Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -1340,6 +1410,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1367,7 +1442,7 @@
     "completed": true,
     "completedAt": "2026-04-07T15:44:05.676Z",
     "createdAt": "2025-12-05T14:40:35.631Z",
-    "updatedAt": "2026-04-07T15:44:05.832Z",
+    "updatedAt": "2026-04-08T14:02:49.653Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1430,6 +1505,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1520,6 +1600,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1610,6 +1695,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1700,6 +1790,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1790,6 +1885,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1880,6 +1980,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -1970,6 +2075,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2060,6 +2170,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2150,6 +2265,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2240,6 +2360,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2330,6 +2455,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2420,6 +2550,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2510,6 +2645,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2537,7 +2677,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-03T14:30:05.887Z",
-    "updatedAt": "2026-04-07T05:37:04.429Z",
+    "updatedAt": "2026-04-08T14:02:09.368Z",
     "dueOn": "2026-04-09",
     "tags": [],
     "customFields": [
@@ -2600,6 +2740,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2627,7 +2772,7 @@
     "completed": true,
     "completedAt": "2026-04-03T14:29:56.664Z",
     "createdAt": "2026-03-18T15:44:08.501Z",
-    "updatedAt": "2026-04-07T05:14:23.701Z",
+    "updatedAt": "2026-04-08T14:02:47.939Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2690,6 +2835,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2717,7 +2867,7 @@
     "completed": true,
     "completedAt": "2026-04-01T15:07:13.675Z",
     "createdAt": "2026-03-30T09:21:21.798Z",
-    "updatedAt": "2026-04-07T09:28:03.085Z",
+    "updatedAt": "2026-04-08T14:02:25.306Z",
     "dueOn": "2026-04-01",
     "tags": [],
     "customFields": [
@@ -2780,6 +2930,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2807,7 +2962,7 @@
     "completed": true,
     "completedAt": "2026-04-01T15:07:33.541Z",
     "createdAt": "2026-03-30T10:30:39.584Z",
-    "updatedAt": "2026-04-07T05:14:11.580Z",
+    "updatedAt": "2026-04-08T14:02:29.901Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2870,6 +3025,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2960,6 +3120,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3050,6 +3215,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3077,7 +3247,7 @@
     "completed": true,
     "completedAt": "2026-04-07T12:05:30.480Z",
     "createdAt": "2026-02-11T05:37:41.876Z",
-    "updatedAt": "2026-04-07T12:51:01.459Z",
+    "updatedAt": "2026-04-08T14:02:54.520Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3140,6 +3310,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3167,7 +3342,7 @@
     "completed": true,
     "completedAt": "2026-03-20T10:45:11.460Z",
     "createdAt": "2026-03-18T08:48:11.981Z",
-    "updatedAt": "2026-03-24T14:13:49.850Z",
+    "updatedAt": "2026-04-08T14:02:05.560Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -3230,6 +3405,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3257,7 +3437,7 @@
     "completed": true,
     "completedAt": "2026-03-20T10:46:44.840Z",
     "createdAt": "2026-02-11T05:45:27.807Z",
-    "updatedAt": "2026-03-24T14:13:48.560Z",
+    "updatedAt": "2026-04-08T14:02:04.112Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -3320,6 +3500,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3347,7 +3532,7 @@
     "completed": true,
     "completedAt": "2026-03-30T10:57:18.848Z",
     "createdAt": "2026-03-06T14:17:10.537Z",
-    "updatedAt": "2026-03-30T14:36:10.958Z",
+    "updatedAt": "2026-04-08T14:01:46.655Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3410,6 +3595,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3500,6 +3690,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3527,7 +3722,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-06T10:21:59.821Z",
-    "updatedAt": "2026-04-07T15:48:09.254Z",
+    "updatedAt": "2026-04-08T14:02:06.998Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -3590,6 +3785,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3617,7 +3817,7 @@
     "completed": true,
     "completedAt": "2026-03-30T10:57:48.567Z",
     "createdAt": "2026-03-12T15:01:09.537Z",
-    "updatedAt": "2026-03-30T14:36:23.715Z",
+    "updatedAt": "2026-04-08T14:02:53.058Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3680,6 +3880,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3707,7 +3912,7 @@
     "completed": true,
     "completedAt": "2026-03-17T05:58:58.804Z",
     "createdAt": "2026-03-13T05:54:34.827Z",
-    "updatedAt": "2026-03-24T14:13:46.191Z",
+    "updatedAt": "2026-04-08T14:02:00.423Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3770,6 +3975,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3797,7 +4007,7 @@
     "completed": true,
     "completedAt": "2026-03-30T10:58:33.130Z",
     "createdAt": "2026-03-20T05:36:42.325Z",
-    "updatedAt": "2026-03-30T14:36:09.325Z",
+    "updatedAt": "2026-04-08T14:01:44.654Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3860,6 +4070,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3887,7 +4102,7 @@
     "completed": true,
     "completedAt": "2026-03-23T05:30:49.423Z",
     "createdAt": "2026-03-20T10:35:24.499Z",
-    "updatedAt": "2026-03-24T14:14:17.467Z",
+    "updatedAt": "2026-04-08T14:02:51.341Z",
     "dueOn": "2026-03-20",
     "tags": [],
     "customFields": [
@@ -3950,6 +4165,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -3977,7 +4197,7 @@
     "completed": true,
     "completedAt": "2026-04-01T08:36:30.961Z",
     "createdAt": "2026-03-25T09:15:07.031Z",
-    "updatedAt": "2026-04-07T05:14:14.161Z",
+    "updatedAt": "2026-04-08T14:02:31.421Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4040,6 +4260,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4130,6 +4355,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4220,6 +4450,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4247,7 +4482,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-07T16:11:20.667Z",
+    "updatedAt": "2026-04-08T14:00:50.512Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -4310,6 +4545,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4337,7 +4577,7 @@
     "completed": true,
     "completedAt": "2026-04-07T15:44:05.676Z",
     "createdAt": "2025-12-05T14:40:35.631Z",
-    "updatedAt": "2026-04-07T15:44:05.832Z",
+    "updatedAt": "2026-04-08T14:02:49.653Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4400,6 +4640,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4490,6 +4735,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4580,6 +4830,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4670,6 +4925,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4760,6 +5020,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4850,6 +5115,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -4940,6 +5210,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5030,6 +5305,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5120,6 +5400,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5210,6 +5495,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5300,6 +5590,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5390,6 +5685,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5480,6 +5780,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5507,7 +5812,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-03T14:30:05.887Z",
-    "updatedAt": "2026-04-07T05:37:04.429Z",
+    "updatedAt": "2026-04-08T14:02:09.368Z",
     "dueOn": "2026-04-09",
     "tags": [],
     "customFields": [
@@ -5570,6 +5875,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5597,7 +5907,7 @@
     "completed": true,
     "completedAt": "2026-04-03T14:29:56.664Z",
     "createdAt": "2026-03-18T15:44:08.501Z",
-    "updatedAt": "2026-04-07T05:14:23.701Z",
+    "updatedAt": "2026-04-08T14:02:47.939Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5660,6 +5970,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5687,7 +6002,7 @@
     "completed": true,
     "completedAt": "2026-04-01T15:07:13.675Z",
     "createdAt": "2026-03-30T09:21:21.798Z",
-    "updatedAt": "2026-04-07T09:28:03.085Z",
+    "updatedAt": "2026-04-08T14:02:25.306Z",
     "dueOn": "2026-04-01",
     "tags": [],
     "customFields": [
@@ -5750,6 +6065,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5777,7 +6097,7 @@
     "completed": true,
     "completedAt": "2026-04-01T15:07:33.541Z",
     "createdAt": "2026-03-30T10:30:39.584Z",
-    "updatedAt": "2026-04-07T05:14:11.580Z",
+    "updatedAt": "2026-04-08T14:02:29.901Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5840,6 +6160,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5930,6 +6255,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5937,6 +6267,106 @@
       "projectName": "AIM Migration Project",
       "projectId": 5,
       "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1213972799393173",
+    "title": "Complete Status filter in incrementality page is not working",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1213972799393173",
+    "type": "ISSUE",
+    "status": "Backlog",
+    "assignees": [
+      {
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Mayank Ukey",
+    "description": "When using the status filter for the incrementality page the completed tests are not showing as expected. ",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-07T17:32:18.579Z",
+    "updatedAt": "2026-04-08T15:13:24.122Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Low",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": "2026-04-07T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
     }
   },
   {
@@ -6067,6 +6497,11 @@
         "type": "date"
       },
       {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
         "name": "BACKLOG",
         "value": "BACKLOG-434",
         "type": "text"
@@ -6137,7 +6572,7 @@
     "completed": true,
     "completedAt": "2026-03-27T04:22:24.529Z",
     "createdAt": "2026-03-19T16:29:10.981Z",
-    "updatedAt": "2026-03-30T14:36:22.030Z",
+    "updatedAt": "2026-04-08T14:02:46.743Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -6200,6 +6635,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6227,7 +6667,7 @@
     "completed": true,
     "completedAt": "2026-03-27T04:22:45.150Z",
     "createdAt": "2026-03-19T10:52:31.465Z",
-    "updatedAt": "2026-03-30T14:36:20.238Z",
+    "updatedAt": "2026-04-08T14:02:45.112Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -6290,6 +6730,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6380,6 +6825,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6470,6 +6920,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6560,6 +7015,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6587,7 +7047,7 @@
     "completed": true,
     "completedAt": "2026-03-27T04:23:42.031Z",
     "createdAt": "2025-10-15T14:12:49.696Z",
-    "updatedAt": "2026-03-30T14:36:07.730Z",
+    "updatedAt": "2026-04-08T14:01:38.818Z",
     "dueOn": "2026-03-26",
     "tags": [],
     "customFields": [
@@ -6650,6 +7110,11 @@
         "name": "Last Activity Date",
         "value": "2026-03-20T00:00:00.000Z",
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6677,7 +7142,7 @@
     "completed": true,
     "completedAt": "2026-04-02T15:19:07.323Z",
     "createdAt": "2026-03-30T09:24:55.871Z",
-    "updatedAt": "2026-04-02T15:19:07.439Z",
+    "updatedAt": "2026-04-08T14:01:16.141Z",
     "dueOn": "2026-04-02",
     "tags": [],
     "customFields": [
@@ -6740,6 +7205,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6757,17 +7227,17 @@
     "status": "Not Started",
     "assignees": [
       {
-        "gid": "1210331029137256",
-        "name": "Jaya Kumar",
-        "email": "jkumar@kochava.com"
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
       }
     ],
-    "primaryAssignee": "Jaya Kumar",
+    "primaryAssignee": "Mayank Ukey",
     "description": "",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:19.750Z",
-    "updatedAt": "2026-04-07T05:36:45.787Z",
+    "updatedAt": "2026-04-08T12:23:15.466Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6830,6 +7300,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -6857,8 +7332,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:21.291Z",
-    "updatedAt": "2026-04-07T05:45:32.520Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-08T14:02:26.988Z",
+    "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
       {
@@ -6893,7 +7368,7 @@
       },
       {
         "name": "State",
-        "value": "OnHold",
+        "value": "In Progress",
         "type": "enum"
       },
       {
@@ -6920,96 +7395,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM ETL Requirements",
-      "projectId": 8,
-      "projectGid": "1209209910929196"
-    }
-  },
-  {
-    "id": "1213877413643902",
-    "title": "New ETL - Redshift connector - AI SDLC ",
-    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213877413643902",
-    "type": "ISSUE",
-    "status": "Untitled section",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-30T09:26:39.188Z",
-    "updatedAt": "2026-04-07T05:46:08.180Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": "5",
-        "type": "text"
       },
       {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
         "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": "P2",
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM ETL Requirements",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": "Low",
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
       }
     ],
     "source": {
@@ -7037,7 +7427,7 @@
     "completed": true,
     "completedAt": "2026-04-02T15:17:57.274Z",
     "createdAt": "2026-04-01T12:49:09.593Z",
-    "updatedAt": "2026-04-02T15:18:41.087Z",
+    "updatedAt": "2026-04-08T14:02:20.709Z",
     "dueOn": "2026-04-02",
     "tags": [],
     "customFields": [
@@ -7100,6 +7490,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -7117,17 +7512,17 @@
     "status": "Untitled section",
     "assignees": [
       {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
       }
     ],
-    "primaryAssignee": "Mayank Ukey",
+    "primaryAssignee": "Jaya Kumar",
     "description": "",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-04-07T05:38:35.156Z",
+    "updatedAt": "2026-04-08T12:36:47.591Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7190,6 +7585,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -7214,10 +7614,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-08T04:21:43.160Z",
     "createdAt": "2026-04-06T05:23:48.269Z",
-    "updatedAt": "2026-04-07T04:55:26.190Z",
+    "updatedAt": "2026-04-08T14:02:17.230Z",
     "dueOn": "2026-04-06",
     "tags": [],
     "customFields": [
@@ -7253,6 +7653,101 @@
       },
       {
         "name": "State",
+        "value": "Completed",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM ETL Requirements",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213923371329610",
+    "title": "New ETL - ClassPass - Custom events ingestion - AI SDLC",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213923371329610",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "ClassPass has custom events in S3 that needs to be ingested and used for data enrichment..\n\nEven though we have S3 connector, this file is supposed to use redshift schema with the same CSV headers instead of our regular Cost and attribution headers.\n\nThis will take some effort and has to be done for GCS and GoogleDrive as well",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-05T05:22:09.194Z",
+    "updatedAt": "2026-04-08T14:02:19.061Z",
+    "dueOn": "2026-04-07",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "Complete",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-07T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
         "value": "In QA or Review",
         "type": "enum"
       },
@@ -7280,96 +7775,11 @@
         "name": "Last Activity Date",
         "value": null,
         "type": "date"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM ETL Requirements",
-      "projectId": 8,
-      "projectGid": "1209209910929196"
-    }
-  },
-  {
-    "id": "1213923371329610",
-    "title": "New ETL - ClassPass - Custom events ingestion - AI SDLC",
-    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213923371329610",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1210331029137256",
-        "name": "Jaya Kumar",
-        "email": "jkumar@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Jaya Kumar",
-    "description": "ClassPass has custom events in S3 that needs to be ingested and used for data enrichment..\n\nEven though we have S3 connector, this file is supposed to use redshift schema with the same CSV headers instead of our regular Cost and attribution headers.\n\nThis will take some effort and has to be done for GCS and GoogleDrive as well",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-04-05T05:22:09.194Z",
-    "updatedAt": "2026-04-07T04:55:00.580Z",
-    "dueOn": "2026-04-07",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
       },
       {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
+        "name": "Sprint",
+        "value": "Sprint (Apr 1 - Apr 14)",
         "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": "P0",
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": "2026-04-07T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM ETL Requirements",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": "High",
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
       }
     ],
     "source": {

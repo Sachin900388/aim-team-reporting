@@ -2660,11 +2660,11 @@
     }
   },
   {
-    "id": "1213919244347435",
-    "title": "Frontend for metrics rename/configurations",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213919244347435",
+    "id": "1213988811935873",
+    "title": "Remove retired components post pilot",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213988811935873",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Backlogs",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -2676,9 +2676,9 @@
     "description": "",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-04-03T14:30:05.887Z",
-    "updatedAt": "2026-04-08T18:30:07.347Z",
-    "dueOn": "2026-04-09",
+    "createdAt": "2026-04-09T04:53:41.767Z",
+    "updatedAt": "2026-04-09T04:54:01.666Z",
+    "dueOn": null,
     "tags": [],
     "customFields": [
       {
@@ -2703,27 +2703,27 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": null,
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": "2026-04-09T00:00:00.000Z",
+        "value": null,
         "type": "date"
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": null,
         "type": "enum"
       },
       {
         "name": "Workstream",
-        "value": "AIM Migration",
+        "value": null,
         "type": "enum"
       },
       {
         "name": "Source",
-        "value": "Asana",
+        "value": null,
         "type": "enum"
       },
       {
@@ -2743,7 +2743,7 @@
       },
       {
         "name": "Sprint",
-        "value": "Sprint (Apr 1 - Apr 14)",
+        "value": null,
         "type": "multi_enum"
       }
     ],
@@ -5795,11 +5795,11 @@
     }
   },
   {
-    "id": "1213919244347435",
-    "title": "Frontend for metrics rename/configurations",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213919244347435",
+    "id": "1213988811935873",
+    "title": "Remove retired components post pilot",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213988811935873",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Backlogs",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -5811,9 +5811,9 @@
     "description": "",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-04-03T14:30:05.887Z",
-    "updatedAt": "2026-04-08T18:30:07.347Z",
-    "dueOn": "2026-04-09",
+    "createdAt": "2026-04-09T04:53:41.767Z",
+    "updatedAt": "2026-04-09T04:54:01.666Z",
+    "dueOn": null,
     "tags": [],
     "customFields": [
       {
@@ -5838,27 +5838,27 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": null,
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": "2026-04-09T00:00:00.000Z",
+        "value": null,
         "type": "date"
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": null,
         "type": "enum"
       },
       {
         "name": "Workstream",
-        "value": "AIM Migration",
+        "value": null,
         "type": "enum"
       },
       {
         "name": "Source",
-        "value": "Asana",
+        "value": null,
         "type": "enum"
       },
       {
@@ -5878,7 +5878,7 @@
       },
       {
         "name": "Sprint",
-        "value": "Sprint (Apr 1 - Apr 14)",
+        "value": null,
         "type": "multi_enum"
       }
     ],
@@ -6274,7 +6274,7 @@
     "title": "Complete Status filter in incrementality page is not working",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1213972799393173",
     "type": "ISSUE",
-    "status": "Backlog",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1211750460277076",
@@ -6284,11 +6284,11 @@
     ],
     "primaryAssignee": "Mayank Ukey",
     "description": "When using the status filter for the incrementality page the completed tests are not showing as expected. ",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-09T12:49:28.022Z",
     "createdAt": "2026-04-07T17:32:18.579Z",
-    "updatedAt": "2026-04-08T15:13:24.122Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-09T12:51:18.264Z",
+    "dueOn": "2026-04-09",
     "tags": [],
     "customFields": [
       {
@@ -7332,7 +7332,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:21.291Z",
-    "updatedAt": "2026-04-08T14:02:26.988Z",
+    "updatedAt": "2026-04-09T06:05:40.456Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -7522,7 +7522,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-04-08T12:36:47.591Z",
+    "updatedAt": "2026-04-09T12:36:10.949Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

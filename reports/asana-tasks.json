@@ -7332,7 +7332,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:21.291Z",
-    "updatedAt": "2026-04-09T18:30:19.946Z",
+    "updatedAt": "2026-04-10T13:02:29.763Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -7399,6 +7399,291 @@
       {
         "name": "Sprint",
         "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213877413643902",
+    "title": "New ETL - Redshift connector - AI SDLC ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213877413643902",
+    "type": "ISSUE",
+    "status": "Blocked",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-30T09:26:39.188Z",
+    "updatedAt": "2026-04-10T05:26:35.828Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": "5",
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P3",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "Blocked",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM ETL Requirements",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "Low",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213990966523010",
+    "title": "New ETL - Create reports for ClassPass presentation",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213990966523010",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Jacob asked me to generate few reports with final data for class pass client meeting",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-10T05:33:57.765Z",
+    "updatedAt": "2026-04-10T07:09:22.073Z",
+    "dueOn": "2026-04-10",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-10T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In QA or Review",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Unplanned Work",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1213990947136218",
+    "title": "Old ETL - Investigate Defacto GA API failure",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213990947136218",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Defacto's GA API  is failing and so we are seeing some cost issues in the portal.",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-10T05:27:57.172Z",
+    "updatedAt": "2026-04-10T13:01:56.620Z",
+    "dueOn": "2026-04-10",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-10T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In QA or Review",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Unplanned Work",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
         "type": "multi_enum"
       }
     ],
@@ -7522,7 +7807,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-04-09T12:36:10.949Z",
+    "updatedAt": "2026-04-10T05:31:16.662Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7558,7 +7843,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "OnHold",
         "type": "enum"
       },
       {
@@ -7709,10 +7994,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "ClassPass has custom events in S3 that needs to be ingested and used for data enrichment..\n\nEven though we have S3 connector, this file is supposed to use redshift schema with the same CSV headers instead of our regular Cost and attribution headers.\n\nThis will take some effort and has to be done for GCS and GoogleDrive as well",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-10T05:30:42.798Z",
     "createdAt": "2026-04-05T05:22:09.194Z",
-    "updatedAt": "2026-04-08T14:02:19.061Z",
+    "updatedAt": "2026-04-10T05:31:48.976Z",
     "dueOn": "2026-04-07",
     "tags": [],
     "customFields": [
@@ -7748,7 +8033,7 @@
       },
       {
         "name": "State",
-        "value": "In QA or Review",
+        "value": "Completed",
         "type": "enum"
       },
       {

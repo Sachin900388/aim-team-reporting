@@ -1442,7 +1442,7 @@
     "completed": true,
     "completedAt": "2026-04-07T15:44:05.676Z",
     "createdAt": "2025-12-05T14:40:35.631Z",
-    "updatedAt": "2026-04-08T14:02:49.653Z",
+    "updatedAt": "2026-04-13T05:14:58.872Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1478,7 +1478,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -2772,7 +2772,7 @@
     "completed": true,
     "completedAt": "2026-04-03T14:29:56.664Z",
     "createdAt": "2026-03-18T15:44:08.501Z",
-    "updatedAt": "2026-04-08T14:02:47.939Z",
+    "updatedAt": "2026-04-13T05:14:54.884Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2808,7 +2808,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -4577,7 +4577,7 @@
     "completed": true,
     "completedAt": "2026-04-07T15:44:05.676Z",
     "createdAt": "2025-12-05T14:40:35.631Z",
-    "updatedAt": "2026-04-08T14:02:49.653Z",
+    "updatedAt": "2026-04-13T05:14:58.872Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -4613,7 +4613,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -5907,7 +5907,7 @@
     "completed": true,
     "completedAt": "2026-04-03T14:29:56.664Z",
     "createdAt": "2026-03-18T15:44:08.501Z",
-    "updatedAt": "2026-04-08T14:02:47.939Z",
+    "updatedAt": "2026-04-13T05:14:54.884Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5943,7 +5943,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -7332,7 +7332,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:21.291Z",
-    "updatedAt": "2026-04-10T13:02:29.763Z",
+    "updatedAt": "2026-04-13T13:20:19.888Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -7617,7 +7617,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-10T05:27:57.172Z",
-    "updatedAt": "2026-04-10T13:01:56.620Z",
+    "updatedAt": "2026-04-13T05:21:08.746Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [

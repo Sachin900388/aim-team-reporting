@@ -1347,7 +1347,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-14T07:33:15.087Z",
+    "updatedAt": "2026-04-15T14:36:11.850Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -2090,6 +2090,101 @@
     }
   },
   {
+    "id": "1213883177137876",
+    "title": "Account & APP Migration",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213883177137876",
+    "type": "ISSUE",
+    "status": "Not Started",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-31T07:15:08.377Z",
+    "updatedAt": "2026-04-15T10:24:43.781Z",
+    "dueOn": "2026-04-15",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-15T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796438",
     "title": "Google Social Sign in Support in K4A ",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796438",
@@ -2185,6 +2280,101 @@
     }
   },
   {
+    "id": "1214059351569721",
+    "title": "Promethus scrap endpoint",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214059351569721",
+    "type": "ISSUE",
+    "status": "Production Deployment",
+    "assignees": [
+      {
+        "gid": "1203186151338309",
+        "name": "Shankara",
+        "email": "shankara@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Shankara",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-15T05:49:52.658Z",
+    "updatedAt": "2026-04-15T10:27:32.500Z",
+    "dueOn": "2026-04-15",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-15T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213197014844099",
     "title": "App & Assets : Metrics columns for table view",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213197014844099",
@@ -2229,101 +2419,6 @@
       {
         "name": "Status",
         "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": "2026-03-20T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1212318373684046",
-    "title": "User Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318373684046",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Anupam Bhattacharyya",
-    "description": "User Migration:\n*Okta provided an export extension to export all the users to csv file along with their profile information.\n* Passwords (hash) can’t be exported. So we can ask around 25 users who are using the password authentication to reset their password after migration to K4A. (For this user we can set some randomly generated password at Adv Suite side, as anyways the user is going to reset it.)\n* The user's role is not fetchable from this export process, so we can manually check and update as the number of users is less than 100. \n* User to organization id (advertiser) mapping is part of the exported user metadata. This way we can consolidate all the user information.\n* Admin users with  “internal User” flag true are Kochava users. Add or set respective users under the Kochava account in Adv Suite with mmm_admin role(with different user group - mmm_admin).\n* Migrate these user to K4A.",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2025-12-05T13:23:01.139Z",
-    "updatedAt": "2026-03-24T14:14:10.603Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": "2",
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
         "type": "enum"
       },
       {
@@ -4482,7 +4577,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-14T07:33:15.087Z",
+    "updatedAt": "2026-04-15T14:36:11.850Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -5225,6 +5320,101 @@
     }
   },
   {
+    "id": "1213883177137876",
+    "title": "Account & APP Migration",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213883177137876",
+    "type": "ISSUE",
+    "status": "Not Started",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-03-31T07:15:08.377Z",
+    "updatedAt": "2026-04-15T10:24:43.781Z",
+    "dueOn": "2026-04-15",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-15T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1212318371796438",
     "title": "Google Social Sign in Support in K4A ",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318371796438",
@@ -5320,6 +5510,101 @@
     }
   },
   {
+    "id": "1214059351569721",
+    "title": "Promethus scrap endpoint",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214059351569721",
+    "type": "ISSUE",
+    "status": "Production Deployment",
+    "assignees": [
+      {
+        "gid": "1203186151338309",
+        "name": "Shankara",
+        "email": "shankara@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Shankara",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-15T05:49:52.658Z",
+    "updatedAt": "2026-04-15T10:27:32.500Z",
+    "dueOn": "2026-04-15",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-04-15T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213197014844099",
     "title": "App & Assets : Metrics columns for table view",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213197014844099",
@@ -5364,101 +5649,6 @@
       {
         "name": "Status",
         "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": "2026-03-20T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1212318373684046",
-    "title": "User Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1212318373684046",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Anupam Bhattacharyya",
-    "description": "User Migration:\n*Okta provided an export extension to export all the users to csv file along with their profile information.\n* Passwords (hash) can’t be exported. So we can ask around 25 users who are using the password authentication to reset their password after migration to K4A. (For this user we can set some randomly generated password at Adv Suite side, as anyways the user is going to reset it.)\n* The user's role is not fetchable from this export process, so we can manually check and update as the number of users is less than 100. \n* User to organization id (advertiser) mapping is part of the exported user metadata. This way we can consolidate all the user information.\n* Admin users with  “internal User” flag true are Kochava users. Add or set respective users under the Kochava account in Adv Suite with mmm_admin role(with different user group - mmm_admin).\n* Migrate these user to K4A.",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2025-12-05T13:23:01.139Z",
-    "updatedAt": "2026-03-24T14:14:10.603Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": "2",
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
         "type": "enum"
       },
       {
@@ -7695,6 +7885,101 @@
     }
   },
   {
+    "id": "1214056628119384",
+    "title": "New ETL - Change Network type to 1",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214056628119384",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "The default network type should be 1 instead of 0",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-15T05:30:24.508Z",
+    "updatedAt": "2026-04-15T05:31:48.485Z",
+    "dueOn": "2026-04-15",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1213897823320336",
     "title": "Old ETL - Planet Art event data automation",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213897823320336",
@@ -7807,7 +8092,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-04-14T07:19:28.226Z",
+    "updatedAt": "2026-04-15T05:40:22.320Z",
     "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
@@ -7843,7 +8128,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "OnHold",
         "type": "enum"
       },
       {

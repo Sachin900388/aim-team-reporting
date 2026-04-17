@@ -2867,7 +2867,7 @@
     "completed": true,
     "completedAt": "2026-04-16T18:13:00.863Z",
     "createdAt": "2026-04-16T05:36:40.110Z",
-    "updatedAt": "2026-04-16T18:13:00.984Z",
+    "updatedAt": "2026-04-17T04:46:16.067Z",
     "dueOn": "2026-04-16",
     "tags": [],
     "customFields": [
@@ -2903,7 +2903,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -2962,7 +2962,7 @@
     "completed": true,
     "completedAt": "2026-04-16T18:13:06.445Z",
     "createdAt": "2026-04-16T07:40:07.470Z",
-    "updatedAt": "2026-04-16T18:13:06.535Z",
+    "updatedAt": "2026-04-17T04:46:12.120Z",
     "dueOn": "2026-04-16",
     "tags": [],
     "customFields": [
@@ -2998,7 +2998,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -6287,7 +6287,7 @@
     "completed": true,
     "completedAt": "2026-04-16T18:13:00.863Z",
     "createdAt": "2026-04-16T05:36:40.110Z",
-    "updatedAt": "2026-04-16T18:13:00.984Z",
+    "updatedAt": "2026-04-17T04:46:16.067Z",
     "dueOn": "2026-04-16",
     "tags": [],
     "customFields": [
@@ -6323,7 +6323,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -6382,7 +6382,7 @@
     "completed": true,
     "completedAt": "2026-04-16T18:13:06.445Z",
     "createdAt": "2026-04-16T07:40:07.470Z",
-    "updatedAt": "2026-04-16T18:13:06.535Z",
+    "updatedAt": "2026-04-17T04:46:12.120Z",
     "dueOn": "2026-04-16",
     "tags": [],
     "customFields": [
@@ -6418,7 +6418,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -7899,10 +7899,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-17T08:26:58.100Z",
     "createdAt": "2026-03-30T09:25:21.291Z",
-    "updatedAt": "2026-04-14T07:19:44.892Z",
+    "updatedAt": "2026-04-17T08:27:02.326Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -7938,7 +7938,7 @@
       },
       {
         "name": "State",
-        "value": "In QA or Review",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -8079,7 +8079,7 @@
     "title": "New ETL - Investigate Adobe Branch cohort missing data",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214074508652067",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -8088,12 +8088,12 @@
       }
     ],
     "primaryAssignee": "Jaya Kumar",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
+    "description": "Branch cohort data is missing for a couple of weeks",
+    "completed": true,
+    "completedAt": "2026-04-17T08:23:12.823Z",
     "createdAt": "2026-04-16T13:47:54.917Z",
-    "updatedAt": "2026-04-16T13:48:24.252Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-17T08:23:12.930Z",
+    "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
       {
@@ -8118,17 +8118,17 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-04-17T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": null,
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -8148,7 +8148,7 @@
       },
       {
         "name": "Priority",
-        "value": null,
+        "value": "High",
         "type": "enum"
       },
       {
@@ -8187,8 +8187,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-16T07:38:52.150Z",
-    "updatedAt": "2026-04-16T07:41:10.713Z",
-    "dueOn": "2026-04-16",
+    "updatedAt": "2026-04-17T08:27:26.820Z",
+    "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
       {
@@ -8218,7 +8218,7 @@
       },
       {
         "name": "End Date",
-        "value": "2026-04-16T00:00:00.000Z",
+        "value": "2026-04-17T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -8472,8 +8472,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-15T05:30:24.508Z",
-    "updatedAt": "2026-04-15T18:30:58.012Z",
-    "dueOn": "2026-04-15",
+    "updatedAt": "2026-04-17T08:41:11.093Z",
+    "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
       {

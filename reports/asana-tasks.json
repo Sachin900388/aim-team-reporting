@@ -1,5 +1,100 @@
 [
   {
+    "id": "1214136944008902",
+    "title": "Incrementality: ML Fixes + K4A Migration",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Mayank Ukey",
+    "description": "Phase 1 complete: aim-portal-ui (Angular), aim-portal-api (.NET), aim-incremental-service (Python/Airflow). Code audit identified 2 critical bugs + 4 ML enhancements from Robert. Phase 2 migrates to frontend-mos (Vue 3) + mmm-portal-api (Go). Design doc: docs/incrementality-k4a-migration/specs/2026-04-20-aim-incrementality-migration-design.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-20T11:35:40.890Z",
+    "updatedAt": "2026-04-20T11:58:21.158Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213012410523072",
     "title": "Metrics configuration generation script",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213012410523072",
@@ -1344,10 +1439,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-20T15:13:56.182Z",
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-15T14:36:11.850Z",
+    "updatedAt": "2026-04-20T15:13:56.279Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -2094,7 +2189,7 @@
     "title": "Account & APP Migration",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213883177137876",
     "type": "ISSUE",
-    "status": "Not Started",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -2104,10 +2199,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-20T15:14:19.161Z",
     "createdAt": "2026-03-31T07:15:08.377Z",
-    "updatedAt": "2026-04-15T10:24:43.781Z",
+    "updatedAt": "2026-04-20T15:14:19.294Z",
     "dueOn": "2026-04-15",
     "tags": [],
     "customFields": [
@@ -2133,7 +2228,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -3420,6 +3515,101 @@
     }
   },
   {
+    "id": "1214136944008902",
+    "title": "Incrementality: ML Fixes + K4A Migration",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Mayank Ukey",
+    "description": "Phase 1 complete: aim-portal-ui (Angular), aim-portal-api (.NET), aim-incremental-service (Python/Airflow). Code audit identified 2 critical bugs + 4 ML enhancements from Robert. Phase 2 migrates to frontend-mos (Vue 3) + mmm-portal-api (Go). Design doc: docs/incrementality-k4a-migration/specs/2026-04-20-aim-incrementality-migration-design.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-20T11:35:40.890Z",
+    "updatedAt": "2026-04-20T11:58:21.158Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213012410523072",
     "title": "Metrics configuration generation script",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213012410523072",
@@ -4764,10 +4954,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-20T15:13:56.182Z",
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-15T14:36:11.850Z",
+    "updatedAt": "2026-04-20T15:13:56.279Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -5514,7 +5704,7 @@
     "title": "Account & APP Migration",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213883177137876",
     "type": "ISSUE",
-    "status": "Not Started",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -5524,10 +5714,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-20T15:14:19.161Z",
     "createdAt": "2026-03-31T07:15:08.377Z",
-    "updatedAt": "2026-04-15T10:24:43.781Z",
+    "updatedAt": "2026-04-20T15:14:19.294Z",
     "dueOn": "2026-04-15",
     "tags": [],
     "customFields": [
@@ -5553,7 +5743,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -7997,8 +8187,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:26:39.188Z",
-    "updatedAt": "2026-04-10T05:26:35.828Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-20T11:40:19.135Z",
+    "dueOn": "2026-04-21",
     "tags": [],
     "customFields": [
       {
@@ -8174,7 +8364,7 @@
     "title": "New ETL - ClassPass - Market share based on Appsflyer",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214074508652058",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -8184,10 +8374,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "We stopped using Appsflyer nd instead only depend on S3 sign-ups for market share calculation. but the client says that is not accurate represntation and should use Appsflyer instead",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-20T11:16:48.690Z",
     "createdAt": "2026-04-16T07:38:52.150Z",
-    "updatedAt": "2026-04-17T08:27:26.820Z",
+    "updatedAt": "2026-04-20T11:16:57.762Z",
     "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
@@ -8213,7 +8403,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -8223,7 +8413,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -8244,6 +8434,101 @@
       {
         "name": "Priority",
         "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1214132854302596",
+    "title": "Old ETL - Defacto web to mobile",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214132854302596",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-20T11:17:33.492Z",
+    "updatedAt": "2026-04-20T11:40:15.355Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
         "type": "enum"
       },
       {
@@ -8459,7 +8744,7 @@
     "title": "New ETL - Change Network type to 1",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214056628119384",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -8472,7 +8757,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-15T05:30:24.508Z",
-    "updatedAt": "2026-04-17T08:41:11.093Z",
+    "updatedAt": "2026-04-20T06:18:39.266Z",
     "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
@@ -8498,17 +8783,17 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-04-20T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": null,
+        "value": "In QA or Review",
         "type": "enum"
       },
       {
@@ -8528,7 +8813,7 @@
       },
       {
         "name": "Priority",
-        "value": null,
+        "value": "High",
         "type": "enum"
       },
       {

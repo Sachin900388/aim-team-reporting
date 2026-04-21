@@ -1,5 +1,100 @@
 [
   {
+    "id": "1214148639889640",
+    "title": "AIM Self-Service Optimization — Migration to K4A",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214148639889640",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Epic: AIM Self-Service Optimization — Migration to K4A\n\nMigrate optimization scenarios functionality from aim-portal-api (.NET) to mmm-portal-api (Go) and from aim-portal-ui (Angular) to frontend-mos (Vue 3) as part of the K4A platform migration.\n\nSubtasks cover:\n- Data layer (mmm-portal-api)\n- Service + DTOs (mmm-portal-api)\n- API controller (mmm-portal-api)\n- Tests (mmm-portal-api)\n- Types + endpoints (frontend-mos)\n- API service (frontend-mos)\n- UI components (frontend-mos)",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-21T08:28:59.728Z",
+    "updatedAt": "2026-04-21T08:29:32.851Z",
+    "dueOn": "2026-04-23",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1214136944008902",
     "title": "Incrementality: ML Fixes + K4A Migration",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
@@ -1442,7 +1537,7 @@
     "completed": true,
     "completedAt": "2026-04-20T15:13:56.182Z",
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-20T15:13:56.279Z",
+    "updatedAt": "2026-04-21T08:52:43.707Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -1478,7 +1573,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -2297,7 +2392,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-12-05T13:30:29.750Z",
-    "updatedAt": "2026-04-07T12:04:04.441Z",
+    "updatedAt": "2026-04-21T16:30:19.174Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -3099,6 +3194,101 @@
       {
         "name": "Workstream",
         "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1214147756531999",
+    "title": "Advertiser partner config does not let you create postbacks for agencies",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214147756531999",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Mayank Ukey",
+    "description": "https://app.asana.com/1/8559678460204/project/1209063547332310/task/1214112672222205?focus=true",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-21T09:03:19.678Z",
+    "updatedAt": "2026-04-21T13:57:46.311Z",
+    "dueOn": "2026-04-21",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In QA or Review",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
         "type": "enum"
       },
       {
@@ -3515,6 +3705,101 @@
     }
   },
   {
+    "id": "1214148639889640",
+    "title": "AIM Self-Service Optimization — Migration to K4A",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214148639889640",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Epic: AIM Self-Service Optimization — Migration to K4A\n\nMigrate optimization scenarios functionality from aim-portal-api (.NET) to mmm-portal-api (Go) and from aim-portal-ui (Angular) to frontend-mos (Vue 3) as part of the K4A platform migration.\n\nSubtasks cover:\n- Data layer (mmm-portal-api)\n- Service + DTOs (mmm-portal-api)\n- API controller (mmm-portal-api)\n- Tests (mmm-portal-api)\n- Types + endpoints (frontend-mos)\n- API service (frontend-mos)\n- UI components (frontend-mos)",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-21T08:28:59.728Z",
+    "updatedAt": "2026-04-21T08:29:32.851Z",
+    "dueOn": "2026-04-23",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1214136944008902",
     "title": "Incrementality: ML Fixes + K4A Migration",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
@@ -4957,7 +5242,7 @@
     "completed": true,
     "completedAt": "2026-04-20T15:13:56.182Z",
     "createdAt": "2026-04-07T15:39:54.201Z",
-    "updatedAt": "2026-04-20T15:13:56.279Z",
+    "updatedAt": "2026-04-21T08:52:43.707Z",
     "dueOn": "2026-04-13",
     "tags": [],
     "customFields": [
@@ -4993,7 +5278,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -5812,7 +6097,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-12-05T13:30:29.750Z",
-    "updatedAt": "2026-04-07T12:04:04.441Z",
+    "updatedAt": "2026-04-21T16:30:19.174Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6614,6 +6899,101 @@
       {
         "name": "Workstream",
         "value": "AIM Migration",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1214147756531999",
+    "title": "Advertiser partner config does not let you create postbacks for agencies",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214147756531999",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Mayank Ukey",
+    "description": "https://app.asana.com/1/8559678460204/project/1209063547332310/task/1214112672222205?focus=true",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-04-21T09:03:19.678Z",
+    "updatedAt": "2026-04-21T13:57:46.311Z",
+    "dueOn": "2026-04-21",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In QA or Review",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
         "type": "enum"
       },
       {
@@ -8459,7 +8839,7 @@
     "title": "Old ETL - Defacto web to mobile",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214132854302596",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -8472,8 +8852,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-20T11:17:33.492Z",
-    "updatedAt": "2026-04-20T11:40:15.355Z",
-    "dueOn": null,
+    "updatedAt": "2026-04-21T05:54:09.219Z",
+    "dueOn": "2026-04-21",
     "tags": [],
     "customFields": [
       {
@@ -8498,17 +8878,17 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-04-21T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": null,
+        "value": "In QA or Review",
         "type": "enum"
       },
       {
@@ -8528,7 +8908,7 @@
       },
       {
         "name": "Priority",
-        "value": null,
+        "value": "High",
         "type": "enum"
       },
       {

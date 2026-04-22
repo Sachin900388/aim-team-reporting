@@ -17,7 +17,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-21T08:28:59.728Z",
-    "updatedAt": "2026-04-21T08:29:32.851Z",
+    "updatedAt": "2026-04-22T09:33:43.472Z",
     "dueOn": "2026-04-23",
     "tags": [],
     "customFields": [
@@ -3722,7 +3722,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-21T08:28:59.728Z",
-    "updatedAt": "2026-04-21T08:29:32.851Z",
+    "updatedAt": "2026-04-22T09:33:43.472Z",
     "dueOn": "2026-04-23",
     "tags": [],
     "customFields": [
@@ -8849,10 +8849,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-04-22T04:11:38.789Z",
     "createdAt": "2026-04-20T11:17:33.492Z",
-    "updatedAt": "2026-04-21T05:54:09.219Z",
+    "updatedAt": "2026-04-22T04:11:44.476Z",
     "dueOn": "2026-04-21",
     "tags": [],
     "customFields": [
@@ -8888,7 +8888,7 @@
       },
       {
         "name": "State",
-        "value": "In QA or Review",
+        "value": "Completed",
         "type": "enum"
       },
       {

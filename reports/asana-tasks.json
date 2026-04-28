@@ -97,7 +97,7 @@
   {
     "id": "1214136944008902",
     "title": "Incrementality: ML Fixes + K4A Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
+    "url": "https://app.asana.com/1/8559678460204/project/90515842530179/task/1214136944008902",
     "type": "ISSUE",
     "status": "In Progress",
     "assignees": [
@@ -112,10 +112,40 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-20T11:35:40.890Z",
-    "updatedAt": "2026-04-20T11:58:21.158Z",
+    "updatedAt": "2026-04-28T14:25:37.796Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "# Person Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Task Effort",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Sprint_",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Projects (imported)",
+        "value": null,
+        "type": "enum"
+      },
       {
         "name": "Rank ",
         "value": null,
@@ -777,7 +807,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-06T10:21:59.821Z",
-    "updatedAt": "2026-04-09T18:30:24.033Z",
+    "updatedAt": "2026-04-28T05:38:32.569Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -813,7 +843,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -2297,7 +2327,7 @@
     "completed": true,
     "completedAt": "2026-04-20T15:14:19.161Z",
     "createdAt": "2026-03-31T07:15:08.377Z",
-    "updatedAt": "2026-04-20T15:14:19.294Z",
+    "updatedAt": "2026-04-28T05:29:47.788Z",
     "dueOn": "2026-04-15",
     "tags": [],
     "customFields": [
@@ -2333,7 +2363,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -2677,7 +2707,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-02-25T05:38:32.726Z",
-    "updatedAt": "2026-03-24T14:14:09.329Z",
+    "updatedAt": "2026-04-28T05:39:18.903Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2713,102 +2743,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": "2026-03-20T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1213628093793492",
-    "title": "Bulk delete for apps",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628093793492",
-    "type": "ISSUE",
-    "status": "Backlogs",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-12T10:28:57.671Z",
-    "updatedAt": "2026-03-24T14:14:07.703Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -3802,7 +3737,7 @@
   {
     "id": "1214136944008902",
     "title": "Incrementality: ML Fixes + K4A Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
+    "url": "https://app.asana.com/1/8559678460204/project/90515842530179/task/1214136944008902",
     "type": "ISSUE",
     "status": "In Progress",
     "assignees": [
@@ -3817,10 +3752,40 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-20T11:35:40.890Z",
-    "updatedAt": "2026-04-20T11:58:21.158Z",
+    "updatedAt": "2026-04-28T14:25:37.796Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "# Person Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Task Effort",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Sprint_",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Projects (imported)",
+        "value": null,
+        "type": "enum"
+      },
       {
         "name": "Rank ",
         "value": null,
@@ -4482,7 +4447,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-06T10:21:59.821Z",
-    "updatedAt": "2026-04-09T18:30:24.033Z",
+    "updatedAt": "2026-04-28T05:38:32.569Z",
     "dueOn": "2026-04-10",
     "tags": [],
     "customFields": [
@@ -4518,7 +4483,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -6002,7 +5967,7 @@
     "completed": true,
     "completedAt": "2026-04-20T15:14:19.161Z",
     "createdAt": "2026-03-31T07:15:08.377Z",
-    "updatedAt": "2026-04-20T15:14:19.294Z",
+    "updatedAt": "2026-04-28T05:29:47.788Z",
     "dueOn": "2026-04-15",
     "tags": [],
     "customFields": [
@@ -6038,7 +6003,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -6382,7 +6347,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-02-25T05:38:32.726Z",
-    "updatedAt": "2026-03-24T14:14:09.329Z",
+    "updatedAt": "2026-04-28T05:39:18.903Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6418,102 +6383,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": "2026-03-20T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1213628093793492",
-    "title": "Bulk delete for apps",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213628093793492",
-    "type": "ISSUE",
-    "status": "Backlogs",
-    "assignees": [
-      {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-12T10:28:57.671Z",
-    "updatedAt": "2026-03-24T14:14:07.703Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {

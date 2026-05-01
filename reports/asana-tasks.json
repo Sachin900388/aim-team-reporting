@@ -97,7 +97,7 @@
   {
     "id": "1214136944008902",
     "title": "Incrementality: ML Fixes + K4A Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/90515842530179/task/1214136944008902",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
     "type": "ISSUE",
     "status": "In Progress",
     "assignees": [
@@ -112,40 +112,10 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-20T11:35:40.890Z",
-    "updatedAt": "2026-04-28T14:25:37.796Z",
+    "updatedAt": "2026-05-01T12:23:54.444Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Business Unit",
-        "value": "AIM",
-        "type": "enum"
-      },
-      {
-        "name": "# Person Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Task Effort",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Sprint_",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Projects (imported)",
-        "value": null,
-        "type": "enum"
-      },
       {
         "name": "Rank ",
         "value": null,
@@ -210,6 +180,11 @@
         "name": "Sprint",
         "value": null,
         "type": "multi_enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "AIM",
+        "type": "enum"
       }
     ],
     "source": {
@@ -3737,7 +3712,7 @@
   {
     "id": "1214136944008902",
     "title": "Incrementality: ML Fixes + K4A Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/90515842530179/task/1214136944008902",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
     "type": "ISSUE",
     "status": "In Progress",
     "assignees": [
@@ -3752,40 +3727,10 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-20T11:35:40.890Z",
-    "updatedAt": "2026-04-28T14:25:37.796Z",
+    "updatedAt": "2026-05-01T12:23:54.444Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Business Unit",
-        "value": "AIM",
-        "type": "enum"
-      },
-      {
-        "name": "# Person Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Task Effort",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Sprint_",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Projects (imported)",
-        "value": null,
-        "type": "enum"
-      },
       {
         "name": "Rank ",
         "value": null,
@@ -3850,6 +3795,11 @@
         "name": "Sprint",
         "value": null,
         "type": "multi_enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "AIM",
+        "type": "enum"
       }
     ],
     "source": {

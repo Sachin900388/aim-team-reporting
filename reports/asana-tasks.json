@@ -8175,6 +8175,101 @@
     }
   },
   {
+    "id": "1214636521359726",
+    "title": "New ETL - WindsorAI connector for Planet Art",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214636521359726",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-08T13:14:55.833Z",
+    "updatedAt": "2026-05-08T13:15:17.498Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1213732940031869",
     "title": "Data sanitizer for Apps flyer ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213732940031869",
@@ -9794,7 +9889,7 @@
     "title": "New ETL - Kochava connector - AI SDLC",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213911821609139",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Blocked",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -9807,7 +9902,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-04-16T18:30:07.891Z",
+    "updatedAt": "2026-05-08T13:14:54.091Z",
     "dueOn": "2026-04-17",
     "tags": [],
     "customFields": [
@@ -9833,7 +9928,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Blocked",
         "type": "enum"
       },
       {

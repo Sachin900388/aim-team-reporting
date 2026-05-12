@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-05-12T04:41:01.044Z",
+  "timestamp": "2026-05-12T19:01:50.089Z",
   "masterProjectGid": "1213645932471387",
   "masterProjectUrl": "https://app.asana.com/1/8559678460204/project/1213645932471387",
   "stats": {
-    "created": 0,
+    "created": 2,
     "skipped": 105,
     "errors": 0
   },
   "tasksByProject": {
-    "AIM Migration Bug Tracking": 38,
-    "AIM Migration Project": 38,
+    "AIM Migration Bug Tracking": 39,
+    "AIM Migration Project": 39,
     "AIM Unplanned Work": 2,
     "AIM ETL Requirements": 27
   },
   "tasksByStatus": {
     "In Progress": 10,
     "Done": 59,
-    "Ready": 33,
+    "Ready": 35,
     "Blocked": 3
   }
 }

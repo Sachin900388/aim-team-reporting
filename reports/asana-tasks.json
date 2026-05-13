@@ -7709,7 +7709,7 @@
     "title": "Break Consolidation task into separate tasks",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384697661093",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -7719,10 +7719,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Break consolidation task into\n    Network discovery\n    Data aggregation\n    Actual Consolidation\n    Data transformation\n",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:26:11.392Z",
     "createdAt": "2026-04-29T09:40:13.527Z",
-    "updatedAt": "2026-04-29T09:40:18.277Z",
+    "updatedAt": "2026-05-13T02:26:11.511Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7748,7 +7748,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -7819,7 +7819,7 @@
     "title": "Raw data tables with original column names for debug and audit purposes",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384697661087",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -7829,10 +7829,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Currently, we do not store the raw customer data as it is anywhere on our side. We perform some level of transformation before saving the data. But this may not be useful for Auditing or Debugging from source purposes",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:25:37.703Z",
     "createdAt": "2026-04-29T09:40:13.271Z",
-    "updatedAt": "2026-04-29T09:40:17.907Z",
+    "updatedAt": "2026-05-13T02:25:37.814Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7858,7 +7858,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -7929,7 +7929,7 @@
     "title": "Create a migration script for table schema changes",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384887732331",
     "type": "ISSUE",
-    "status": "Not Started",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -7939,10 +7939,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "If we add/modify a column in Cost and Attribution model, then we need to apply those changes to existing tables in redshift using a migration script",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:26:36.265Z",
     "createdAt": "2026-04-29T09:40:05.958Z",
-    "updatedAt": "2026-04-29T09:40:17.023Z",
+    "updatedAt": "2026-05-13T02:26:36.374Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7968,7 +7968,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -8039,7 +8039,7 @@
     "title": "New ETL - Singular connector - AI SDLC",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384460521786",
     "type": "ISSUE",
-    "status": "Not Started",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1211750460277076",
@@ -8049,10 +8049,10 @@
     ],
     "primaryAssignee": "Mayank Ukey",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:22:19.376Z",
     "createdAt": "2026-04-29T09:40:07.268Z",
-    "updatedAt": "2026-04-29T09:40:12.695Z",
+    "updatedAt": "2026-05-13T02:22:19.526Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -8078,7 +8078,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -8149,7 +8149,7 @@
     "title": "New ETL - Kochava connector - AI SDLC",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384726886625",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -8159,10 +8159,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:22:43.776Z",
     "createdAt": "2026-04-29T09:40:01.531Z",
-    "updatedAt": "2026-04-29T09:40:12.104Z",
+    "updatedAt": "2026-05-13T02:22:43.888Z",
     "dueOn": "2026-05-25",
     "tags": [],
     "customFields": [
@@ -8188,7 +8188,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -8259,7 +8259,7 @@
     "title": "New ETL - Redshift connector - AI SDLC ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384726905238",
     "type": "ISSUE",
-    "status": "Not Started",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -8269,10 +8269,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:23:30.535Z",
     "createdAt": "2026-04-29T09:40:07.736Z",
-    "updatedAt": "2026-04-29T09:40:12.833Z",
+    "updatedAt": "2026-05-13T02:23:30.638Z",
     "dueOn": "2026-05-27",
     "tags": [],
     "customFields": [
@@ -8298,7 +8298,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -8382,7 +8382,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-08T13:14:55.833Z",
-    "updatedAt": "2026-05-08T13:15:17.498Z",
+    "updatedAt": "2026-05-13T02:26:45.523Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -8403,7 +8403,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P1",
         "type": "enum"
       },
       {
@@ -9142,7 +9142,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-03-30T09:25:19.750Z",
-    "updatedAt": "2026-04-08T12:23:15.466Z",
+    "updatedAt": "2026-05-13T02:54:44.915Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -9163,7 +9163,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": "P1",
+        "value": "P2",
         "type": "enum"
       },
       {
@@ -9319,7 +9319,7 @@
     "title": "New ETL - Redshift connector - AI SDLC ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213877413643902",
     "type": "ISSUE",
-    "status": "Blocked",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -9329,10 +9329,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-05-13T02:24:05.025Z",
     "createdAt": "2026-03-30T09:26:39.188Z",
-    "updatedAt": "2026-04-20T18:30:08.352Z",
+    "updatedAt": "2026-05-13T02:24:05.144Z",
     "dueOn": "2026-04-21",
     "tags": [],
     "customFields": [
@@ -9358,7 +9358,7 @@
       },
       {
         "name": "Status",
-        "value": "Blocked",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -10079,7 +10079,7 @@
     "title": "New ETL - Kochava connector - AI SDLC",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213911821609139",
     "type": "ISSUE",
-    "status": "Blocked",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -10092,8 +10092,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-05-08T13:14:54.091Z",
-    "dueOn": "2026-04-17",
+    "updatedAt": "2026-05-13T02:27:12.184Z",
+    "dueOn": "2026-05-13",
     "tags": [],
     "customFields": [
       {
@@ -10113,12 +10113,12 @@
       },
       {
         "name": "Pick Priority",
-        "value": "P2",
+        "value": "P0",
         "type": "enum"
       },
       {
         "name": "Status",
-        "value": "Blocked",
+        "value": "Complete",
         "type": "enum"
       },
       {

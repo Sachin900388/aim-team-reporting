@@ -1,23 +1,88 @@
 [
   {
-    "id": "1214427724599171",
-    "title": "Defacto Feedback: Need sticky headers on the Analytics screens",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214427724599171",
+    "id": "1214251617271033",
+    "title": "Fix AIM Management Key Cache Issue",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214251617271033",
     "type": "ISSUE",
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
       }
     ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Rhia sent the following feedback from Defacto: \n\nHey https://kochava.slack.com/team/U0997E7UF4G, we just had a call with DeFacto and were reviewing the new portal (which he is using) and on both sides we found the non-sticky table headers so frustrating. Just wanted to share that feedback!\n\nEssentially, what they are saying is, when you scroll down any of the Analytics screens, the tab name is not sticky. I have seen that this is the same behavior on the MMP side too. Can you evaluate the effort to make it sticky for MMM first and if it works, we can do the same for MMP. ",
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-04-30T14:53:44.756Z",
-    "updatedAt": "2026-05-13T08:43:54.079Z",
+    "createdAt": "2026-04-24T07:32:22.395Z",
+    "updatedAt": "2026-05-14T06:06:10.874Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "Unplanned Work",
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1214634641291078",
+    "title": "[FEATURE-10] Cost Curves — Add Select All / Deselect All toggle for media partners",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214634641291078",
+    "type": "ISSUE",
+    "status": "AIM / MMM Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "The Cost Curves section has no way to select or deselect all media partners at once. This existed in the previous AIM platform and needs to be reinstated.\n\nREQUIRED BEHAVIOUR:\n- Add a Select All control at the top of the media partner list\n- When clicked: all partners selected and all curves shown\n- Toggle or separate Deselect All button to clear all selections\n- Chart updates immediately on change — no page reload required\n\nThis is a regression from the previous platform.\n\nType: Missing feature (regression) | Priority: High | Area: Cost Curves → media partner selector\nReported by: Gary Danks — 8 May 2026",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-08T10:13:56.635Z",
+    "updatedAt": "2026-05-14T05:57:49.764Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -55,24 +120,24 @@
     }
   },
   {
-    "id": "1214427724599168",
-    "title": "Defacto Feedback: Need Select all/Clear all option on Cost Curves",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214427724599168",
+    "id": "1214427724599171",
+    "title": "Defacto Feedback: Need sticky headers on the Analytics screens",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214427724599171",
     "type": "ISSUE",
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
       }
     ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "Rhia sent the following feedback from Defacto: \n\n\"we need a select all/clear all for network selection\"",
+    "primaryAssignee": "Mayank Ukey",
+    "description": "Rhia sent the following feedback from Defacto: \n\nHey https://kochava.slack.com/team/U0997E7UF4G, we just had a call with DeFacto and were reviewing the new portal (which he is using) and on both sides we found the non-sticky table headers so frustrating. Just wanted to share that feedback!\n\nEssentially, what they are saying is, when you scroll down any of the Analytics screens, the tab name is not sticky. I have seen that this is the same behavior on the MMP side too. Can you evaluate the effort to make it sticky for MMM first and if it works, we can do the same for MMP. ",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-04-30T14:52:34.627Z",
-    "updatedAt": "2026-05-13T08:43:57.193Z",
+    "createdAt": "2026-04-30T14:53:44.756Z",
+    "updatedAt": "2026-05-13T08:43:54.079Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1367,7 +1432,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.086Z",
-    "updatedAt": "2026-05-13T08:15:25.346Z",
+    "updatedAt": "2026-05-14T06:04:53.781Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1395,46 +1460,6 @@
         "name": "Status",
         "value": null,
         "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2222,7 +2247,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-12T05:39:45.849Z",
-    "updatedAt": "2026-05-12T05:43:46.721Z",
+    "updatedAt": "2026-05-14T06:05:43.114Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2250,46 +2275,6 @@
         "name": "Status",
         "value": null,
         "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
       }
     ],
     "source": {
@@ -2602,7 +2587,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T08:43:03.719Z",
-    "updatedAt": "2026-05-13T08:43:30.659Z",
+    "updatedAt": "2026-05-14T06:04:39.605Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2630,46 +2615,6 @@
         "name": "Status",
         "value": null,
         "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
       }
     ],
     "source": {
@@ -5150,24 +5095,89 @@
     }
   },
   {
-    "id": "1214427724599171",
-    "title": "Defacto Feedback: Need sticky headers on the Analytics screens",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214427724599171",
+    "id": "1214251617271033",
+    "title": "Fix AIM Management Key Cache Issue",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214251617271033",
     "type": "ISSUE",
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
       }
     ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Rhia sent the following feedback from Defacto: \n\nHey https://kochava.slack.com/team/U0997E7UF4G, we just had a call with DeFacto and were reviewing the new portal (which he is using) and on both sides we found the non-sticky table headers so frustrating. Just wanted to share that feedback!\n\nEssentially, what they are saying is, when you scroll down any of the Analytics screens, the tab name is not sticky. I have seen that this is the same behavior on the MMP side too. Can you evaluate the effort to make it sticky for MMM first and if it works, we can do the same for MMP. ",
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-04-30T14:53:44.756Z",
-    "updatedAt": "2026-05-13T08:43:54.079Z",
+    "createdAt": "2026-04-24T07:32:22.395Z",
+    "updatedAt": "2026-05-14T06:06:10.874Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "Unplanned Work",
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1214634641291078",
+    "title": "[FEATURE-10] Cost Curves — Add Select All / Deselect All toggle for media partners",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214634641291078",
+    "type": "ISSUE",
+    "status": "AIM / MMM Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "The Cost Curves section has no way to select or deselect all media partners at once. This existed in the previous AIM platform and needs to be reinstated.\n\nREQUIRED BEHAVIOUR:\n- Add a Select All control at the top of the media partner list\n- When clicked: all partners selected and all curves shown\n- Toggle or separate Deselect All button to clear all selections\n- Chart updates immediately on change — no page reload required\n\nThis is a regression from the previous platform.\n\nType: Missing feature (regression) | Priority: High | Area: Cost Curves → media partner selector\nReported by: Gary Danks — 8 May 2026",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-08T10:13:56.635Z",
+    "updatedAt": "2026-05-14T05:57:49.764Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5205,24 +5215,24 @@
     }
   },
   {
-    "id": "1214427724599168",
-    "title": "Defacto Feedback: Need Select all/Clear all option on Cost Curves",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214427724599168",
+    "id": "1214427724599171",
+    "title": "Defacto Feedback: Need sticky headers on the Analytics screens",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214427724599171",
     "type": "ISSUE",
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
       }
     ],
-    "primaryAssignee": "Lovepreet Singh",
-    "description": "Rhia sent the following feedback from Defacto: \n\n\"we need a select all/clear all for network selection\"",
+    "primaryAssignee": "Mayank Ukey",
+    "description": "Rhia sent the following feedback from Defacto: \n\nHey https://kochava.slack.com/team/U0997E7UF4G, we just had a call with DeFacto and were reviewing the new portal (which he is using) and on both sides we found the non-sticky table headers so frustrating. Just wanted to share that feedback!\n\nEssentially, what they are saying is, when you scroll down any of the Analytics screens, the tab name is not sticky. I have seen that this is the same behavior on the MMP side too. Can you evaluate the effort to make it sticky for MMM first and if it works, we can do the same for MMP. ",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-04-30T14:52:34.627Z",
-    "updatedAt": "2026-05-13T08:43:57.193Z",
+    "createdAt": "2026-04-30T14:53:44.756Z",
+    "updatedAt": "2026-05-13T08:43:54.079Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6517,7 +6527,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.086Z",
-    "updatedAt": "2026-05-13T08:15:25.346Z",
+    "updatedAt": "2026-05-14T06:04:53.781Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6545,46 +6555,6 @@
         "name": "Status",
         "value": null,
         "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
       }
     ],
     "source": {
@@ -7372,7 +7342,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-12T05:39:45.849Z",
-    "updatedAt": "2026-05-12T05:43:46.721Z",
+    "updatedAt": "2026-05-14T06:05:43.114Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7400,46 +7370,6 @@
         "name": "Status",
         "value": null,
         "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
       }
     ],
     "source": {
@@ -7752,7 +7682,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T08:43:03.719Z",
-    "updatedAt": "2026-05-13T08:43:30.659Z",
+    "updatedAt": "2026-05-14T06:04:39.605Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7780,46 +7710,6 @@
         "name": "Status",
         "value": null,
         "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
       }
     ],
     "source": {

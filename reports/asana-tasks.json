@@ -5072,7 +5072,7 @@
     "completed": true,
     "completedAt": "2026-05-13T08:13:36.908Z",
     "createdAt": "2026-03-31T05:39:56.257Z",
-    "updatedAt": "2026-05-13T08:13:37.103Z",
+    "updatedAt": "2026-05-19T09:55:43.992Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5108,7 +5108,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -10222,7 +10222,7 @@
     "completed": true,
     "completedAt": "2026-05-13T08:13:36.908Z",
     "createdAt": "2026-03-31T05:39:56.257Z",
-    "updatedAt": "2026-05-13T08:13:37.103Z",
+    "updatedAt": "2026-05-19T09:55:43.992Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -10258,7 +10258,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -10317,7 +10317,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T09:51:08.528Z",
-    "updatedAt": "2026-05-18T11:46:34.104Z",
+    "updatedAt": "2026-05-19T16:14:50.334Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

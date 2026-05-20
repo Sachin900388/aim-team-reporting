@@ -2680,6 +2680,101 @@
     }
   },
   {
+    "id": "1214956221549286",
+    "title": "Advertiser spoof risk with saved-view calls",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214956221549286",
+    "type": "ISSUE",
+    "status": "AIM / MMM Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "## PR Deep Dive — production defect analysis\n\n_Findings from the `/pr-deep-dive` skill in [ko-diagnostic-toolkit](https://github.com/Kochava/ko-diagnostic-toolkit)._\n\nOverall criticality: **Medium** · Cross-repo: 2 · Same-repo: 1\n\n**Cross-repo defects**\n\n- **[MEDIUM]** Any authenticated advertiser user can spoof another team member's  query param to read, write, or delete their saved views in mmm-portal-api (IDOR — Oathkeeper noop mutator injects no identity; backend reads param without validation) <!-- pr-deep-dive-defect-id: mmm-saved-views-api-userid-query-param-idor-intra-advertiser -->\n- **[LOW]**  returns string  when  is null (race on first page load); saved views created under userId  are permanently orphaned in MongoDB  collection <!-- pr-deep-dive-defect-id: mmm-saved-views-api-getuserid-null-string-orphaned-mongodb-views -->\n\n**Same-repo defects**\n\n- **[MEDIUM]**  is not included in ; after advertiser switch, stale  causes 404 on delete/update operations in mmm-portal-api <!-- pr-deep-dive-defect-id: minsights-reset-saved-views-missing-reset-stale-active-view-id -->\n\n---\n\n**[HTML Document](https://htmlpreview.github.io/?https://gist.githubusercontent.com/ndarstkochava/37265ccd77ffe2a87b8e7f897a27a2c9/raw/1a0a8d73bfd69db5bdb8b4427e6bf36956e16892/index.html)** — full impact map, defect detail, and interactive flow graph.\n\n---\n\n_The pr-deep-dive skill is under development and may make mistakes. If the above findings are not legitimate please inform ndarst@kochava.com._",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-20T04:21:52.829Z",
+    "updatedAt": "2026-05-20T04:25:54.127Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213879734140005",
     "title": "Add metric generation feature to mmm-portal-api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
@@ -7820,6 +7915,101 @@
         "name": "Status",
         "value": null,
         "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1214956221549286",
+    "title": "Advertiser spoof risk with saved-view calls",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214956221549286",
+    "type": "ISSUE",
+    "status": "AIM / MMM Backlogs",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "## PR Deep Dive — production defect analysis\n\n_Findings from the `/pr-deep-dive` skill in [ko-diagnostic-toolkit](https://github.com/Kochava/ko-diagnostic-toolkit)._\n\nOverall criticality: **Medium** · Cross-repo: 2 · Same-repo: 1\n\n**Cross-repo defects**\n\n- **[MEDIUM]** Any authenticated advertiser user can spoof another team member's  query param to read, write, or delete their saved views in mmm-portal-api (IDOR — Oathkeeper noop mutator injects no identity; backend reads param without validation) <!-- pr-deep-dive-defect-id: mmm-saved-views-api-userid-query-param-idor-intra-advertiser -->\n- **[LOW]**  returns string  when  is null (race on first page load); saved views created under userId  are permanently orphaned in MongoDB  collection <!-- pr-deep-dive-defect-id: mmm-saved-views-api-getuserid-null-string-orphaned-mongodb-views -->\n\n**Same-repo defects**\n\n- **[MEDIUM]**  is not included in ; after advertiser switch, stale  causes 404 on delete/update operations in mmm-portal-api <!-- pr-deep-dive-defect-id: minsights-reset-saved-views-missing-reset-stale-active-view-id -->\n\n---\n\n**[HTML Document](https://htmlpreview.github.io/?https://gist.githubusercontent.com/ndarstkochava/37265ccd77ffe2a87b8e7f897a27a2c9/raw/1a0a8d73bfd69db5bdb8b4427e6bf36956e16892/index.html)** — full impact map, defect detail, and interactive flow graph.\n\n---\n\n_The pr-deep-dive skill is under development and may make mistakes. If the above findings are not legitimate please inform ndarst@kochava.com._",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-20T04:21:52.829Z",
+    "updatedAt": "2026-05-20T04:25:54.127Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {

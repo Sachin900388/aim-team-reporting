@@ -17,7 +17,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.445Z",
-    "updatedAt": "2026-05-26T09:58:09.179Z",
+    "updatedAt": "2026-05-27T10:15:57.495Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -637,17 +637,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "Users cannot currently reorder Metrics & KPI tiles or Predictive Model tiles. The order is fixed after creation. This limits the client's ability to prioritise the metrics that matter most to them.\n\nProposed fix: Add drag-and-drop reordering for both Metrics & KPI tiles and Predictive Model tiles.\n\nRule: Ad Spend should always be the first Metrics & KPI tile by default and should be fixed/pinned in position one. All other tiles can be reordered freely.\n\nImplementation notes: Use a standard drag handle icon on the left or top-left of each tile. Order should persist after save. Consider a subtle 'drag to reorder' tooltip on first use.\n\nType: New feature | Priority: High | Area: Performance Overview",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.113Z",
-    "updatedAt": "2026-05-25T09:43:47.854Z",
+    "updatedAt": "2026-05-27T14:26:31.686Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -692,17 +692,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The cost curve charts do not visually convey the scientific credibility and analytical depth of the underlying model. Feedback: 'like a PowerPoint presentation.'\n\nProposed fix: Improve the visual design of cost curve charts to increase perceived analytical rigour. This does not mean adding unnecessary complexity — it means the charts should feel like they belong in a professional data science product, not a slide deck. Specific improvements TBD in design review.\n\nType: Design improvement | Priority: High | Area: Cost Curve",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.160Z",
-    "updatedAt": "2026-05-25T09:43:49.160Z",
+    "updatedAt": "2026-05-27T14:26:31.610Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -747,17 +747,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The current attribution column framing is causing client friction. Clients are comparing AIM attribution figures directly against last-touch attribution (LTA) figures from their MMP, which leads to confusion and loss of confidence in the model.\n\nProposed fix: Reframe all copy and tooltips in the attribution column to make clear that these are directional MMM estimates — not a like-for-like comparison with LTA. This is a copy and tooltip fix — not a data change.\n\nNOTE: This is causing active client friction now. Priority item.\n\nType: New feature (copy/UX) | Priority: CRITICAL | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.176Z",
-    "updatedAt": "2026-05-25T09:43:50.489Z",
+    "updatedAt": "2026-05-27T14:26:31.531Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -802,17 +802,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Performance Overview currently shows outputs but no information about the model that generated them. Clients have no visibility into how accurate the model is, when it was last updated, or when attribution data was last run.\n\nProposed additions — add the following contextual signals to the Performance Overview header or model info panel:\n- MAPE Score: The model's Mean Absolute Percentage Error — displayed alongside the date it was calculated\n- Model Last Updated: Date and time the model was last rebuilt/retrained\n- Last Attribution Run: Date and time of the most recent attribution data run\n\nExample format: 'Model accuracy (MAPE): 8.4% (calculated 28 Apr 2026) | Last model update: 29 Apr 2026 14:32 | Last attribution run: 30 Apr 2026 09:17'\n\nThese are read-only provenance indicators that materially increase client confidence and reduce 'is this fresh?' support questions.\n\nType: New feature | Priority: High | Area: Performance Overview → header",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.243Z",
-    "updatedAt": "2026-05-25T09:43:51.832Z",
+    "updatedAt": "2026-05-27T14:26:31.455Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -857,17 +857,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "Users have no at-a-glance view of which filters are currently applied. After selecting cadence and lookback window there is no persistent on-screen indicator.\n\nPROPOSED SOLUTION:\nAdd a persistent filter bar near the top of all pages showing active filters as labelled pill/chip buttons.\n\nExample:\n[ Monthly ] [ Last 12 Months ] [ All Platforms ] [ All Networks ]\n\nDesign requirements:\n- Pill/chip button style — not plain text\n- Each chip clearly labelled with its current value\n- Clicking a chip opens the relevant filter selector inline\n- Updates immediately when filters change\n- Must include at minimum: cadence + lookback window. Platform and network filters should also appear here.\n\nType: New feature | Priority: High | Area: Global — all pages, specifically Performance Overview and Media Partners\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.451Z",
-    "updatedAt": "2026-05-25T09:43:52.899Z",
+    "updatedAt": "2026-05-27T14:26:31.382Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -912,17 +912,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The current date filter UI is unclear. The full calendar button takes up too much space and the relationship between cadence and lookback window is not obvious.\n\nPROPOSED REDESIGN:\n\n1. CADENCE SELECTOR — segmented toggle:\n   Monthly | Weekly | Custom\n\n2. LOOKBACK WINDOW SELECTOR — adjacent dropdown or segmented selector showing options relevant to the selected cadence:\n   - Monthly: Last 12 Months | Last 9 Months | Last 6 Months | Custom Range\n   - Weekly: Last 52 Weeks | Last 26 Weeks | Last 13 Weeks | Custom Range\n   - Custom: Custom Range only\n\n3. CALENDAR — reduce to a small calendar icon. When clicked, opens the existing calendar overlay (same behaviour as today, smaller trigger). Only needed for custom date range selection.\n\nThis is a UI redesign only — no change to underlying date logic or data.\n\nCombined with FEATURE-06 (persistent filter bar), the user will always know exactly what they are looking at.\n\nType: New feature / UX redesign | Priority: High | Area: Global — date filter / cadence selector\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.449Z",
-    "updatedAt": "2026-05-25T09:43:53.973Z",
+    "updatedAt": "2026-05-27T14:26:31.304Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -967,17 +967,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Recommendations section currently lists recommendations with no context about what the optimizer is working towards or when it last ran. Two additions required.\n\n---\n\nCHANGES REQUIRED:\n\n1. OPTIMIZER TARGET SUMMARY\n- Add a summary statement at the top of the Recommendations section, above individual recommendation rows\n- Must clearly state what KPI the optimizer is currently optimising towards\n- Example: 'Currently optimising towards: Paid Subscriptions'\n- Must be dynamically pulled from the client's model configuration — not hardcoded\n- Will differ per client (e.g. 'Subscriptions' for ClassPass, 'First Time Deposits' for fintech, etc.)\n\n2. OPTIMIZER LAST RUN DATE AND TIME\n- Display the date and time the optimizer last ran, adjacent to or below the target summary\n- Example: 'Optimizer last run: 5 May 2026 at 22:00'\n- Must include a timestamp — date alone is not sufficient\n- Must be clearly distinguished from the Model Refresh Date (see FEATURE-08)\n\n---\n\nDESIGN INTENT:\n- Compact, positioned at top of Recommendations section — first thing user reads before acting on any recommendation\n- Should feel like a live system status panel, not a marketing message\n- Gives the user confidence that recommendations are current and reflect the latest model run\n\n---\n\nType: New feature | Priority: High\nArea: Recommendations / Optimizer → section header\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T17:02:59.974Z",
-    "updatedAt": "2026-05-25T09:43:54.868Z",
+    "updatedAt": "2026-05-27T14:26:31.225Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1022,17 +1022,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "A new 'Model Performance' section is required at the very top of the Performance Overview page, positioned ABOVE the existing Metrics & KPI tiles. This section gives users immediate confidence that their model is live, accurate, and up to date.\n\n---\n\nCONTENT REQUIRED:\n\n1. MAPE SCORE\n- Display the current MAPE (Mean Absolute Percentage Error) score\n- Show as a colour-coded badge with a performance label:\n  • Excellent → Green\n  • Good → Yellow-green\n  • Standard → Amber\n  • Poor → Red\n  (Exact thresholds to be confirmed with Robert / Data Science)\n- Display the date and time the MAPE was recorded alongside the score\n- MAPE updates daily — show today's date if available. If not, must be no more than 7 days ago.\n\n2. MODEL REFRESH DATE\n- Date and time the model was last rebuilt / retrained\n- Target: within last 7 days\n- Format: 'Last refreshed: 5 May 2026 at 14:32'\n\n3. LAST ATTRIBUTION RUN\n- Date and time of the most recent attribution data run\n- Runs daily — should reflect the most recent run\n- Format: 'Last attribution run: 6 May 2026 at 09:17'\n\n---\n\nDESIGN INTENT:\n- Must look scientific and data-driven — feels like it is pulled live from the backend\n- Conveys recency and freshness — user should feel their model is current and active\n- MAPE badge colour must be immediately legible without reading the label\n- Do not use decorative or marketing-style design — this is a technical provenance panel\n\n---\n\nType: New feature | Priority: High\nArea: Performance Overview → top of page, above Metrics & KPIs\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T17:02:59.976Z",
-    "updatedAt": "2026-05-25T09:43:57.730Z",
+    "updatedAt": "2026-05-27T14:26:31.146Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1077,17 +1077,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Media Partners section, the table column headers (e.g. Media Partner, Ad Network, Spend, etc.) scroll out of view as the user scrolls down the table. Once the headers disappear, the user has no way to identify which column they are looking at — making the table very difficult to use, especially for clients with many networks.\n\nSTEPS TO REPRODUCE:\n1. Navigate to Media Partners\n2. View the table with multiple networks listed\n3. Scroll down the table\n\nACTUAL RESULT:\n- Column header row scrolls out of view\n- User loses all column context when scrolling through data\n\nEXPECTED BEHAVIOUR:\n- Column headers must be sticky / fixed at the top of the table and remain visible at all times as the user scrolls down\n- This is standard behaviour for any data table — the header row should never scroll out of view\n- Sticky header must apply across all columns in the Media Partners table\n\nThis is a usability issue affecting all clients with more than a small number of networks in their media mix.\n\nType: UX fix | Priority: High\nArea: Media Partners → main table → column headers\nReported by: Gary Danks — 7 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-07T10:47:33.477Z",
-    "updatedAt": "2026-05-25T09:43:58.848Z",
+    "updatedAt": "2026-05-27T14:26:31.061Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1132,17 +1132,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Media Partners section, when a user clicks on a network (e.g. Apple Ads), a Raw Data table is shown. All rows appear with equal visual weight — there is no indication of which row is the current week or month.\n\nSTEPS TO REPRODUCE:\n1. Navigate to Media Partners\n2. Click on any network (e.g. Apple Ads)\n3. View the Raw Data table\n\nACTUAL RESULT: All rows look the same. Current period is not identifiable.\n\nEXPECTED BEHAVIOUR:\n- The current week or month row should be highlighted in green (background or left border) so the user can immediately identify the current period\n- Apply to both weekly and monthly views\n\nNOTE: Screenshot available from Gary Danks.\n\nType: UX improvement | Priority: High | Area: Media Partners → Network detail → Raw Data table\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.459Z",
-    "updatedAt": "2026-05-25T09:43:59.941Z",
+    "updatedAt": "2026-05-27T14:26:30.974Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1187,17 +1187,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "Same issue as UX-01 but in the Spend Advice table within the Media Partners network detail view. No visual indication of which row is the current week or month.\n\nEXPECTED BEHAVIOUR:\n- The current week or month row should be highlighted in green, consistent with the fix in UX-01\n- Both Raw Data and Spend Advice tables should use the same highlight treatment for consistency\n\nType: UX improvement | Priority: High | Area: Media Partners → Network detail → Spend Advice table\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.474Z",
-    "updatedAt": "2026-05-25T09:44:01.140Z",
+    "updatedAt": "2026-05-27T14:26:30.889Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1242,17 +1242,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Media Partners network detail view, the Compare option defaults to displaying by Campaigns. It should default to Sources.\n\nACTUAL RESULT: Compare view opens showing Campaigns by default.\n\nEXPECTED BEHAVIOUR:\n- Default should be Sources\n- Campaigns remains available as a toggle option — this is a default change only, not a removal\n\nType: UX improvement | Priority: Medium | Area: Media Partners → Network detail → Compare view\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.439Z",
-    "updatedAt": "2026-05-25T09:44:02.505Z",
+    "updatedAt": "2026-05-27T14:26:30.794Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1297,17 +1297,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "When a user selects a date cadence and opens the calendar, the preset lookback options (Last 12 months, 9 months, 6 months, etc.) show no active/selected state. The user cannot tell which preset is currently applied.\n\nACTUAL RESULT: All preset options appear unselected regardless of which is active.\n\nEXPECTED BEHAVIOUR:\n- The currently active preset must be clearly highlighted (recommended: blue filled button)\n- Must update dynamically when cadence changes:\n  - Monthly → show monthly presets with active one highlighted\n  - Weekly → show weekly presets (Last 52 weeks, 26 weeks, etc.) with active one highlighted\n- The cadence toggle itself (Monthly / Weekly / Custom) must also clearly show which is active\n\nType: UX improvement | Priority: High | Area: Global — date cadence selector / calendar view\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.444Z",
-    "updatedAt": "2026-05-25T09:44:03.319Z",
+    "updatedAt": "2026-05-27T14:26:30.711Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1352,17 +1352,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The current AIM Insights interface is too clean and minimal. It does not visually convey the sophistication of the underlying Bayesian model. Clients who see it for the first time may not appreciate the level of statistical rigour behind the outputs.\n\nProposed fix: Review the overall visual design with the goal of increasing perceived analytical depth. This does not mean adding clutter — it means adding purposeful structural elements that signal rigour. Starting point: add background grid lines to charts (see DESIGN-02).\n\nType: Design improvement | Priority: High | Area: All pages / global",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.096Z",
-    "updatedAt": "2026-05-25T09:44:04.468Z",
+    "updatedAt": "2026-05-27T14:26:30.635Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1407,17 +1407,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The metrics and KPI tiles on the Performance Overview have no background grid or reference lines. Charts feel bare and imprecise.\n\nProposed fix: Add subtle background grid lines to charts on the Metrics & KPI tiles. Grid lines should represent meaningful time intervals — months or weeks are the right interval. Days would be too granular. The grid should be light and secondary — not competing with the data lines — but present enough to make the chart feel structured and analytical.\n\nDesign reference: Most professional BI and data tools (Looker, Amplitude, Supermetrics) use light grid lines as a baseline.\n\nType: Design improvement | Priority: High | Area: Performance Overview → Metrics & KPIs",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.104Z",
-    "updatedAt": "2026-05-25T09:44:05.338Z",
+    "updatedAt": "2026-05-27T14:26:30.558Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1462,17 +1462,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Predictive Models charts (e.g. Cost per Acquisition chart for ClassPass), there are currently two blue lines: Deep blue = Business as Usual (cost per acquisition) and Light blue = Target Range. The light blue target range line is barely visible and semantically confusing.\n\nProposed fix: Change the Target Range line colour from light blue to green. Rationale: Green is conventionally associated with targets, goals, and positive performance benchmarks. It provides clear visual separation from the business-as-usual line and is immediately intuitive without requiring legend reading.\n\nType: Design improvement | Priority: High | Area: Performance Overview → Predictive Models",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.104Z",
-    "updatedAt": "2026-05-25T09:44:06.419Z",
+    "updatedAt": "2026-05-27T14:26:30.481Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1517,17 +1517,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The right-hand attribution column on the Sources / Media Partners page does not clearly communicate that the values shown are AIM MMM estimates — not last-touch attribution figures.\n\nProposed fix: Rename the column to 'AIM Attribution' or equivalent wording that makes clear these are MMM model estimates.\n\nType: Design improvement | Priority: Medium | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.102Z",
-    "updatedAt": "2026-05-25T09:44:08.138Z",
+    "updatedAt": "2026-05-27T14:26:30.402Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1572,17 +1572,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Performance Overview currently doesn't give the client an at-a-glance summary of which channels are performing and which aren't. The user must drill into individual channel views to understand this.\n\nProposed addition: Add a summary chart near the top of the Performance Overview showing Most efficient media sources (top N channels by efficiency score / marginal ROAS) and Least efficient media sources (bottom N channels — likely over-invested).\n\nDesign options: Horizontal bar chart ranked highest to lowest; Two-column card layout — top 3 most efficient / bottom 3 least efficient; Colour coding — green (efficient), amber (watch), red (over-invested).\n\nNOTE: This is exploratory. Discuss with Robert whether the model produces the right efficiency signal to power this simply and reliably. Do not design this until the data output is confirmed.\n\nType: New feature | Priority: Medium (idea — needs data validation) | Area: Performance Overview → top of page",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.092Z",
-    "updatedAt": "2026-05-25T09:44:08.995Z",
+    "updatedAt": "2026-05-27T14:26:30.323Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1627,17 +1627,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Sources / Media Partners page currently shows attribution data on the right-hand side. In AIM X this will be replaced. For AIM Pro, the left-hand side should also show whether the client is efficient on each channel relative to their media mix.\n\nProposed fix: Add an efficiency / marginal CPA signal to the left-hand side of the page showing whether the client is over-invested, efficient, or under-invested on each channel.\n\nType: New feature | Priority: High | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.086Z",
-    "updatedAt": "2026-05-25T09:44:10.098Z",
+    "updatedAt": "2026-05-27T14:26:30.239Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -1682,17 +1682,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The attribution estimates shown in the AIM Attribution column may be misinterpreted by clients as precise figures rather than model estimates.\n\nProposed fix: Add a health warning tooltip on the AIM Attribution column with text such as: 'These are estimates. Do not treat as certainties.' The tooltip should appear on hover over the column header.\n\nType: Design improvement | Priority: Medium | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.086Z",
-    "updatedAt": "2026-05-25T09:44:11.815Z",
+    "updatedAt": "2026-05-27T14:26:30.151Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -2903,6 +2903,101 @@
     "completedAt": null,
     "createdAt": "2026-05-20T04:21:52.829Z",
     "updatedAt": "2026-05-25T09:44:43.981Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1215168427301402",
+    "title": "[MMM] Update mmm-demo-accounts-sync to generate synthetic data",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1215168427301402",
+    "type": "ISSUE",
+    "status": "AIM / MMM Backlogs",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-27T13:54:53.979Z",
+    "updatedAt": "2026-05-27T13:55:22.880Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5467,7 +5562,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.445Z",
-    "updatedAt": "2026-05-26T09:58:09.179Z",
+    "updatedAt": "2026-05-27T10:15:57.495Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6087,17 +6182,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "Users cannot currently reorder Metrics & KPI tiles or Predictive Model tiles. The order is fixed after creation. This limits the client's ability to prioritise the metrics that matter most to them.\n\nProposed fix: Add drag-and-drop reordering for both Metrics & KPI tiles and Predictive Model tiles.\n\nRule: Ad Spend should always be the first Metrics & KPI tile by default and should be fixed/pinned in position one. All other tiles can be reordered freely.\n\nImplementation notes: Use a standard drag handle icon on the left or top-left of each tile. Order should persist after save. Consider a subtle 'drag to reorder' tooltip on first use.\n\nType: New feature | Priority: High | Area: Performance Overview",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.113Z",
-    "updatedAt": "2026-05-25T09:43:47.854Z",
+    "updatedAt": "2026-05-27T14:26:31.686Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6142,17 +6237,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The cost curve charts do not visually convey the scientific credibility and analytical depth of the underlying model. Feedback: 'like a PowerPoint presentation.'\n\nProposed fix: Improve the visual design of cost curve charts to increase perceived analytical rigour. This does not mean adding unnecessary complexity — it means the charts should feel like they belong in a professional data science product, not a slide deck. Specific improvements TBD in design review.\n\nType: Design improvement | Priority: High | Area: Cost Curve",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.160Z",
-    "updatedAt": "2026-05-25T09:43:49.160Z",
+    "updatedAt": "2026-05-27T14:26:31.610Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6197,17 +6292,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The current attribution column framing is causing client friction. Clients are comparing AIM attribution figures directly against last-touch attribution (LTA) figures from their MMP, which leads to confusion and loss of confidence in the model.\n\nProposed fix: Reframe all copy and tooltips in the attribution column to make clear that these are directional MMM estimates — not a like-for-like comparison with LTA. This is a copy and tooltip fix — not a data change.\n\nNOTE: This is causing active client friction now. Priority item.\n\nType: New feature (copy/UX) | Priority: CRITICAL | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.176Z",
-    "updatedAt": "2026-05-25T09:43:50.489Z",
+    "updatedAt": "2026-05-27T14:26:31.531Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6252,17 +6347,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Performance Overview currently shows outputs but no information about the model that generated them. Clients have no visibility into how accurate the model is, when it was last updated, or when attribution data was last run.\n\nProposed additions — add the following contextual signals to the Performance Overview header or model info panel:\n- MAPE Score: The model's Mean Absolute Percentage Error — displayed alongside the date it was calculated\n- Model Last Updated: Date and time the model was last rebuilt/retrained\n- Last Attribution Run: Date and time of the most recent attribution data run\n\nExample format: 'Model accuracy (MAPE): 8.4% (calculated 28 Apr 2026) | Last model update: 29 Apr 2026 14:32 | Last attribution run: 30 Apr 2026 09:17'\n\nThese are read-only provenance indicators that materially increase client confidence and reduce 'is this fresh?' support questions.\n\nType: New feature | Priority: High | Area: Performance Overview → header",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.243Z",
-    "updatedAt": "2026-05-25T09:43:51.832Z",
+    "updatedAt": "2026-05-27T14:26:31.455Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6307,17 +6402,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "Users have no at-a-glance view of which filters are currently applied. After selecting cadence and lookback window there is no persistent on-screen indicator.\n\nPROPOSED SOLUTION:\nAdd a persistent filter bar near the top of all pages showing active filters as labelled pill/chip buttons.\n\nExample:\n[ Monthly ] [ Last 12 Months ] [ All Platforms ] [ All Networks ]\n\nDesign requirements:\n- Pill/chip button style — not plain text\n- Each chip clearly labelled with its current value\n- Clicking a chip opens the relevant filter selector inline\n- Updates immediately when filters change\n- Must include at minimum: cadence + lookback window. Platform and network filters should also appear here.\n\nType: New feature | Priority: High | Area: Global — all pages, specifically Performance Overview and Media Partners\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.451Z",
-    "updatedAt": "2026-05-25T09:43:52.899Z",
+    "updatedAt": "2026-05-27T14:26:31.382Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6362,17 +6457,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The current date filter UI is unclear. The full calendar button takes up too much space and the relationship between cadence and lookback window is not obvious.\n\nPROPOSED REDESIGN:\n\n1. CADENCE SELECTOR — segmented toggle:\n   Monthly | Weekly | Custom\n\n2. LOOKBACK WINDOW SELECTOR — adjacent dropdown or segmented selector showing options relevant to the selected cadence:\n   - Monthly: Last 12 Months | Last 9 Months | Last 6 Months | Custom Range\n   - Weekly: Last 52 Weeks | Last 26 Weeks | Last 13 Weeks | Custom Range\n   - Custom: Custom Range only\n\n3. CALENDAR — reduce to a small calendar icon. When clicked, opens the existing calendar overlay (same behaviour as today, smaller trigger). Only needed for custom date range selection.\n\nThis is a UI redesign only — no change to underlying date logic or data.\n\nCombined with FEATURE-06 (persistent filter bar), the user will always know exactly what they are looking at.\n\nType: New feature / UX redesign | Priority: High | Area: Global — date filter / cadence selector\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.449Z",
-    "updatedAt": "2026-05-25T09:43:53.973Z",
+    "updatedAt": "2026-05-27T14:26:31.304Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6417,17 +6512,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Recommendations section currently lists recommendations with no context about what the optimizer is working towards or when it last ran. Two additions required.\n\n---\n\nCHANGES REQUIRED:\n\n1. OPTIMIZER TARGET SUMMARY\n- Add a summary statement at the top of the Recommendations section, above individual recommendation rows\n- Must clearly state what KPI the optimizer is currently optimising towards\n- Example: 'Currently optimising towards: Paid Subscriptions'\n- Must be dynamically pulled from the client's model configuration — not hardcoded\n- Will differ per client (e.g. 'Subscriptions' for ClassPass, 'First Time Deposits' for fintech, etc.)\n\n2. OPTIMIZER LAST RUN DATE AND TIME\n- Display the date and time the optimizer last ran, adjacent to or below the target summary\n- Example: 'Optimizer last run: 5 May 2026 at 22:00'\n- Must include a timestamp — date alone is not sufficient\n- Must be clearly distinguished from the Model Refresh Date (see FEATURE-08)\n\n---\n\nDESIGN INTENT:\n- Compact, positioned at top of Recommendations section — first thing user reads before acting on any recommendation\n- Should feel like a live system status panel, not a marketing message\n- Gives the user confidence that recommendations are current and reflect the latest model run\n\n---\n\nType: New feature | Priority: High\nArea: Recommendations / Optimizer → section header\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T17:02:59.974Z",
-    "updatedAt": "2026-05-25T09:43:54.868Z",
+    "updatedAt": "2026-05-27T14:26:31.225Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6472,17 +6567,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "A new 'Model Performance' section is required at the very top of the Performance Overview page, positioned ABOVE the existing Metrics & KPI tiles. This section gives users immediate confidence that their model is live, accurate, and up to date.\n\n---\n\nCONTENT REQUIRED:\n\n1. MAPE SCORE\n- Display the current MAPE (Mean Absolute Percentage Error) score\n- Show as a colour-coded badge with a performance label:\n  • Excellent → Green\n  • Good → Yellow-green\n  • Standard → Amber\n  • Poor → Red\n  (Exact thresholds to be confirmed with Robert / Data Science)\n- Display the date and time the MAPE was recorded alongside the score\n- MAPE updates daily — show today's date if available. If not, must be no more than 7 days ago.\n\n2. MODEL REFRESH DATE\n- Date and time the model was last rebuilt / retrained\n- Target: within last 7 days\n- Format: 'Last refreshed: 5 May 2026 at 14:32'\n\n3. LAST ATTRIBUTION RUN\n- Date and time of the most recent attribution data run\n- Runs daily — should reflect the most recent run\n- Format: 'Last attribution run: 6 May 2026 at 09:17'\n\n---\n\nDESIGN INTENT:\n- Must look scientific and data-driven — feels like it is pulled live from the backend\n- Conveys recency and freshness — user should feel their model is current and active\n- MAPE badge colour must be immediately legible without reading the label\n- Do not use decorative or marketing-style design — this is a technical provenance panel\n\n---\n\nType: New feature | Priority: High\nArea: Performance Overview → top of page, above Metrics & KPIs\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T17:02:59.976Z",
-    "updatedAt": "2026-05-25T09:43:57.730Z",
+    "updatedAt": "2026-05-27T14:26:31.146Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6527,17 +6622,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Media Partners section, the table column headers (e.g. Media Partner, Ad Network, Spend, etc.) scroll out of view as the user scrolls down the table. Once the headers disappear, the user has no way to identify which column they are looking at — making the table very difficult to use, especially for clients with many networks.\n\nSTEPS TO REPRODUCE:\n1. Navigate to Media Partners\n2. View the table with multiple networks listed\n3. Scroll down the table\n\nACTUAL RESULT:\n- Column header row scrolls out of view\n- User loses all column context when scrolling through data\n\nEXPECTED BEHAVIOUR:\n- Column headers must be sticky / fixed at the top of the table and remain visible at all times as the user scrolls down\n- This is standard behaviour for any data table — the header row should never scroll out of view\n- Sticky header must apply across all columns in the Media Partners table\n\nThis is a usability issue affecting all clients with more than a small number of networks in their media mix.\n\nType: UX fix | Priority: High\nArea: Media Partners → main table → column headers\nReported by: Gary Danks — 7 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-07T10:47:33.477Z",
-    "updatedAt": "2026-05-25T09:43:58.848Z",
+    "updatedAt": "2026-05-27T14:26:31.061Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6582,17 +6677,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Media Partners section, when a user clicks on a network (e.g. Apple Ads), a Raw Data table is shown. All rows appear with equal visual weight — there is no indication of which row is the current week or month.\n\nSTEPS TO REPRODUCE:\n1. Navigate to Media Partners\n2. Click on any network (e.g. Apple Ads)\n3. View the Raw Data table\n\nACTUAL RESULT: All rows look the same. Current period is not identifiable.\n\nEXPECTED BEHAVIOUR:\n- The current week or month row should be highlighted in green (background or left border) so the user can immediately identify the current period\n- Apply to both weekly and monthly views\n\nNOTE: Screenshot available from Gary Danks.\n\nType: UX improvement | Priority: High | Area: Media Partners → Network detail → Raw Data table\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.459Z",
-    "updatedAt": "2026-05-25T09:43:59.941Z",
+    "updatedAt": "2026-05-27T14:26:30.974Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6637,17 +6732,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "Same issue as UX-01 but in the Spend Advice table within the Media Partners network detail view. No visual indication of which row is the current week or month.\n\nEXPECTED BEHAVIOUR:\n- The current week or month row should be highlighted in green, consistent with the fix in UX-01\n- Both Raw Data and Spend Advice tables should use the same highlight treatment for consistency\n\nType: UX improvement | Priority: High | Area: Media Partners → Network detail → Spend Advice table\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.474Z",
-    "updatedAt": "2026-05-25T09:44:01.140Z",
+    "updatedAt": "2026-05-27T14:26:30.889Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6692,17 +6787,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Media Partners network detail view, the Compare option defaults to displaying by Campaigns. It should default to Sources.\n\nACTUAL RESULT: Compare view opens showing Campaigns by default.\n\nEXPECTED BEHAVIOUR:\n- Default should be Sources\n- Campaigns remains available as a toggle option — this is a default change only, not a removal\n\nType: UX improvement | Priority: Medium | Area: Media Partners → Network detail → Compare view\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.439Z",
-    "updatedAt": "2026-05-25T09:44:02.505Z",
+    "updatedAt": "2026-05-27T14:26:30.794Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6747,17 +6842,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "When a user selects a date cadence and opens the calendar, the preset lookback options (Last 12 months, 9 months, 6 months, etc.) show no active/selected state. The user cannot tell which preset is currently applied.\n\nACTUAL RESULT: All preset options appear unselected regardless of which is active.\n\nEXPECTED BEHAVIOUR:\n- The currently active preset must be clearly highlighted (recommended: blue filled button)\n- Must update dynamically when cadence changes:\n  - Monthly → show monthly presets with active one highlighted\n  - Weekly → show weekly presets (Last 52 weeks, 26 weeks, etc.) with active one highlighted\n- The cadence toggle itself (Monthly / Weekly / Custom) must also clearly show which is active\n\nType: UX improvement | Priority: High | Area: Global — date cadence selector / calendar view\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.444Z",
-    "updatedAt": "2026-05-25T09:44:03.319Z",
+    "updatedAt": "2026-05-27T14:26:30.711Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6802,17 +6897,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The current AIM Insights interface is too clean and minimal. It does not visually convey the sophistication of the underlying Bayesian model. Clients who see it for the first time may not appreciate the level of statistical rigour behind the outputs.\n\nProposed fix: Review the overall visual design with the goal of increasing perceived analytical depth. This does not mean adding clutter — it means adding purposeful structural elements that signal rigour. Starting point: add background grid lines to charts (see DESIGN-02).\n\nType: Design improvement | Priority: High | Area: All pages / global",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.096Z",
-    "updatedAt": "2026-05-25T09:44:04.468Z",
+    "updatedAt": "2026-05-27T14:26:30.635Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6857,17 +6952,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The metrics and KPI tiles on the Performance Overview have no background grid or reference lines. Charts feel bare and imprecise.\n\nProposed fix: Add subtle background grid lines to charts on the Metrics & KPI tiles. Grid lines should represent meaningful time intervals — months or weeks are the right interval. Days would be too granular. The grid should be light and secondary — not competing with the data lines — but present enough to make the chart feel structured and analytical.\n\nDesign reference: Most professional BI and data tools (Looker, Amplitude, Supermetrics) use light grid lines as a baseline.\n\nType: Design improvement | Priority: High | Area: Performance Overview → Metrics & KPIs",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.104Z",
-    "updatedAt": "2026-05-25T09:44:05.338Z",
+    "updatedAt": "2026-05-27T14:26:30.558Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6912,17 +7007,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Predictive Models charts (e.g. Cost per Acquisition chart for ClassPass), there are currently two blue lines: Deep blue = Business as Usual (cost per acquisition) and Light blue = Target Range. The light blue target range line is barely visible and semantically confusing.\n\nProposed fix: Change the Target Range line colour from light blue to green. Rationale: Green is conventionally associated with targets, goals, and positive performance benchmarks. It provides clear visual separation from the business-as-usual line and is immediately intuitive without requiring legend reading.\n\nType: Design improvement | Priority: High | Area: Performance Overview → Predictive Models",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.104Z",
-    "updatedAt": "2026-05-25T09:44:06.419Z",
+    "updatedAt": "2026-05-27T14:26:30.481Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6967,17 +7062,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The right-hand attribution column on the Sources / Media Partners page does not clearly communicate that the values shown are AIM MMM estimates — not last-touch attribution figures.\n\nProposed fix: Rename the column to 'AIM Attribution' or equivalent wording that makes clear these are MMM model estimates.\n\nType: Design improvement | Priority: Medium | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.102Z",
-    "updatedAt": "2026-05-25T09:44:08.138Z",
+    "updatedAt": "2026-05-27T14:26:30.402Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7022,17 +7117,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Performance Overview currently doesn't give the client an at-a-glance summary of which channels are performing and which aren't. The user must drill into individual channel views to understand this.\n\nProposed addition: Add a summary chart near the top of the Performance Overview showing Most efficient media sources (top N channels by efficiency score / marginal ROAS) and Least efficient media sources (bottom N channels — likely over-invested).\n\nDesign options: Horizontal bar chart ranked highest to lowest; Two-column card layout — top 3 most efficient / bottom 3 least efficient; Colour coding — green (efficient), amber (watch), red (over-invested).\n\nNOTE: This is exploratory. Discuss with Robert whether the model produces the right efficiency signal to power this simply and reliably. Do not design this until the data output is confirmed.\n\nType: New feature | Priority: Medium (idea — needs data validation) | Area: Performance Overview → top of page",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.092Z",
-    "updatedAt": "2026-05-25T09:44:08.995Z",
+    "updatedAt": "2026-05-27T14:26:30.323Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7077,17 +7172,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The Sources / Media Partners page currently shows attribution data on the right-hand side. In AIM X this will be replaced. For AIM Pro, the left-hand side should also show whether the client is efficient on each channel relative to their media mix.\n\nProposed fix: Add an efficiency / marginal CPA signal to the left-hand side of the page showing whether the client is over-invested, efficient, or under-invested on each channel.\n\nType: New feature | Priority: High | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.086Z",
-    "updatedAt": "2026-05-25T09:44:10.098Z",
+    "updatedAt": "2026-05-27T14:26:30.239Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -7132,17 +7227,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "The attribution estimates shown in the AIM Attribution column may be misinterpreted by clients as precise figures rather than model estimates.\n\nProposed fix: Add a health warning tooltip on the AIM Attribution column with text such as: 'These are estimates. Do not treat as certainties.' The tooltip should appear on hover over the column header.\n\nType: Design improvement | Priority: Medium | Area: Sources / Media Partners",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.086Z",
-    "updatedAt": "2026-05-25T09:44:11.815Z",
+    "updatedAt": "2026-05-27T14:26:30.151Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -8353,6 +8448,101 @@
     "completedAt": null,
     "createdAt": "2026-05-20T04:21:52.829Z",
     "updatedAt": "2026-05-25T09:44:43.981Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
+    "id": "1215168427301402",
+    "title": "[MMM] Update mmm-demo-accounts-sync to generate synthetic data",
+    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1215168427301402",
+    "type": "ISSUE",
+    "status": "AIM / MMM Backlogs",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-05-27T13:54:53.979Z",
+    "updatedAt": "2026-05-27T13:55:22.880Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

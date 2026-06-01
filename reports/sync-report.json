@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-01T06:09:24.129Z",
+  "timestamp": "2026-06-01T20:59:26.871Z",
   "masterProjectGid": "1213645932471387",
   "masterProjectUrl": "https://app.asana.com/1/8559678460204/project/1213645932471387",
   "stats": {
@@ -14,9 +14,9 @@
     "AIM ETL Requirements": 27
   },
   "tasksByStatus": {
-    "Ready": 87,
+    "Ready": 85,
+    "Done": 71,
     "In Progress": 10,
-    "Done": 69,
     "Blocked": 1
   }
 }

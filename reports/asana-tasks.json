@@ -7,17 +7,17 @@
     "status": "Backlog for post-pilot launch",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Predictive Models section on the Performance Overview, the BAU (predicted) line and the Target Range line display incorrectly when a single model is selected. The issue does NOT appear when 'All Models' is selected — only when filtered to a single model (e.g. Web only).\n\nOBSERVED ON: ClassPass account (unified model)\n\nSTEPS TO REPRODUCE:\n1. Open Performance Overview for ClassPass\n2. Select all models — observe Predictive Models chart (note correct display)\n3. Change filter to a single model (e.g. Web)\n4. Observe the BAU line and Target Range line on the chart\n5. Hover over the chart to see the tooltip\n\nACTUAL RESULT:\n- The Target Range line appears HIGHER than the BAU (blue dotted) line on the chart\n- However the tooltip shows the Target Range as LOWER — the opposite of what the chart displays\n- The line chart and the tooltip are showing contradictory information\n- The two lines appear to flip / swap their axis assignments when switching from All Models to a single model filter\n\nEXPECTED BEHAVIOUR:\n- The tooltip must always correctly identify which line is BAU and which is Target Range\n- The values shown in the tooltip must match the visual position of the lines on the chart\n- Switching between All Models and single model filter must not cause the lines or their labels to swap\n\nNOTE: Screenshot available from Gary Danks — request before investigating.\nNOTE: May be specific to ClassPass as a unified model — check whether this occurs on other accounts.\n\nType: Bug | Priority: Critical | Area: Performance Overview → Predictive Models\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.445Z",
-    "updatedAt": "2026-05-27T10:15:57.495Z",
+    "updatedAt": "2026-06-01T14:03:56.819Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -188,7 +188,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P0",
         "type": "enum"
       },
       {
@@ -222,7 +222,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-14T06:02:12.935Z",
-    "updatedAt": "2026-05-18T15:38:07.261Z",
+    "updatedAt": "2026-06-01T14:04:13.318Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -243,7 +243,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P0",
         "type": "enum"
       },
       {
@@ -261,7 +261,7 @@
   },
   {
     "id": "1214251617271033",
-    "title": "[MMM] Fix AIM Management Key Cache Issue",
+    "title": "[AIM] Fix AIM Management Key Cache Issue",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214251617271033",
     "type": "ISSUE",
     "status": "AIM / MMM Backlogs",
@@ -277,7 +277,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-24T07:32:22.395Z",
-    "updatedAt": "2026-05-25T09:43:33.998Z",
+    "updatedAt": "2026-06-01T14:05:07.860Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -329,7 +329,7 @@
     "title": "[MMM] [FEATURE-10] Cost Curves — Add Select All / Deselect All toggle for media partners",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214634641291078",
     "type": "ISSUE",
-    "status": "AIM / MMM Backlogs",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -339,10 +339,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "The Cost Curves section has no way to select or deselect all media partners at once. This existed in the previous AIM platform and needs to be reinstated.\n\nREQUIRED BEHAVIOUR:\n- Add a Select All control at the top of the media partner list\n- When clicked: all partners selected and all curves shown\n- Toggle or separate Deselect All button to clear all selections\n- Chart updates immediately on change — no page reload required\n\nThis is a regression from the previous platform.\n\nType: Missing feature (regression) | Priority: High | Area: Cost Curves → media partner selector\nReported by: Gary Danks — 8 May 2026",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-01T14:06:14.193Z",
     "createdAt": "2026-05-08T10:13:56.635Z",
-    "updatedAt": "2026-05-25T09:43:39.192Z",
+    "updatedAt": "2026-06-01T14:06:14.269Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -368,7 +368,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -702,7 +702,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.160Z",
-    "updatedAt": "2026-05-27T14:26:31.610Z",
+    "updatedAt": "2026-06-01T14:07:15.327Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -723,7 +723,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P1",
         "type": "enum"
       },
       {
@@ -757,7 +757,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.176Z",
-    "updatedAt": "2026-05-27T14:26:31.531Z",
+    "updatedAt": "2026-06-01T14:08:19.760Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -778,7 +778,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P0",
         "type": "enum"
       },
       {
@@ -967,17 +967,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
       }
     ],
-    "primaryAssignee": "Lovepreet Singh",
+    "primaryAssignee": "Lyazii Christopher",
     "description": "The Recommendations section currently lists recommendations with no context about what the optimizer is working towards or when it last ran. Two additions required.\n\n---\n\nCHANGES REQUIRED:\n\n1. OPTIMIZER TARGET SUMMARY\n- Add a summary statement at the top of the Recommendations section, above individual recommendation rows\n- Must clearly state what KPI the optimizer is currently optimising towards\n- Example: 'Currently optimising towards: Paid Subscriptions'\n- Must be dynamically pulled from the client's model configuration — not hardcoded\n- Will differ per client (e.g. 'Subscriptions' for ClassPass, 'First Time Deposits' for fintech, etc.)\n\n2. OPTIMIZER LAST RUN DATE AND TIME\n- Display the date and time the optimizer last ran, adjacent to or below the target summary\n- Example: 'Optimizer last run: 5 May 2026 at 22:00'\n- Must include a timestamp — date alone is not sufficient\n- Must be clearly distinguished from the Model Refresh Date (see FEATURE-08)\n\n---\n\nDESIGN INTENT:\n- Compact, positioned at top of Recommendations section — first thing user reads before acting on any recommendation\n- Should feel like a live system status panel, not a marketing message\n- Gives the user confidence that recommendations are current and reflect the latest model run\n\n---\n\nType: New feature | Priority: High\nArea: Recommendations / Optimizer → section header\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T17:02:59.974Z",
-    "updatedAt": "2026-05-27T14:26:31.225Z",
+    "updatedAt": "2026-06-01T14:09:24.718Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5552,17 +5552,17 @@
     "status": "Backlog for post-pilot launch",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Lovepreet Singh",
     "description": "In the Predictive Models section on the Performance Overview, the BAU (predicted) line and the Target Range line display incorrectly when a single model is selected. The issue does NOT appear when 'All Models' is selected — only when filtered to a single model (e.g. Web only).\n\nOBSERVED ON: ClassPass account (unified model)\n\nSTEPS TO REPRODUCE:\n1. Open Performance Overview for ClassPass\n2. Select all models — observe Predictive Models chart (note correct display)\n3. Change filter to a single model (e.g. Web)\n4. Observe the BAU line and Target Range line on the chart\n5. Hover over the chart to see the tooltip\n\nACTUAL RESULT:\n- The Target Range line appears HIGHER than the BAU (blue dotted) line on the chart\n- However the tooltip shows the Target Range as LOWER — the opposite of what the chart displays\n- The line chart and the tooltip are showing contradictory information\n- The two lines appear to flip / swap their axis assignments when switching from All Models to a single model filter\n\nEXPECTED BEHAVIOUR:\n- The tooltip must always correctly identify which line is BAU and which is Target Range\n- The values shown in the tooltip must match the visual position of the lines on the chart\n- Switching between All Models and single model filter must not cause the lines or their labels to swap\n\nNOTE: Screenshot available from Gary Danks — request before investigating.\nNOTE: May be specific to ClassPass as a unified model — check whether this occurs on other accounts.\n\nType: Bug | Priority: Critical | Area: Performance Overview → Predictive Models\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T16:50:58.445Z",
-    "updatedAt": "2026-05-27T10:15:57.495Z",
+    "updatedAt": "2026-06-01T14:03:56.819Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5733,7 +5733,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P0",
         "type": "enum"
       },
       {
@@ -5767,7 +5767,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-14T06:02:12.935Z",
-    "updatedAt": "2026-05-18T15:38:07.261Z",
+    "updatedAt": "2026-06-01T14:04:13.318Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5788,7 +5788,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P0",
         "type": "enum"
       },
       {
@@ -5806,7 +5806,7 @@
   },
   {
     "id": "1214251617271033",
-    "title": "[MMM] Fix AIM Management Key Cache Issue",
+    "title": "[AIM] Fix AIM Management Key Cache Issue",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214251617271033",
     "type": "ISSUE",
     "status": "AIM / MMM Backlogs",
@@ -5822,7 +5822,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-04-24T07:32:22.395Z",
-    "updatedAt": "2026-05-25T09:43:33.998Z",
+    "updatedAt": "2026-06-01T14:05:07.860Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5874,7 +5874,7 @@
     "title": "[MMM] [FEATURE-10] Cost Curves — Add Select All / Deselect All toggle for media partners",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214634641291078",
     "type": "ISSUE",
-    "status": "AIM / MMM Backlogs",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1207752353167788",
@@ -5884,10 +5884,10 @@
     ],
     "primaryAssignee": "Lovepreet Singh",
     "description": "The Cost Curves section has no way to select or deselect all media partners at once. This existed in the previous AIM platform and needs to be reinstated.\n\nREQUIRED BEHAVIOUR:\n- Add a Select All control at the top of the media partner list\n- When clicked: all partners selected and all curves shown\n- Toggle or separate Deselect All button to clear all selections\n- Chart updates immediately on change — no page reload required\n\nThis is a regression from the previous platform.\n\nType: Missing feature (regression) | Priority: High | Area: Cost Curves → media partner selector\nReported by: Gary Danks — 8 May 2026",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-01T14:06:14.193Z",
     "createdAt": "2026-05-08T10:13:56.635Z",
-    "updatedAt": "2026-05-25T09:43:39.192Z",
+    "updatedAt": "2026-06-01T14:06:14.269Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -5913,7 +5913,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       }
     ],
@@ -6247,7 +6247,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.160Z",
-    "updatedAt": "2026-05-27T14:26:31.610Z",
+    "updatedAt": "2026-06-01T14:07:15.327Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6268,7 +6268,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P1",
         "type": "enum"
       },
       {
@@ -6302,7 +6302,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T14:53:46.176Z",
-    "updatedAt": "2026-05-27T14:26:31.531Z",
+    "updatedAt": "2026-06-01T14:08:19.760Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6323,7 +6323,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": null,
+        "value": "P0",
         "type": "enum"
       },
       {
@@ -6512,17 +6512,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1207752353167788",
-        "name": "Lovepreet Singh",
-        "email": "lsingh@kochava.com"
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
       }
     ],
-    "primaryAssignee": "Lovepreet Singh",
+    "primaryAssignee": "Lyazii Christopher",
     "description": "The Recommendations section currently lists recommendations with no context about what the optimizer is working towards or when it last ran. Two additions required.\n\n---\n\nCHANGES REQUIRED:\n\n1. OPTIMIZER TARGET SUMMARY\n- Add a summary statement at the top of the Recommendations section, above individual recommendation rows\n- Must clearly state what KPI the optimizer is currently optimising towards\n- Example: 'Currently optimising towards: Paid Subscriptions'\n- Must be dynamically pulled from the client's model configuration — not hardcoded\n- Will differ per client (e.g. 'Subscriptions' for ClassPass, 'First Time Deposits' for fintech, etc.)\n\n2. OPTIMIZER LAST RUN DATE AND TIME\n- Display the date and time the optimizer last ran, adjacent to or below the target summary\n- Example: 'Optimizer last run: 5 May 2026 at 22:00'\n- Must include a timestamp — date alone is not sufficient\n- Must be clearly distinguished from the Model Refresh Date (see FEATURE-08)\n\n---\n\nDESIGN INTENT:\n- Compact, positioned at top of Recommendations section — first thing user reads before acting on any recommendation\n- Should feel like a live system status panel, not a marketing message\n- Gives the user confidence that recommendations are current and reflect the latest model run\n\n---\n\nType: New feature | Priority: High\nArea: Recommendations / Optimizer → section header\nReported by: Gary Danks — 6 May 2026",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-06T17:02:59.974Z",
-    "updatedAt": "2026-05-27T14:26:31.225Z",
+    "updatedAt": "2026-06-01T14:09:24.718Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

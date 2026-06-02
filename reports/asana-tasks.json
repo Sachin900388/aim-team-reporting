@@ -2984,7 +2984,7 @@
     "title": "[MMM] Update mmm-demo-accounts-sync to generate synthetic data",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1215168427301402",
     "type": "ISSUE",
-    "status": "AIM / MMM Backlogs",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -2994,11 +2994,11 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-02T11:20:21.075Z",
     "createdAt": "2026-05-27T13:54:53.979Z",
-    "updatedAt": "2026-05-27T13:55:22.880Z",
-    "dueOn": null,
+    "updatedAt": "2026-06-02T11:20:21.209Z",
+    "dueOn": "2026-06-02",
     "tags": [],
     "customFields": [
       {
@@ -3023,7 +3023,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -8529,7 +8529,7 @@
     "title": "[MMM] Update mmm-demo-accounts-sync to generate synthetic data",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1215168427301402",
     "type": "ISSUE",
-    "status": "AIM / MMM Backlogs",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -8539,11 +8539,11 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-02T11:20:21.075Z",
     "createdAt": "2026-05-27T13:54:53.979Z",
-    "updatedAt": "2026-05-27T13:55:22.880Z",
-    "dueOn": null,
+    "updatedAt": "2026-06-02T11:20:21.209Z",
+    "dueOn": "2026-06-02",
     "tags": [],
     "customFields": [
       {
@@ -8568,7 +8568,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -13012,7 +13012,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-02T04:33:04.333Z",
-    "updatedAt": "2026-06-02T04:34:33.784Z",
+    "updatedAt": "2026-06-02T18:30:22.538Z",
     "dueOn": "2026-06-03",
     "tags": [],
     "customFields": [

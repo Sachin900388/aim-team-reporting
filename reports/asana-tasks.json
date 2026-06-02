@@ -12995,6 +12995,101 @@
     }
   },
   {
+    "id": "1215311651523493",
+    "title": "Advertiser specific validation rules",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1215311651523493",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Right now, we have 29 rules that run every day for each advertiser. But, lets take example of Class Pass. They do not even have any cohort data but the cohort rules keep running and throws error as critical. So we need to exclude cohort related rules for Class pass.\nSo the idea is to maintain a map of advertiser Ids and applicable rule Ids and only run those relevant rules for each advertiser. This way, we can truly identify the actual issues in the advertiser data by reducing irrelevant noise.",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-02T04:33:04.333Z",
+    "updatedAt": "2026-06-02T04:34:33.784Z",
+    "dueOn": "2026-06-03",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-06-03T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM ETL Requirements",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Direct",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1213879944998970",
     "title": "New ETL - Singular connector - AI SDLC",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998970",
@@ -13202,7 +13297,7 @@
     "completed": true,
     "completedAt": "2026-05-13T02:24:05.025Z",
     "createdAt": "2026-03-30T09:26:39.188Z",
-    "updatedAt": "2026-05-13T02:24:05.144Z",
+    "updatedAt": "2026-06-02T04:37:09.272Z",
     "dueOn": "2026-04-21",
     "tags": [],
     "customFields": [
@@ -13238,7 +13333,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -13962,7 +14057,7 @@
     "completed": true,
     "completedAt": "2026-05-18T17:20:59.268Z",
     "createdAt": "2026-04-02T15:20:20.104Z",
-    "updatedAt": "2026-05-18T17:20:59.484Z",
+    "updatedAt": "2026-06-02T04:36:45.527Z",
     "dueOn": "2026-05-13",
     "tags": [],
     "customFields": [
@@ -13998,7 +14093,7 @@
       },
       {
         "name": "State",
-        "value": "OnHold",
+        "value": "Completed",
         "type": "enum"
       },
       {

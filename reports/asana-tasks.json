@@ -11090,9 +11090,9 @@
     }
   },
   {
-    "id": "1214768519227082",
-    "title": "Planet Art (US) - Migration from Supermetrics to Windsor AI",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214768519227082",
+    "id": "1214769262042310",
+    "title": "Planet Art - Migration from AppsFlyer to Adjust",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214769262042310",
     "type": "ISSUE",
     "status": "Intake",
     "assignees": [
@@ -11103,11 +11103,11 @@
       }
     ],
     "primaryAssignee": "Jaya Kumar",
-    "description": "Planet Art US  (Karl) has mentioned they'll be moving away from Supermetrics at the end of June, they're moving over to Windsor AI.\n\nThey believe the dataset will remain the same, but perhaps some structures may be different, so they'd like us to share some guidance on how to migrate from Supermetrics bucket to Windsor AI bucket, particularly the critical data needed for their AIM models to work. For example:\n    which buckets/directories we currently use to pull data from Supermetrics\n    what are the critical attributed needed? are there any attributed that we're currently pulling but are not necessary for AIM?\n    do we need any sort of historical data from Supermetrics? he is not sure if that historical data will be available in Windsor AI, but he thinks it won't.\n    Karl mentioned that 'device_type' from ASA is not available in Windsor AI - would this represent an issue for our system?\n",
+    "description": "Planet Art has informed us that they're considering moving from AppsFlyer to Adjust and plan to start the Adjust integration at the beginning of June with a 3-month transition, during which they will keep AF in parallel.\n\nThey're wondering about the potential impact and implications of this transition, looking for potential call-outs/limitations and a transition plan from our side.",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-05-13T09:51:08.528Z",
-    "updatedAt": "2026-05-22T12:56:00.622Z",
+    "createdAt": "2026-05-13T10:24:58.055Z",
+    "updatedAt": "2026-05-26T08:58:45.792Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11190,11 +11190,11 @@
     }
   },
   {
-    "id": "1214769262042310",
-    "title": "Planet Art - Migration from AppsFlyer to Adjust",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214769262042310",
+    "id": "1214768519227082",
+    "title": "Planet Art (US) - Migration from Supermetrics to Windsor AI",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214768519227082",
     "type": "ISSUE",
-    "status": "Intake",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -11203,11 +11203,11 @@
       }
     ],
     "primaryAssignee": "Jaya Kumar",
-    "description": "Planet Art has informed us that they're considering moving from AppsFlyer to Adjust and plan to start the Adjust integration at the beginning of June with a 3-month transition, during which they will keep AF in parallel.\n\nThey're wondering about the potential impact and implications of this transition, looking for potential call-outs/limitations and a transition plan from our side.",
+    "description": "Planet Art US  (Karl) has mentioned they'll be moving away from Supermetrics at the end of June, they're moving over to Windsor AI.\n\nThey believe the dataset will remain the same, but perhaps some structures may be different, so they'd like us to share some guidance on how to migrate from Supermetrics bucket to Windsor AI bucket, particularly the critical data needed for their AIM models to work. For example:\n    which buckets/directories we currently use to pull data from Supermetrics\n    what are the critical attributed needed? are there any attributed that we're currently pulling but are not necessary for AIM?\n    do we need any sort of historical data from Supermetrics? he is not sure if that historical data will be available in Windsor AI, but he thinks it won't.\n    Karl mentioned that 'device_type' from ASA is not available in Windsor AI - would this represent an issue for our system?\n",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-05-26T08:58:45.792Z",
+    "createdAt": "2026-05-13T09:51:08.528Z",
+    "updatedAt": "2026-06-04T17:03:48.142Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11238,22 +11238,222 @@
       },
       {
         "name": "Time to Pickup",
-        "value": null,
+        "value": "2d 0h",
         "type": "number"
       },
       {
         "name": "Date Backlog",
-        "value": null,
+        "value": "2026-06-01T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "Date In Progress",
-        "value": null,
+        "value": "2026-06-03T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "Time to Complete",
         "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215427909845410",
+    "title": "Cabify - ingest historical installs",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215427909845410",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Cabify included installs in their google drive files and we need to dedup and ingest the whole data set and as part of daily sync.\n\nproblem is installs is only associated with 360d cohort and so this needs a customised solution",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-04T16:19:30.145Z",
+    "updatedAt": "2026-06-04T18:30:27.557Z",
+    "dueOn": "2026-06-05",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": "0h 00m",
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": "2026-06-04T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-04T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215427909845414",
+    "title": "Planet Art - Investigate Podcasts data mismatch",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215427909845414",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "The client complained about data mismatch for Podcasts network for ios UK. ",
+    "completed": true,
+    "completedAt": "2026-06-04T16:25:14.704Z",
+    "createdAt": "2026-06-04T16:21:19.672Z",
+    "updatedAt": "2026-06-04T16:25:15.245Z",
+    "dueOn": "2026-06-04",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": "0h 00m",
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": "2026-06-04T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-04T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "16h 25m",
         "type": "number"
       },
       {

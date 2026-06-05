@@ -5,6 +5,7 @@
     "Complete",
     "In Progress",
     "Not Started",
+    "Done",
     "Prod Deployment",
     "R1 : Frontend | Performance Overview (AIM)",
     "Production Deployment",
@@ -20,7 +21,6 @@
     "Complete",
     "Untitled section",
     "Blocked",
-    "In Progress",
     "Not Started"
   ]
 }

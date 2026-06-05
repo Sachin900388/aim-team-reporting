@@ -3075,6 +3075,171 @@
     }
   },
   {
+    "id": "1215441798707642",
+    "title": "Migrate Adobe Acrobat to QA",
+    "url": "https://app.asana.com/1/8559678460204/project/1209286557928566/task/1215441798707642",
+    "type": "ISSUE",
+    "status": "Done",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "Please migrate Adobe Acrobat (31341) account to QA, this is needed for testing https://app.asana.com/1/8559678460204/task/1215410872418330",
+    "completed": true,
+    "completedAt": "2026-06-05T13:02:25.679Z",
+    "createdAt": "2026-06-05T08:24:35.266Z",
+    "updatedAt": "2026-06-05T13:02:27.271Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Date Intake",
+        "value": "2026-06-05T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "IntegrationType",
+        "value": "SSO/IAM",
+        "type": "enum"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Requested Due Date",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Tracking Status",
+        "value": "Done",
+        "type": "enum"
+      },
+      {
+        "name": "Assigned Engineer",
+        "value": "Ramu N",
+        "type": "people"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Priority Order",
+        "value": "1",
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": "Nexus",
+        "type": "enum"
+      },
+      {
+        "name": "Eng T-Shirt",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Overall T-Shirt",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Engineering Start Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Engineering Done Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Nexus SubTeam",
+        "value": "CEA",
+        "type": "enum"
+      },
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Bug Tracking",
+      "projectId": 4,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213879734140005",
     "title": "Add metric generation feature to mmm-portal-api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
@@ -8620,6 +8785,171 @@
     }
   },
   {
+    "id": "1215441798707642",
+    "title": "Migrate Adobe Acrobat to QA",
+    "url": "https://app.asana.com/1/8559678460204/project/1209286557928566/task/1215441798707642",
+    "type": "ISSUE",
+    "status": "Done",
+    "assignees": [
+      {
+        "gid": "1207752353167788",
+        "name": "Lovepreet Singh",
+        "email": "lsingh@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lovepreet Singh",
+    "description": "Please migrate Adobe Acrobat (31341) account to QA, this is needed for testing https://app.asana.com/1/8559678460204/task/1215410872418330",
+    "completed": true,
+    "completedAt": "2026-06-05T13:02:25.679Z",
+    "createdAt": "2026-06-05T08:24:35.266Z",
+    "updatedAt": "2026-06-05T13:02:27.271Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Date Intake",
+        "value": "2026-06-05T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "IntegrationType",
+        "value": "SSO/IAM",
+        "type": "enum"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Requested Due Date",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Tracking Status",
+        "value": "Done",
+        "type": "enum"
+      },
+      {
+        "name": "Assigned Engineer",
+        "value": "Ramu N",
+        "type": "people"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Priority Order",
+        "value": "1",
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": "Nexus",
+        "type": "enum"
+      },
+      {
+        "name": "Eng T-Shirt",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Overall T-Shirt",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Engineering Start Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Engineering Done Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Nexus SubTeam",
+        "value": "CEA",
+        "type": "enum"
+      },
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Migration Project",
+      "projectId": 5,
+      "projectGid": "1212206740699577"
+    }
+  },
+  {
     "id": "1213879734140005",
     "title": "Add metric generation feature to mmm-portal-api",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1213879734140005",
@@ -13199,7 +13529,7 @@
     "title": "Advertiser specific validation rules",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1215311651523493",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -13212,8 +13542,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-02T04:33:04.333Z",
-    "updatedAt": "2026-06-02T18:30:22.538Z",
-    "dueOn": "2026-06-03",
+    "updatedAt": "2026-06-05T08:35:27.653Z",
+    "dueOn": "2026-06-08",
     "tags": [],
     "customFields": [
       {
@@ -13238,7 +13568,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -13248,7 +13578,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "In QA or Review",
         "type": "enum"
       },
       {

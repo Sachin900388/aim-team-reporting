@@ -11637,8 +11637,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-04T16:19:30.145Z",
-    "updatedAt": "2026-06-04T18:30:27.557Z",
-    "dueOn": "2026-06-05",
+    "updatedAt": "2026-06-08T05:16:16.726Z",
+    "dueOn": "2026-06-08",
     "tags": [],
     "customFields": [
       {
@@ -12779,10 +12779,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-08T05:16:54.377Z",
     "createdAt": "2026-05-08T13:14:55.833Z",
-    "updatedAt": "2026-05-13T02:26:45.523Z",
+    "updatedAt": "2026-06-08T05:16:54.534Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13542,7 +13542,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-02T04:33:04.333Z",
-    "updatedAt": "2026-06-05T08:35:27.653Z",
+    "updatedAt": "2026-06-07T18:30:13.839Z",
     "dueOn": "2026-06-08",
     "tags": [],
     "customFields": [

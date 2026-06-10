@@ -11420,11 +11420,111 @@
     }
   },
   {
+    "id": "1215533957564823",
+    "title": "Investigate PA supermetrics web mobile cost",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215533957564823",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Planet art reported that the cost for web mobile doesn't match internally.",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-10T04:28:32.902Z",
+    "updatedAt": "2026-06-10T04:32:18.461Z",
+    "dueOn": "2026-06-10",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": "0h 00m",
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": "2026-06-10T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-10T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
     "id": "1214769262042310",
     "title": "Planet Art - Migration from AppsFlyer to Adjust",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214769262042310",
     "type": "ISSUE",
-    "status": "Intake",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -11437,7 +11537,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-06-09T15:18:56.474Z",
+    "updatedAt": "2026-06-10T04:28:29.152Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11478,7 +11578,7 @@
       },
       {
         "name": "Date In Progress",
-        "value": null,
+        "value": "2026-06-10T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -11624,7 +11724,7 @@
     "title": "Cabify - ingest historical installs",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215427909845410",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -11634,10 +11734,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Cabify included installs in their google drive files and we need to dedup and ingest the whole data set and as part of daily sync.\n\nproblem is installs is only associated with 360d cohort and so this needs a customised solution",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-10T04:27:44.735Z",
     "createdAt": "2026-06-04T16:19:30.145Z",
-    "updatedAt": "2026-06-09T05:27:59.004Z",
+    "updatedAt": "2026-06-10T04:27:45.311Z",
     "dueOn": "2026-06-08",
     "tags": [],
     "customFields": [
@@ -11683,7 +11783,7 @@
       },
       {
         "name": "Time to Complete",
-        "value": null,
+        "value": "6d 4h",
         "type": "number"
       },
       {

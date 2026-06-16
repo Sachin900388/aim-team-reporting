@@ -11437,7 +11437,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.143Z",
-    "updatedAt": "2026-06-12T11:37:45.094Z",
+    "updatedAt": "2026-06-16T15:47:48.085Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11720,106 +11720,6 @@
     }
   },
   {
-    "id": "1215655340949463",
-    "title": "[BUG-SP-01] Scenario Planner — Fixed / Flexible budget type can be multi-selected",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655340949463",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Budget step\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nBoth \"Fixed\" and \"Flexible\" budget options can be selected simultaneously. They should be mutually exclusive — only one should be selectable at a time.\n\nSteps to reproduce:\n1. Navigate to Scenario Planner → create new scenario\n2. Reach the budget type step\n3. Select \"Fixed\" — then also select \"Flexible\"\n4. Both remain selected — no deselect occurs\n\nExpected behaviour: Selecting one option should deselect the other (radio button behaviour).\nActual behaviour: Both can be selected simultaneously.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.130Z",
-    "updatedAt": "2026-06-12T11:37:46.589Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215655421284778",
     "title": "[BUG-SP-06] Scenario Planner — Scenario tile has no creator attribution",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421284778",
@@ -12020,106 +11920,6 @@
     }
   },
   {
-    "id": "1215655268043734",
-    "title": "[BUG-SP-04] Scenario Planner — No delete button on scenario tiles",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268043734",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Scenario list page\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nCreated scenarios cannot be deleted from the UI. There is no delete button on any scenario tile. Clients who created scenarios in error have no way to remove them.\n\nExpected behaviour: A delete button should be available on each scenario tile.\nActual behaviour: No delete button exists. Scenarios cannot be removed.\n\nAdditional note: The scenario count (\"Created this week: X\") must also correctly reflect deleted scenarios (e.g. \"3 created, 1 deleted, 6 remaining\") so clients understand their remaining quota.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.147Z",
-    "updatedAt": "2026-06-12T13:34:41.153Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215655421466196",
     "title": "[BUG-SP-15] Recommendations page — Extremely slow loading and throwing errors across multiple clients",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421466196",
@@ -12127,17 +11927,17 @@
     "status": "Intake",
     "assignees": [
       {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
       }
     ],
-    "primaryAssignee": "Lyazii Christopher",
+    "primaryAssignee": "Mayank Ukey",
     "description": "Area: AIM Recommendations page\nType: Bug fix / Performance\nPriority: P1 — Critical\n\nProblem:\nThe Recommendations page is loading extremely slowly and throwing errors across multiple client accounts. Observed during the 12 June training session on the Adobe Acrobat Reader account. Rhiannon confirmed this is happening across multiple campaigns, not isolated to one account.\n\nBehaviour observed:\n- Page loads extremely slowly\n- Page throws errors before finally loading (or fails to load entirely)\n- Browser prompted user with \"wait for page to load\" dialogue\n\nImpact: This is client-facing. If clients are attempting to use Recommendations and seeing errors, this directly damages trust in the platform.\n\nReported by: Rhiannon Taplin (raised support card during session) + Gary Danks — 12 June 2026\nAffected accounts: Adobe Acrobat Reader confirmed. Likely wider — Rhiannon to confirm scope.\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.146Z",
-    "updatedAt": "2026-06-12T11:37:50.070Z",
+    "updatedAt": "2026-06-16T14:21:00.675Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12527,17 +12327,17 @@
     "status": "Intake",
     "assignees": [
       {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
       }
     ],
-    "primaryAssignee": "Lyazii Christopher",
+    "primaryAssignee": "Mayank Ukey",
     "description": "Area: Recommendations page\nType: Missing feature / Bug\nPriority: P1 — Critical\n\nProblem:\nThe Recommendations page shows no indication of which scenario is currently active. Users cannot determine what budget configuration is driving the recommendations displayed. This was previously raised as feedback and may have been worked on — needs confirmation.\n\nExpected behaviour: A summary banner at the top of the Recommendations page should show the name, budget total, strategy, and goal of the currently active scenario.\nActual behaviour: No active scenario information is shown anywhere on the Recommendations page.\n\nAction required: Confirm with engineering whether this was implemented. If not, raise as priority fix.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.163Z",
-    "updatedAt": "2026-06-12T11:37:53.140Z",
+    "updatedAt": "2026-06-16T14:21:14.390Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12824,7 +12624,7 @@
     "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
     "type": "ISSUE",
-    "status": "Intake",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1211767850221652",
@@ -12837,7 +12637,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.623Z",
-    "updatedAt": "2026-06-12T11:37:55.687Z",
+    "updatedAt": "2026-06-16T14:13:14.156Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12878,7 +12678,207 @@
       },
       {
         "name": "Date In Progress",
+        "value": "2026-06-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
         "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655268043734",
+    "title": "[BUG-SP-04] Scenario Planner — No delete button on scenario tiles",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268043734",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Scenario list page\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nCreated scenarios cannot be deleted from the UI. There is no delete button on any scenario tile. Clients who created scenarios in error have no way to remove them.\n\nExpected behaviour: A delete button should be available on each scenario tile.\nActual behaviour: No delete button exists. Scenarios cannot be removed.\n\nAdditional note: The scenario count (\"Created this week: X\") must also correctly reflect deleted scenarios (e.g. \"3 created, 1 deleted, 6 remaining\") so clients understand their remaining quota.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-12T11:37:43.147Z",
+    "updatedAt": "2026-06-16T14:13:05.146Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655340949463",
+    "title": "[BUG-SP-01] Scenario Planner — Fixed / Flexible budget type can be multi-selected",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655340949463",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Budget step\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nBoth \"Fixed\" and \"Flexible\" budget options can be selected simultaneously. They should be mutually exclusive — only one should be selectable at a time.\n\nSteps to reproduce:\n1. Navigate to Scenario Planner → create new scenario\n2. Reach the budget type step\n3. Select \"Fixed\" — then also select \"Flexible\"\n4. Both remain selected — no deselect occurs\n\nExpected behaviour: Selecting one option should deselect the other (radio button behaviour).\nActual behaviour: Both can be selected simultaneously.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-12T11:37:43.130Z",
+    "updatedAt": "2026-06-16T16:00:46.708Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-16T00:00:00.000Z",
         "type": "date"
       },
       {
@@ -13137,7 +13137,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T09:51:08.528Z",
-    "updatedAt": "2026-06-15T14:11:57.002Z",
+    "updatedAt": "2026-06-16T14:58:03.531Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

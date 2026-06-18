@@ -11420,106 +11420,6 @@
     }
   },
   {
-    "id": "1215655268081679",
-    "title": "[BUG-SP-02] Scenario Planner — App / Model selection step appears AFTER budget entry",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268081679",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Step order / flow\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe \"Select App\" step currently appears after the client has already entered their budget. This means the client enters a total budget without knowing which app or model it applies to, creating ambiguity about whether it is per-app or a total across all models.\n\nExpected behaviour: App / model selection must appear BEFORE the budget entry step so the client knows what they are budgeting for.\nActual behaviour: Budget is entered first, app selected second.\n\nFix: Move the \"Select App\" step to before the budget entry step in the scenario creation flow.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.143Z",
-    "updatedAt": "2026-06-17T16:02:59.108Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215655370952816",
     "title": "[BUG-SP-03] Scenario Planner — Irrelevant networks shown in media source constraints",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655370952816",
@@ -11937,7 +11837,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.146Z",
-    "updatedAt": "2026-06-17T16:28:28.435Z",
+    "updatedAt": "2026-06-18T13:16:05.992Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12337,7 +12237,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.163Z",
-    "updatedAt": "2026-06-17T16:28:43.626Z",
+    "updatedAt": "2026-06-18T13:15:44.472Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12624,7 +12524,7 @@
     "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "On Hold",
     "assignees": [
       {
         "gid": "1211767850221652",
@@ -12637,7 +12537,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.623Z",
-    "updatedAt": "2026-06-17T14:29:45.891Z",
+    "updatedAt": "2026-06-18T14:45:05.592Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12724,7 +12624,7 @@
     "title": "[BUG-SP-04] Scenario Planner — No delete button on scenario tiles",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268043734",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "On Hold",
     "assignees": [
       {
         "gid": "1211767850221652",
@@ -12737,7 +12637,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.147Z",
-    "updatedAt": "2026-06-17T14:29:42.553Z",
+    "updatedAt": "2026-06-18T14:44:07.948Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12779,6 +12679,206 @@
       {
         "name": "Date In Progress",
         "value": "2026-06-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655268081679",
+    "title": "[BUG-SP-02] Scenario Planner — App / Model selection step appears AFTER budget entry",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268081679",
+    "type": "ISSUE",
+    "status": "On Hold",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Step order / flow\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe \"Select App\" step currently appears after the client has already entered their budget. This means the client enters a total budget without knowing which app or model it applies to, creating ambiguity about whether it is per-app or a total across all models.\n\nExpected behaviour: App / model selection must appear BEFORE the budget entry step so the client knows what they are budgeting for.\nActual behaviour: Budget is entered first, app selected second.\n\nFix: Move the \"Select App\" step to before the budget entry step in the scenario creation flow.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-12T11:37:43.143Z",
+    "updatedAt": "2026-06-18T14:43:02.750Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215822226962694",
+    "title": "[BUG-UI-01] Scenario list and Status UI alignment with exiting UI standard.",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215822226962694",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-18T14:45:41.341Z",
+    "updatedAt": "2026-06-18T14:46:57.725Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-18T00:00:00.000Z",
         "type": "date"
       },
       {

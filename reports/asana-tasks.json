@@ -11820,106 +11820,6 @@
     }
   },
   {
-    "id": "1215655421466196",
-    "title": "[BUG-SP-15] Recommendations page — Extremely slow loading and throwing errors across multiple clients",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421466196",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Area: AIM Recommendations page\nType: Bug fix / Performance\nPriority: P1 — Critical\n\nProblem:\nThe Recommendations page is loading extremely slowly and throwing errors across multiple client accounts. Observed during the 12 June training session on the Adobe Acrobat Reader account. Rhiannon confirmed this is happening across multiple campaigns, not isolated to one account.\n\nBehaviour observed:\n- Page loads extremely slowly\n- Page throws errors before finally loading (or fails to load entirely)\n- Browser prompted user with \"wait for page to load\" dialogue\n\nImpact: This is client-facing. If clients are attempting to use Recommendations and seeing errors, this directly damages trust in the platform.\n\nReported by: Rhiannon Taplin (raised support card during session) + Gary Danks — 12 June 2026\nAffected accounts: Adobe Acrobat Reader confirmed. Likely wider — Rhiannon to confirm scope.\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.146Z",
-    "updatedAt": "2026-06-18T13:16:05.992Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215655268983619",
     "title": "[BUG-SP-12] Scenario Planner — Activation confirmation card lacks scenario summary",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268983619",
@@ -13137,7 +13037,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T09:51:08.528Z",
-    "updatedAt": "2026-06-22T15:43:27.920Z",
+    "updatedAt": "2026-06-23T11:17:23.087Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13179,6 +13079,106 @@
       {
         "name": "Date In Progress",
         "value": "2026-06-03T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655421466196",
+    "title": "[BUG-SP-15] Recommendations page — Extremely slow loading and throwing errors across multiple clients",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421466196",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211750460277076",
+        "name": "Mayank Ukey",
+        "email": "mukey@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Mayank Ukey",
+    "description": "Area: AIM Recommendations page\nType: Bug fix / Performance\nPriority: P1 — Critical\n\nProblem:\nThe Recommendations page is loading extremely slowly and throwing errors across multiple client accounts. Observed during the 12 June training session on the Adobe Acrobat Reader account. Rhiannon confirmed this is happening across multiple campaigns, not isolated to one account.\n\nBehaviour observed:\n- Page loads extremely slowly\n- Page throws errors before finally loading (or fails to load entirely)\n- Browser prompted user with \"wait for page to load\" dialogue\n\nImpact: This is client-facing. If clients are attempting to use Recommendations and seeing errors, this directly damages trust in the platform.\n\nReported by: Rhiannon Taplin (raised support card during session) + Gary Danks — 12 June 2026\nAffected accounts: Adobe Acrobat Reader confirmed. Likely wider — Rhiannon to confirm scope.\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-06-23T09:07:59.558Z",
+    "createdAt": "2026-06-12T11:37:43.146Z",
+    "updatedAt": "2026-06-23T09:08:00.927Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
         "type": "date"
       },
       {

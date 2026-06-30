@@ -11920,6 +11920,106 @@
     }
   },
   {
+    "id": "1216142610273692",
+    "title": "[Enhancement] Set up flow to add reporting-currency of ETL on K4A onboarding.",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216142610273692",
+    "type": "ISSUE",
+    "status": "Intake",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-30T15:21:20.491Z",
+    "updatedAt": "2026-06-30T15:23:28.133Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
     "id": "1215655268043734",
     "title": "[BUG-SP-04] Scenario Planner — No delete button on scenario tiles",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268043734",
@@ -12937,7 +13037,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-06-30T02:45:39.413Z",
+    "updatedAt": "2026-06-30T15:32:18.083Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13024,7 +13124,7 @@
     "title": "Planet Art (US) - Migration from Supermetrics to Windsor AI",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214768519227082",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -13034,10 +13134,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Planet Art US  (Karl) has mentioned they'll be moving away from Supermetrics at the end of June, they're moving over to Windsor AI.\n\nThey believe the dataset will remain the same, but perhaps some structures may be different, so they'd like us to share some guidance on how to migrate from Supermetrics bucket to Windsor AI bucket, particularly the critical data needed for their AIM models to work. For example:\n    which buckets/directories we currently use to pull data from Supermetrics\n    what are the critical attributed needed? are there any attributed that we're currently pulling but are not necessary for AIM?\n    do we need any sort of historical data from Supermetrics? he is not sure if that historical data will be available in Windsor AI, but he thinks it won't.\n    Karl mentioned that 'device_type' from ASA is not available in Windsor AI - would this represent an issue for our system?\n",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-30T11:21:51.528Z",
     "createdAt": "2026-05-13T09:51:08.528Z",
-    "updatedAt": "2026-06-29T16:28:52.527Z",
+    "updatedAt": "2026-06-30T11:21:53.357Z",
     "dueOn": "2026-06-29",
     "tags": [],
     "customFields": [
@@ -13083,7 +13183,7 @@
       },
       {
         "name": "Time to Complete",
-        "value": null,
+        "value": "3w 6d",
         "type": "number"
       },
       {
@@ -13234,10 +13334,10 @@
     ],
     "primaryAssignee": "Lyazii Christopher",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-06-30T15:22:21.474Z",
     "createdAt": "2026-06-18T14:45:41.341Z",
-    "updatedAt": "2026-06-19T12:24:13.634Z",
+    "updatedAt": "2026-06-30T15:22:22.189Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13283,7 +13383,7 @@
       },
       {
         "name": "Time to Complete",
-        "value": null,
+        "value": "1w 5d",
         "type": "number"
       },
       {
@@ -15119,6 +15219,101 @@
       {
         "name": "Sprint",
         "value": "Sprint (Mar 16 - Mar 31)",
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1216169003774850",
+    "title": "Old ETL | Defacto |  Ingest Sessions metric from Adjust ",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216169003774850",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-30T17:23:31.841Z",
+    "updatedAt": "2026-06-30T17:25:07.125Z",
+    "dueOn": "2026-07-03",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-07-03T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Unplanned Work",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Direct",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
         "type": "multi_enum"
       }
     ],

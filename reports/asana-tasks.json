@@ -11420,6 +11420,96 @@
     }
   },
   {
+    "id": "1211849869355688",
+    "title": " AIM | Cabify Integration",
+    "url": "https://app.asana.com/1/8559678460204/project/1210582837025370/task/1211849869355688",
+    "type": "ISSUE",
+    "status": "On Track",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "Account Name:\nCabify\n\nPriority:\nMedium\n\nRequestor: \njmanfred@kochava.com, kfisher@kochava.com \n\nDetails/Description:\nCabify is a new customer who will be using AIM. Their data sources for the Feature tables will be Google Drive. Can we please integrate those sources to collect data into their AIM datasets? Credentials and details for each integration are in the subtasks below. ",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2025-11-05T14:33:44.666Z",
+    "updatedAt": "2026-07-01T14:44:46.225Z",
+    "dueOn": "2026-03-13",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Responsiveness",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng Estimate",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Product",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Onboarding Region",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Need by Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "TW Status",
+        "value": "On Track",
+        "type": "enum"
+      },
+      {
+        "name": "Reason for Red/Yellow",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Path to Green",
+        "value": "In the queue for model building.",
+        "type": "text"
+      },
+      {
+        "name": "Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Roadmap Stage",
+        "value": "Execution",
+        "type": "enum"
+      },
+      {
+        "name": "Summary",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Rank in Queue",
+        "value": "3",
+        "type": "number"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Customer Integration",
+      "projectId": 6,
+      "projectGid": "1212696147313746"
+    }
+  },
+  {
     "id": "1215655421515245",
     "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
@@ -11937,7 +12027,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-30T15:21:20.491Z",
-    "updatedAt": "2026-06-30T15:23:28.133Z",
+    "updatedAt": "2026-07-01T15:23:20.268Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12737,7 +12827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.136Z",
-    "updatedAt": "2026-06-25T11:33:09.632Z",
+    "updatedAt": "2026-07-01T08:39:43.033Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13037,7 +13127,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-06-30T15:32:18.083Z",
+    "updatedAt": "2026-07-01T15:39:34.652Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -15247,7 +15337,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-30T17:23:31.841Z",
-    "updatedAt": "2026-06-30T17:25:07.125Z",
+    "updatedAt": "2026-07-01T17:21:19.414Z",
     "dueOn": "2026-07-03",
     "tags": [],
     "customFields": [

@@ -11437,7 +11437,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-07-01T14:44:46.225Z",
+    "updatedAt": "2026-07-02T06:43:11.053Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -11507,6 +11507,106 @@
       "projectName": "AIM Customer Integration",
       "projectId": 6,
       "projectGid": "1212696147313746"
+    }
+  },
+  {
+    "id": "1215655370952816",
+    "title": "[BUG-SP-03] Scenario Planner — Irrelevant networks shown in media source constraints",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655370952816",
+    "type": "ISSUE",
+    "status": "Intake",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Network constraints\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe network list in the media source constraints step shows networks that are impossible or irrelevant for the selected OS. Examples observed:\n- Apple Search Ads appearing in the Android network list\n- Organic listed as a constrainable source\n- Email, CRM, and Untrusted Devices listed as constrainable sources\n\nThese are zero-spend sources that cannot be meaningfully constrained and their presence makes the UI look sloppy and confusing.\n\nExpected behaviour: Only show networks that have actual spend / active campaigns for the selected OS model.\nActual behaviour: All networks shown regardless of OS relevance or spend activity.\n\nFix: Filter network list to active paid sources for the selected OS only. Zero-spend sources (organic, email, CRM, untrusted devices) should be excluded entirely.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nQuote: \"Why have we got networks that aren't that would never be live on this OS in here? It looks sloppy.\" — Rhiannon Taplin\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-12T11:37:43.136Z",
+    "updatedAt": "2026-07-02T14:49:34.793Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
     }
   },
   {
@@ -11727,7 +11827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.123Z",
-    "updatedAt": "2026-06-26T11:41:17.334Z",
+    "updatedAt": "2026-07-02T14:24:43.727Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12734,106 +12834,6 @@
       {
         "name": "Priority",
         "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655370952816",
-    "title": "[BUG-SP-03] Scenario Planner — Irrelevant networks shown in media source constraints",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655370952816",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Network constraints\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe network list in the media source constraints step shows networks that are impossible or irrelevant for the selected OS. Examples observed:\n- Apple Search Ads appearing in the Android network list\n- Organic listed as a constrainable source\n- Email, CRM, and Untrusted Devices listed as constrainable sources\n\nThese are zero-spend sources that cannot be meaningfully constrained and their presence makes the UI look sloppy and confusing.\n\nExpected behaviour: Only show networks that have actual spend / active campaigns for the selected OS model.\nActual behaviour: All networks shown regardless of OS relevance or spend activity.\n\nFix: Filter network list to active paid sources for the selected OS only. Zero-spend sources (organic, email, CRM, untrusted devices) should be excluded entirely.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nQuote: \"Why have we got networks that aren't that would never be live on this OS in here? It looks sloppy.\" — Rhiannon Taplin\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.136Z",
-    "updatedAt": "2026-07-01T08:39:43.033Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
         "type": "enum"
       },
       {
@@ -15225,6 +15225,101 @@
     }
   },
   {
+    "id": "1216212647500351",
+    "title": "ML | Historical data range vs Accuracy analysis",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216212647500351",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "We need to analyse and determine how much historical data is needed for the best model accuracy. We need to find a balance between amount of data in our DB and the model's accuracy",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-02T05:49:43.442Z",
+    "updatedAt": "2026-07-02T18:26:21.394Z",
+    "dueOn": "2026-07-08",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1211650348131704",
     "title": "Add support for multiple date format",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1211650348131704",
@@ -15337,7 +15432,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-30T17:23:31.841Z",
-    "updatedAt": "2026-07-01T17:21:19.414Z",
+    "updatedAt": "2026-07-02T18:30:20.721Z",
     "dueOn": "2026-07-03",
     "tags": [],
     "customFields": [
@@ -15527,7 +15622,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-02T04:33:04.333Z",
-    "updatedAt": "2026-06-07T18:30:13.839Z",
+    "updatedAt": "2026-07-02T05:51:14.567Z",
     "dueOn": "2026-06-08",
     "tags": [],
     "customFields": [
@@ -15548,7 +15643,7 @@
       },
       {
         "name": "Pick Priority",
-        "value": "P0",
+        "value": "P1",
         "type": "enum"
       },
       {

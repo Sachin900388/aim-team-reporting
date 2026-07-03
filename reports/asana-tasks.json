@@ -11437,7 +11437,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-07-02T06:43:11.053Z",
+    "updatedAt": "2026-07-03T07:09:07.384Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -11527,7 +11527,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.136Z",
-    "updatedAt": "2026-07-02T14:49:34.793Z",
+    "updatedAt": "2026-07-03T14:46:32.688Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11728,106 +11728,6 @@
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.123Z",
     "updatedAt": "2026-06-26T11:35:11.580Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "New Requirement",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655421254947",
-    "title": "[BUG-SP-13] Scenario Planner — No edit functionality on active scenarios",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421254947",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Active scenario management\nType: New feature / Bug\nPriority: Medium\n\nProblem:\nOnce a scenario is activated, the edit button is grayed out / unavailable. This means if a client needs to update their budget mid-month (e.g. offline media budget is cut, or a new trading deal requires spend reallocation), they must deactivate the scenario and recreate it from scratch. In a mid-month scenario, this requires manual calculation of remaining budget — a significant overhead.\n\nExpected behaviour: Active scenarios should be editable. Clients should be able to update specific fields (network min/max, budget values) on an active scenario, with the optimizer re-running automatically on save.\n\nActual behaviour: Edit button grayed out / locked while scenario is active.\n\nNote: It is unclear whether deactivating a scenario and recreating it mid-month is the intended workflow or an oversight. Please confirm intended behaviour before fixing.\n\nReported by: Gary Danks + Guillermo Martinez — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.123Z",
-    "updatedAt": "2026-07-02T14:24:43.727Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12214,7 +12114,7 @@
     "title": "[BUG-SP-04] Scenario Planner — No delete button on scenario tiles",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268043734",
     "type": "ISSUE",
-    "status": "On Hold",
+    "status": "In Progress",
     "assignees": [
       {
         "gid": "1211767850221652",
@@ -12227,7 +12127,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.147Z",
-    "updatedAt": "2026-06-18T14:44:07.948Z",
+    "updatedAt": "2026-07-03T14:11:41.723Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12310,6 +12210,106 @@
     }
   },
   {
+    "id": "1215655421254947",
+    "title": "[BUG-SP-13] Scenario Planner — No edit functionality on active scenarios",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421254947",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Active scenario management\nType: New feature / Bug\nPriority: Medium\n\nProblem:\nOnce a scenario is activated, the edit button is grayed out / unavailable. This means if a client needs to update their budget mid-month (e.g. offline media budget is cut, or a new trading deal requires spend reallocation), they must deactivate the scenario and recreate it from scratch. In a mid-month scenario, this requires manual calculation of remaining budget — a significant overhead.\n\nExpected behaviour: Active scenarios should be editable. Clients should be able to update specific fields (network min/max, budget values) on an active scenario, with the optimizer re-running automatically on save.\n\nActual behaviour: Edit button grayed out / locked while scenario is active.\n\nNote: It is unclear whether deactivating a scenario and recreating it mid-month is the intended workflow or an oversight. Please confirm intended behaviour before fixing.\n\nReported by: Gary Danks + Guillermo Martinez — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-12T11:37:43.123Z",
+    "updatedAt": "2026-07-03T13:49:33.060Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "New Requirement",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-07-03T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
     "id": "1215655268081679",
     "title": "[BUG-SP-02] Scenario Planner — App / Model selection step appears AFTER budget entry",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268081679",
@@ -12327,7 +12327,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.143Z",
-    "updatedAt": "2026-06-25T11:53:20.884Z",
+    "updatedAt": "2026-07-03T14:10:07.693Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12427,7 +12427,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.180Z",
-    "updatedAt": "2026-06-26T11:54:07.347Z",
+    "updatedAt": "2026-07-03T14:10:17.801Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12527,7 +12527,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.152Z",
-    "updatedAt": "2026-06-25T11:40:12.574Z",
+    "updatedAt": "2026-07-03T14:10:26.494Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12627,7 +12627,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.167Z",
-    "updatedAt": "2026-06-25T11:40:02.028Z",
+    "updatedAt": "2026-07-03T14:10:31.803Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12727,7 +12727,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.139Z",
-    "updatedAt": "2026-06-25T11:39:19.484Z",
+    "updatedAt": "2026-07-03T14:10:39.703Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12827,7 +12827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.138Z",
-    "updatedAt": "2026-06-25T11:36:24.493Z",
+    "updatedAt": "2026-07-03T14:10:44.177Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12927,7 +12927,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.130Z",
-    "updatedAt": "2026-06-17T14:17:58.710Z",
+    "updatedAt": "2026-07-03T14:10:56.356Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -15242,7 +15242,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-02T05:49:43.442Z",
-    "updatedAt": "2026-07-02T18:26:21.394Z",
+    "updatedAt": "2026-07-03T09:06:02.359Z",
     "dueOn": "2026-07-08",
     "tags": [],
     "customFields": [

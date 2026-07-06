@@ -11437,7 +11437,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-07-03T07:09:07.384Z",
+    "updatedAt": "2026-07-06T07:21:01.135Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -12127,7 +12127,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.147Z",
-    "updatedAt": "2026-07-03T14:11:41.723Z",
+    "updatedAt": "2026-07-06T14:13:20.055Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12427,7 +12427,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.180Z",
-    "updatedAt": "2026-07-03T14:10:17.801Z",
+    "updatedAt": "2026-07-06T14:26:57.294Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12527,7 +12527,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.152Z",
-    "updatedAt": "2026-07-03T14:10:26.494Z",
+    "updatedAt": "2026-07-06T14:20:21.881Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12627,7 +12627,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.167Z",
-    "updatedAt": "2026-07-03T14:10:31.803Z",
+    "updatedAt": "2026-07-06T14:29:25.107Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12727,7 +12727,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.139Z",
-    "updatedAt": "2026-07-03T14:10:39.703Z",
+    "updatedAt": "2026-07-06T14:18:33.291Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12827,7 +12827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.138Z",
-    "updatedAt": "2026-07-03T14:10:44.177Z",
+    "updatedAt": "2026-07-06T14:22:15.526Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -15229,7 +15229,7 @@
     "title": "ML | Historical data range vs Accuracy analysis",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216212647500351",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -15239,10 +15239,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "We need to analyse and determine how much historical data is needed for the best model accuracy. We need to find a balance between amount of data in our DB and the model's accuracy",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-07-06T08:00:50.149Z",
     "createdAt": "2026-07-02T05:49:43.442Z",
-    "updatedAt": "2026-07-03T09:06:02.359Z",
+    "updatedAt": "2026-07-06T08:00:50.279Z",
     "dueOn": "2026-07-08",
     "tags": [],
     "customFields": [
@@ -15268,17 +15268,17 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-07-03T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": null,
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -15288,7 +15288,7 @@
       },
       {
         "name": "Source",
-        "value": null,
+        "value": "Direct",
         "type": "enum"
       },
       {
@@ -15298,7 +15298,7 @@
       },
       {
         "name": "Priority",
-        "value": null,
+        "value": "High",
         "type": "enum"
       },
       {
@@ -15419,7 +15419,7 @@
     "title": "Old ETL | Defacto |  Ingest Sessions metric from Adjust ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216169003774850",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -15429,10 +15429,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-07-06T08:00:13.580Z",
     "createdAt": "2026-06-30T17:23:31.841Z",
-    "updatedAt": "2026-07-03T18:41:06.012Z",
+    "updatedAt": "2026-07-06T08:00:13.714Z",
     "dueOn": "2026-07-03",
     "tags": [],
     "customFields": [
@@ -15458,7 +15458,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -15468,7 +15468,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -15679,101 +15679,6 @@
       {
         "name": "Priority",
         "value": "High",
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM ETL Requirements",
-      "projectId": 8,
-      "projectGid": "1209209910929196"
-    }
-  },
-  {
-    "id": "1213879944998970",
-    "title": "New ETL - Singular connector - AI SDLC",
-    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1213879944998970",
-    "type": "ISSUE",
-    "status": "Not Started",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-03-30T09:25:19.750Z",
-    "updatedAt": "2026-05-14T03:09:33.708Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": "2",
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": "P2",
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM ETL Requirements",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
         "type": "enum"
       },
       {

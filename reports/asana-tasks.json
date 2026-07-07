@@ -11610,106 +11610,6 @@
     }
   },
   {
-    "id": "1215655421515245",
-    "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
-    "type": "ISSUE",
-    "status": "Intake",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Flexible budget → Target CPA field\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe target CPA field in the Flexible budget option appears to display USD regardless of the client's configured account currency. De Facto's account is configured in Turkish Lira (TRY) — if the field is hardcoded to USD, clients entering CPA targets in their local currency will be submitting incorrect values without knowing.\n\nExpected behaviour: The target CPA field currency must reflect the client's configured account currency (e.g. TRY for De Facto, EUR for European accounts).\nActual behaviour: Currency appears as USD regardless of account configuration.\n\nNote: This issue is likely present throughout the Scenario Planner, not just in the flexible budget CPA field. Rhiannon noted the dashboard also appears in USD when De Facto is configured in TRY. This may be a wider currency rendering bug.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.623Z",
-    "updatedAt": "2026-06-25T11:54:00.648Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215655421296104",
     "title": "[BUG-SP-11] Scenario Planner — No option to set cross-platform network budget constraint (trading deals)",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421296104",
@@ -12069,6 +11969,106 @@
       {
         "name": "Date In Progress",
         "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655421515245",
+    "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Flexible budget → Target CPA field\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe target CPA field in the Flexible budget option appears to display USD regardless of the client's configured account currency. De Facto's account is configured in Turkish Lira (TRY) — if the field is hardcoded to USD, clients entering CPA targets in their local currency will be submitting incorrect values without knowing.\n\nExpected behaviour: The target CPA field currency must reflect the client's configured account currency (e.g. TRY for De Facto, EUR for European accounts).\nActual behaviour: Currency appears as USD regardless of account configuration.\n\nNote: This issue is likely present throughout the Scenario Planner, not just in the flexible budget CPA field. Rhiannon noted the dashboard also appears in USD when De Facto is configured in TRY. This may be a wider currency rendering bug.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-06-12T11:37:43.623Z",
+    "updatedAt": "2026-07-07T14:55:36.023Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-16T00:00:00.000Z",
         "type": "date"
       },
       {

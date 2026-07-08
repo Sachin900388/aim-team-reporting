@@ -11437,7 +11437,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-07-06T07:21:01.135Z",
+    "updatedAt": "2026-07-08T13:33:44.068Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -11507,6 +11507,1806 @@
       "projectName": "AIM Customer Integration",
       "projectId": 6,
       "projectGid": "1212696147313746"
+    }
+  },
+  {
+    "id": "1216387877897191",
+    "title": "Scenario Planner QA — Fix dark outlines on preview results cards to match site styling",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387877897191",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nOn the preview results page, result boxes/cards have a dark outline that does not match the rest of the site styling.\n\nProblem:\nThe dark outline looks visually inconsistent with the broader UI language, where a lighter grey border treatment is expected.\n\nObserved behaviour:\n- On preview results page for scenario such as “Sync for comparison test”\n- Cards including “two week forecast summary” and “recommended spend by channel” had dark outlines\n\nSuggested fix:\n- Replace dark outline with the standard grey outline/border treatment used elsewhere on the site\n\nSteps to reproduce:\n1. Open a scenario preview results page\n2. Observe border styling on the forecast summary and recommended spend cards\n\nExpected behaviour:\n- Cards use the same lighter grey border style as the rest of the product\n\nActual behaviour:\n- Cards use a dark outline that feels visually off-brand / inconsistent\n\nAcceptance criteria:\n- Preview results cards use standard site border styling\n- UI is visually consistent with the rest of the scenario product\n\nPriority: Low\nType: UI polish",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:51.469Z",
+    "updatedAt": "2026-07-08T12:26:54.748Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387901836128",
+    "title": "Scenario Planner QA — Format budget inputs with thousands separators for readability",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387901836128",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nBudget input values are displayed without comma separators, making large numbers harder to read and verify.\n\nProblem:\nA plain unformatted number string is difficult for users to parse quickly, especially for 10,000 / 100,000 / 1,000,000-style entries.\n\nObserved behaviour:\n- Entered budget values show with no comma formatting\n- Decimal precision is not the issue; readability is the issue\n\nSuggested fix:\n- Format budget values with thousand separators as the user types or on blur\n- No decimal display is needed unless product requirements say otherwise\n\nSteps to reproduce:\n1. Go to Budget step\n2. Enter a large budget value\n3. Observe it is shown without comma separators\n\nExpected behaviour:\n- Large values are formatted for readability, e.g. 1,000,000\n\nActual behaviour:\n- Values are displayed as raw unformatted numbers\n\nAcceptance criteria:\n- Budget values display with thousand separators\n- Formatting does not interfere with editing or validation\n\nPriority: Medium",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.762Z",
+    "updatedAt": "2026-07-08T12:26:53.132Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137613247",
+    "title": "Scenario Planner QA — Clarify scenario comparison restriction that only same-colour scenario groups can be compared",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137613247",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe comparison UI tells users that only scenarios in the same colour group can be compared, but does not explain why this restriction exists.\n\nProblem:\nThe user receives a rule without context: “Only the same colour scenarios can be compared.” This is confusing and does not help them understand how to select valid comparisons.\n\nObserved behaviour:\n- In “Select scenario to compare (up to 3)”, the UI says that only same-colour scenarios can be reviewed together\n- No explanation is given for what colour groups mean or why the restriction exists\n\nWhy this matters:\n- Users may think the system is broken or arbitrarily restrictive\n- It increases cognitive load and trial-and-error during comparison setup\n\nSuggested fix:\n- Add explanatory copy defining what a colour group represents\n- Explain why cross-group scenarios cannot be compared\n- If possible, visually group or filter scenarios to make valid comparisons obvious\n\nSteps to reproduce:\n1. Go to Scenario Comparison\n2. Attempt to select scenarios for comparison\n3. Observe message that only same-colour scenarios can be compared\n4. Note lack of explanation for the rule\n\nExpected behaviour:\n- The UI explains what colour groups represent and why the restriction exists\n- Users can quickly understand which scenarios are eligible for comparison\n\nActual behaviour:\n- Restriction is shown with no meaningful explanation\n\nAcceptance criteria:\n- Users see clear explanatory help text for colour groups\n- Valid comparison sets are easier to identify visually\n- Restriction no longer feels arbitrary\n\nPriority: Medium",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.774Z",
+    "updatedAt": "2026-07-08T12:26:53.031Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387816227323",
+    "title": "Scenario Planner QA — Remove inconsistent “Back to scenarios” button from preview results or standardise back navigation across scenario pages",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387816227323",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe preview results page includes a “Back to scenarios” button that does not appear elsewhere, creating inconsistency in navigation patterns.\n\nProblem:\nA one-off back-navigation control on only one page creates an inconsistent experience. The tester recommends removing it and relying on consistent heading/nav behaviour instead.\n\nObserved behaviour:\n- On preview / review results page for an unactivated scenario, a “Back to scenarios” button appears\n- Equivalent control does not appear elsewhere in the scenario flow\n\nSuggested fix:\nChoose one path:\n1. Remove the button and rely on consistent global/header navigation\n2. Or standardise equivalent back-navigation behaviour across all relevant scenario pages\n\nSteps to reproduce:\n1. Open preview / review results for an unactivated scenario\n2. Observe “Back to scenarios” button\n3. Compare with other scenario pages where this control is absent\n\nExpected behaviour:\n- Navigation pattern is consistent across pages\n\nActual behaviour:\n- One page contains a unique back button not used elsewhere\n\nAcceptance criteria:\n- Back-navigation pattern is standardised across scenario pages\n- No isolated one-off control remains unless intentionally designed system-wide\n\nPriority: Medium",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.750Z",
+    "updatedAt": "2026-07-08T12:26:52.991Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387901995112",
+    "title": "Scenario Planner QA — Review scenario creation IA: merge “Create” and “Select Apps” into a single step or clearer unified flow",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387901995112",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe scenario creation flow currently separates naming/description from app selection, but the user experience suggests these belong together.\n\nProblem:\nFrom a workflow perspective, naming a scenario, describing it, and choosing which app(s) it applies to feel like one creation action. Splitting them into separate steps adds friction.\n\nObserved behaviour:\n- User enters scenario name and description in the Create a New Scenario section\n- App selection happens in a separate Select Apps step\n- This feels like unnecessary separation of a single conceptual action\n\nWhy this matters:\n- Makes creation feel more fragmented than necessary\n- Increases steps for a simple mental model: “create a scenario for these apps”\n\nSuggested fix:\n- Review whether scenario metadata and app selection can be merged into one step\n- If not merged, improve the information architecture so it feels like one continuous creation action\n\nSteps to reproduce:\n1. Start creating a new scenario\n2. Enter scenario name and description\n3. Proceed to Select Apps\n4. Observe that this feels like an artificial split in the flow\n\nExpected behaviour:\n- Creation flow should match user mental model and minimise unnecessary steps\n\nActual behaviour:\n- Metadata entry and app selection are separated in a way that feels unintuitive\n\nAcceptance criteria:\n- Product/design team reviews whether the two steps should be merged\n- If kept separate, the flow is reframed to feel more cohesive and intentional\n\nPriority: Medium\nType: UX improvement / design review",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.746Z",
+    "updatedAt": "2026-07-08T12:26:53.010Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387816590460",
+    "title": "Scenario Planner QA — Surface and label active scenarios clearly on scenarios home and recommendations views",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387816590460",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nActive scenarios are not surfaced clearly enough across the Scenarios homepage and Recommendations area. The current experience tells the user there are active scenarios, but it is unclear which scenarios are active and where that state is represented.\n\nProblem:\nUsers need to know immediately which scenarios are active, both when landing on the scenario homepage and when reviewing recommendations. At present, active state is implied but not clearly labeled, named, or grouped.\n\nObserved behaviour:\n- In the Planet Art AIM account, the UI says there are 3 active scenarios.\n- On the scenario homepage, active scenarios are not clearly separated from non-active scenarios.\n- In the recommendations section, there is no clear labeling stating which scenarios are active.\n- The user is left to assume the currently shown recommendations correspond to active scenarios, but this is not explicit.\n\nWhy this matters:\n- Creates ambiguity around which scenario is live / applied\n- Increases the chance of user confusion or wrong interpretation of recommendations\n- Reduces trust in scenario activation state\n\nSuggested fix:\n- Group active scenarios at the top of the scenario homepage under a heading such as “Active scenarios”\n- Group all other scenarios below under “Inactive scenarios” or “Other scenarios”\n- Add visible labels / badges to show active state\n- In Recommendations, explicitly label which scenario(s) are active and list them by scenario title\n- Example titles cited in QA: “Gary Test One”, “single app free live test demo”, “US FreePrints Android”\n\nSteps to reproduce:\n1. Open the Scenarios homepage\n2. Observe that active scenarios are not clearly grouped or highlighted\n3. Navigate to Recommendations\n4. Observe there is no explicit active-scenario labeling\n\nExpected behaviour:\n- Active scenarios are clearly grouped, labelled, and identifiable by title in all relevant views\n\nActual behaviour:\n- Active scenarios are counted but not clearly surfaced by name/state in the UI\n\nAcceptance criteria:\n- Active scenarios appear in a dedicated section at the top of the Scenarios homepage\n- Inactive scenarios appear in a separate section below\n- Recommendations view explicitly identifies the active scenario(s) by title\n- Active/inactive state is visually obvious via labels or badges\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.715Z",
+    "updatedAt": "2026-07-08T12:26:53.015Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216402524829634",
+    "title": "Scenario Planner QA — Warn users when they select apps from different geographic regions in one scenario",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216402524829634",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe app selection flow allows accidental selection of apps from different geographic regions without warning, which is likely a rare and usually unintended configuration.\n\nProblem:\nThe tester accidentally selected a UK app and a US app because the names were similar. The system did not warn that cross-region selection had occurred.\n\nObserved behaviour:\n- In Select Apps, user selected UK FreePrints Android and US FreePrints Android by mistake\n- The difference was subtle and easy to miss\n- No warning or validation appeared\n\nWhy this matters:\n- Mixed-region scenario setup is likely uncommon and usually accidental\n- Similar naming increases the risk of mistakes\n- Could produce misleading scenario outputs or wasted runs\n\nSuggested fix:\n- Detect when selected apps span multiple geographic regions\n- Show a confirmation/warning message such as:\n  “You have selected apps from different geographic regions. Is this correct?”\n- Consider surfacing region labels more prominently during app selection\n\nSteps to reproduce:\n1. Start creating a scenario\n2. In Select Apps, choose one UK app and one US app with similar names\n3. Observe no warning is shown\n\nExpected behaviour:\n- User is warned or asked to confirm when cross-region selection occurs\n\nActual behaviour:\n- Cross-region selection is allowed silently\n\nAcceptance criteria:\n- Region-mixed app selections trigger a warning/confirmation\n- App region is easier to distinguish visually in the selector\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.757Z",
+    "updatedAt": "2026-07-08T12:26:52.997Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387816742835",
+    "title": "Scenario Planner QA — Investigate repeated scenario preview failures across generated scenarios",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387816742835",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nMultiple generated scenarios failed when preview was attempted. This appears to be a broader reliability issue rather than a one-off scenario problem.\n\nProblem:\nThe tester reports that each time they attempted to preview scenarios, the preview came back with failure.\n\nObserved behaviour:\n- Generated scenarios were available\n- User clicked Preview\n- Each attempt came back with failure\n\nWhy this matters:\n- Prevents users from validating scenarios\n- Blocks the core comparison/planning workflow\n- Suggests a backend, integration, validation, or orchestration issue in preview generation\n\nSuggested fix:\n- Investigate preview generation pipeline failures end-to-end\n- Surface more actionable error messages where possible\n- Determine whether failures are data-specific, account-specific, or systemic in QA\n\nSteps to reproduce:\n1. Open generated scenarios in QA\n2. Attempt Preview on multiple scenarios\n3. Observe repeated preview failures\n\nExpected behaviour:\n- Scenario previews generate successfully for valid scenarios\n\nActual behaviour:\n- Multiple scenario preview attempts fail\n\nAcceptance criteria:\n- Preview generation succeeds reliably for valid QA scenarios\n- Failure states, if any, provide actionable diagnostics rather than generic failure\n- Root cause is identified and fixed\n\nPriority: Critical",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:51.180Z",
+    "updatedAt": "2026-07-08T12:26:52.994Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137514167",
+    "title": "Scenario Planner QA — Make selected strategy summary more prominent on the strategy page",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137514167",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe strategy page includes a bottom row showing selected strategy items such as focus goal and metric, but it is not visually prominent enough.\n\nProblem:\nUsers should be able to clearly see what they have selected before moving on. The current summary area is too easy to miss.\n\nObserved behaviour:\n- Selected focus goal and metric are displayed in a horizontal row at the bottom\n- The row does not stand out enough visually\n\nSuggested fix:\n- Increase prominence of the selected-strategy summary\n- Consider pill-style summary chips/buttons for the chosen values\n- Ensure users can quickly confirm their current selections at a glance\n\nSteps to reproduce:\n1. Complete selections on the Strategy page\n2. Observe the selected values summary row at the bottom\n3. Note that it does not stand out sufficiently\n\nExpected behaviour:\n- Chosen strategy settings are clearly visible and easy to verify\n\nActual behaviour:\n- Selected summary row is present but lacks prominence\n\nAcceptance criteria:\n- Selected strategy summary is visually prominent\n- Users can quickly confirm focus goal and metric selections before proceeding\n\nPriority: Medium\nType: UX improvement",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.710Z",
+    "updatedAt": "2026-07-08T12:26:53.028Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387877272563",
+    "title": "Scenario Planner QA — Fix budget toggle visual state and require valid budget input before progressing",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387877272563",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe budget step has both visual-state and validation issues. Weekly/monthly toggle styling is unclear in the ON state, and the flow allows users to proceed without selecting a budget mode or entering a budget amount.\n\nProblem:\nThe toggle loses clarity when enabled, and required budget input is not enforced.\n\nObserved behaviour:\n- When weekly/monthly buttons are turned on, the circular button inside the pill disappears and the control becomes all blue\n- This makes ON state unclear compared with other toggles in the UI\n- The user can move forward without selecting weekly or monthly budget\n- The user can also move forward without entering a budget amount\n\nWhy this matters:\n- Weakens clarity of a critical setup step\n- Allows incomplete scenario configuration\n- Increases likelihood of downstream errors or confusing defaults\n\nSuggested fix:\n- Update ON-state styling to match the clearer pattern used elsewhere, e.g. white button on blue background or consistent grey/off blue/on pill treatment\n- Enforce required validation so the user cannot continue without:\n  - selecting weekly or monthly mode\n  - entering a valid budget amount\n\nSteps to reproduce:\n1. Go to Budget step\n2. Toggle weekly/monthly and observe unclear active styling\n3. Attempt to continue without selecting a budget mode and/or without entering a budget\n4. Observe that progression is allowed\n\nExpected behaviour:\n- Toggle state is visually clear\n- User cannot progress without valid budget configuration\n\nActual behaviour:\n- Toggle state is visually weak and progression is allowed with incomplete input\n\nAcceptance criteria:\n- Weekly/monthly controls have clear ON/OFF states\n- Budget type selection is required\n- Budget amount is required before progressing\n\nPriority: Critical",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.732Z",
+    "updatedAt": "2026-07-08T12:26:53.004Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137360499",
+    "title": "Scenario Planner QA — Add clear loading and in-progress state when re-sync is triggered from scenario comparison",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137360499",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nWhen the user triggers re-sync from scenario comparison, the UI provides almost no feedback about what is happening. It temporarily leaves the comparison area empty and confusing.\n\nProblem:\nRe-sync appears to remove available comparison data without adequately telling the user what action was triggered, which scenarios are being re-run, or whether the process is in progress.\n\nObserved behaviour:\n- User clicked Re-sync from the comparison scenarios area\n- UI did not clearly state what Re-sync would do\n- After clicking, no scenarios were available for the user in comparison\n- UI showed: “no scenarios or generated previews available for comparison”\n- On the scenario homepage there was some indication that preview run was in progress, but comparison itself gave poor feedback\n\nWhy this matters:\n- Creates a moment of panic / confusion\n- Makes it unclear whether the action worked, failed, or deleted the current state\n- Reduces trust in preview/resync workflows\n\nSuggested fix:\n- Before or immediately after click, explain what Re-sync does\n- Show a clear “re-run / re-sync in progress” state in comparison\n- List the scenarios currently being re-synced or re-previewed\n- Prevent empty-state confusion by replacing “no scenarios...” with a contextual loading/in-progress message when applicable\n\nSteps to reproduce:\n1. Go to Scenario Comparison\n2. Click Re-sync\n3. Observe unclear behaviour and lack of in-progress messaging\n4. Observe empty-state message in comparison area\n\nExpected behaviour:\n- User is told exactly what Re-sync is doing\n- UI shows which scenarios are being re-run\n- Comparison page shows an in-progress state rather than a confusing empty state\n\nActual behaviour:\n- UI provides almost no meaningful feedback and falls back to a confusing empty message\n\nAcceptance criteria:\n- Re-sync action displays a clear explanation/state\n- Comparison page shows in-progress status for affected scenarios\n- Empty-state copy is suppressed when a re-sync is actively running\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.740Z",
+    "updatedAt": "2026-07-08T12:26:52.993Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387901923184",
+    "title": "Scenario Planner QA — Align budget-step toggle styling with the clearer ON/OFF control pattern used in Media Sources",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387901923184",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe ON/OFF interaction pattern used in Media Sources is clearer than the one used in the Budget step. Budget controls should match the clearer pattern for consistency.\n\nProblem:\nThe product currently uses a less effective toggle pattern in Budget, even though a better visual treatment already exists in Media Sources.\n\nObserved behaviour:\n- Media Sources buttons transition clearly from grey (off) to blue (on)\n- Budget step toggles do not match this clarity and lose the circular indicator in ON state\n\nSuggested fix:\n- Reuse the same visual treatment/pattern from Media Sources for Budget step toggles\n- Standardise toggle behaviour across the scenario flow\n\nSteps to reproduce:\n1. Compare toggle controls in Budget and Media Sources\n2. Observe that Media Sources is clearer and more legible\n\nExpected behaviour:\n- Similar ON/OFF controls behave and look consistent across the flow\n\nActual behaviour:\n- Budget toggle styling is inconsistent and less clear than Media Sources\n\nAcceptance criteria:\n- Budget toggle styling is brought into line with Media Sources control pattern\n- Similar controls follow a consistent design language\n\nPriority: Medium\nType: UI consistency",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.745Z",
+    "updatedAt": "2026-07-08T12:26:53.071Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388085786910",
+    "title": "Scenario Planner QA — Preserve newly created scenario tile and improve failed preview / queued preview feedback after scenario generation",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388085786910",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nAfter generating a new scenario, the scenario tile behaviour is unstable and messaging around failed preview vs queued preview is confusing.\n\nProblem:\nThe user saw a newly generated scenario tile, then received a red “failed to preview” warning. After attempting to preview again, the tile disappeared. Later, the scenario appeared to be present/ready and showed “preview queued,” but this state progression was not obvious.\n\nObserved behaviour:\n- Scenario tile initially displayed after creation\n- User saw red warning: failed to preview\n- User tried to preview again\n- Scenario tile then disappeared entirely\n- Later, preview queued messaging appeared, but the state change was unclear\n\nWhy this matters:\n- Creates fear that the scenario was lost or deleted\n- Makes preview state transitions hard to interpret\n- Reduces confidence in scenario creation reliability\n\nSuggested fix:\n- Ensure newly created scenario tiles remain visible even if preview generation fails\n- Show stable and explicit status states such as:\n  - Created\n  - Preview queued\n  - Preview running\n  - Preview failed\n  - Preview ready\n- Avoid removing the tile from the list when preview state changes or errors occur\n\nSteps to reproduce:\n1. Create a new scenario\n2. Observe tile creation\n3. Trigger preview / observe failed preview behaviour\n4. Attempt preview again\n5. Observe inconsistent tile/state behaviour\n\nExpected behaviour:\n- Scenario tile remains visible throughout lifecycle\n- Status transitions are explicit and easy to understand\n\nActual behaviour:\n- Tile disappears and preview status is confusing/inconsistent\n\nAcceptance criteria:\n- Newly created scenario tiles persist in the list regardless of preview status\n- Preview lifecycle states are explicit and stable\n- Failed preview does not make the scenario appear lost\n\nPriority: Critical",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.749Z",
+    "updatedAt": "2026-07-08T12:26:53.019Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137611681",
+    "title": "Scenario Planner QA — Add clearer preview progress feedback (queued/running/progress) for scenario previews",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137611681",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nPreview generation currently gives limited feedback. “Preview queued” exists but is not obvious enough, and there is no stronger sense of progress.\n\nProblem:\nUsers need a clearer understanding of whether previews are queued, running, or complete. The current feedback is too subtle for a long-running action.\n\nObserved behaviour:\n- User triggered preview on a newly generated scenario\n- UI said “preview queued”\n- This was not obvious enough\n- User suggested a progress bar or percentage indicator if possible\n\nSuggested fix:\n- Make preview queued/running state more prominent\n- If technically feasible, add progress indication such as progress bar or percentage\n- At minimum, show more visible state labels and timestamps/status refresh cues\n\nSteps to reproduce:\n1. Create or open a scenario\n2. Trigger preview\n3. Observe limited “preview queued” feedback\n\nExpected behaviour:\n- Preview state is obvious and confidence-inspiring\n- User can tell whether preview is queued, running, or done\n\nActual behaviour:\n- Queued state exists but is too subtle\n\nAcceptance criteria:\n- Preview states are visually prominent\n- User can distinguish queued vs running vs complete\n- If feasible, progress indicator is added\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.791Z",
+    "updatedAt": "2026-07-08T12:26:52.998Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137543913",
+    "title": "Scenario Planner QA — Review multi-step scenario creation UX for a future single-page configurator flow",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137543913",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nAs a phase-three design direction, scenario creation may work better as a single-page configurator with a persistent summary rather than a rigid stepped flow.\n\nProblem:\nThe current step-based flow can force users to think of dependent choices too late, causing backtracking.\n\nObserved behaviour:\n- During scenario creation, the user encountered decisions later in the flow that made them want to revisit earlier steps\n- The stepped experience did not feel fully intuitive\n\nSuggested future improvement:\n- Explore a one-page scenario configurator\n- Allow users to build the scenario while seeing a live summary/update panel as they move through the configuration\n- Reduce need for backward navigation when dependent choices become clearer later\n\nExpected benefit:\n- Stronger sense of configurator workflow\n- Better visibility of all selected settings at once\n- Fewer back-and-forth corrections\n\nAcceptance criteria:\n- Logged as phase-three UX/design exploration item\n- Design review considers single-page configurator with persistent summary\n\nPriority: Low\nType: Future enhancement / UX exploration",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.740Z",
+    "updatedAt": "2026-07-08T12:26:52.990Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388085594207",
+    "title": "Scenario Planner QA — Default media sources to active networks only instead of showing all historical networks as enabled",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388085594207",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe Media Sources step currently appears to show all historical client networks, resulting in a very long active set such as 75/75 selected. This is unrealistic for typical scenario planning.\n\nProblem:\nUsers generally do not want to include every network ever used over years of history. Showing all historical networks as effectively active by default creates noise and unnecessary cleanup.\n\nObserved behaviour:\n- Media Sources displayed 75 out of 75\n- This appears to reflect all networks ever used by the client across several years of historical data\n- This is unrealistic for present-day scenario planning\n\nSuggested fix:\n- Default the active/selected state to currently active networks only\n- Show inactive/historical networks as off by default, while still allowing users to turn them on if needed\n- Keep active selections visible as blue pills on the right-hand side, with historical/inactive sources switched off initially\n\nSteps to reproduce:\n1. Go to Media Sources for a client with long history\n2. Observe large all-time network count and active set (example: 75/75)\n3. Note that many of these are likely stale/historical rather than current planning inputs\n\nExpected behaviour:\n- Currently active networks are enabled by default\n- Historical/inactive networks are off by default but still available\n\nActual behaviour:\n- All historical networks appear to be included, creating unrealistic defaults\n\nAcceptance criteria:\n- Default selection reflects active/current networks only\n- Historical/inactive networks are available but off by default\n- Media source list is easier to manage for realistic scenario setup\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.733Z",
+    "updatedAt": "2026-07-08T12:26:53.033Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216387877669086",
+    "title": "Scenario Planner QA — Load preview/review results pages at the top instead of dropping users at the bottom of the page",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387877669086",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nWhen opening preview/review results, the experience places the user at the bottom of the page instead of the top.\n\nProblem:\nThis is disorienting and forces the user to scroll upward before they can understand the page. Users should land at the top of the results page.\n\nObserved behaviour:\n- When the user clicks Preview Scenario / Review Results\n- The page loads with the viewport positioned at the bottom\n- This occurred on preview scenario and review results experiences\n\nWhy this matters:\n- Breaks expected reading flow\n- Makes the page feel buggy or unfinished\n- Hides the most important top-of-page context\n\nSuggested fix:\n- Reset scroll position to top on navigation into preview/review results\n- Confirm this works consistently across all result-entry routes\n\nSteps to reproduce:\n1. Open Preview Scenario or Review Results\n2. Observe initial viewport position\n3. Note that it lands at the bottom of the page\n\nExpected behaviour:\n- Results page loads at the top\n\nActual behaviour:\n- Results page loads at the bottom\n\nAcceptance criteria:\n- Preview/review results always open at scroll position top\n- Behaviour is consistent across all scenario result routes\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.754Z",
+    "updatedAt": "2026-07-08T12:26:53.002Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388211844503",
+    "title": "Scenario Planner QA — Make top-level “Scenarios” navigation return users to the scenarios homepage",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388211844503",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe “Scenarios” item in the horizontal menu does not return the user to the scenarios homepage from deeper scenario views such as comparison.\n\nProblem:\nUsers expect the main “Scenarios” nav item to act as a reliable return path to the scenario home screen. Currently, the only route back is via a less-obvious breadcrumb/submenu path.\n\nObserved behaviour:\n- In scenario comparison and other deeper scenario pages, clicking / using the Scenarios context does not clearly return the user to the scenario homepage\n- The only obvious working route back is via the lower-level path/breadcrumb text such as “Optimize > Scenario > Optimization Scenarios”\n- This is not sufficiently obvious for normal users\n\nWhy this matters:\n- Breaks expected navigation behaviour\n- Increases friction when moving around scenario flows\n- Creates inconsistency across the scenario area\n\nSuggested fix:\n- Make the top-level “Scenarios” menu item always return the user to the Scenarios homepage\n- Apply this behaviour consistently throughout all scenario subpages\n\nSteps to reproduce:\n1. Navigate into Scenario Comparison or another scenario detail/subpage\n2. Attempt to return to the Scenarios homepage via the top-level Scenarios menu\n3. Observe that the user is not clearly taken back to the Scenarios homepage\n\nExpected behaviour:\n- Clicking the Scenarios menu returns the user to the Scenarios homepage from anywhere within the scenario area\n\nActual behaviour:\n- The user must rely on a less-obvious breadcrumb/submenu path to get back\n\nAcceptance criteria:\n- Top-level Scenarios menu is a consistent return route to scenario home\n- Behaviour is consistent across all scenario subpages\n- Users no longer need to rely on the breadcrumb path to navigate back\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.787Z",
+    "updatedAt": "2026-07-08T12:26:53.002Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
     }
   },
   {
@@ -12010,106 +13810,6 @@
     }
   },
   {
-    "id": "1215655421515245",
-    "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Flexible budget → Target CPA field\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe target CPA field in the Flexible budget option appears to display USD regardless of the client's configured account currency. De Facto's account is configured in Turkish Lira (TRY) — if the field is hardcoded to USD, clients entering CPA targets in their local currency will be submitting incorrect values without knowing.\n\nExpected behaviour: The target CPA field currency must reflect the client's configured account currency (e.g. TRY for De Facto, EUR for European accounts).\nActual behaviour: Currency appears as USD regardless of account configuration.\n\nNote: This issue is likely present throughout the Scenario Planner, not just in the flexible budget CPA field. Rhiannon noted the dashboard also appears in USD when De Facto is configured in TRY. This may be a wider currency rendering bug.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.623Z",
-    "updatedAt": "2026-07-07T14:55:36.023Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215655268043734",
     "title": "[BUG-SP-04] Scenario Planner — No delete button on scenario tiles",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268043734",
@@ -12127,807 +13827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.147Z",
-    "updatedAt": "2026-07-06T14:13:20.055Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655421254947",
-    "title": "[BUG-SP-13] Scenario Planner — No edit functionality on active scenarios",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421254947",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Active scenario management\nType: New feature / Bug\nPriority: Medium\n\nProblem:\nOnce a scenario is activated, the edit button is grayed out / unavailable. This means if a client needs to update their budget mid-month (e.g. offline media budget is cut, or a new trading deal requires spend reallocation), they must deactivate the scenario and recreate it from scratch. In a mid-month scenario, this requires manual calculation of remaining budget — a significant overhead.\n\nExpected behaviour: Active scenarios should be editable. Clients should be able to update specific fields (network min/max, budget values) on an active scenario, with the optimizer re-running automatically on save.\n\nActual behaviour: Edit button grayed out / locked while scenario is active.\n\nNote: It is unclear whether deactivating a scenario and recreating it mid-month is the intended workflow or an oversight. Please confirm intended behaviour before fixing.\n\nReported by: Gary Danks + Guillermo Martinez — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.123Z",
-    "updatedAt": "2026-07-03T13:49:33.060Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "New Requirement",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-07-03T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655268081679",
-    "title": "[BUG-SP-02] Scenario Planner — App / Model selection step appears AFTER budget entry",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268081679",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Step order / flow\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe \"Select App\" step currently appears after the client has already entered their budget. This means the client enters a total budget without knowing which app or model it applies to, creating ambiguity about whether it is per-app or a total across all models.\n\nExpected behaviour: App / model selection must appear BEFORE the budget entry step so the client knows what they are budgeting for.\nActual behaviour: Budget is entered first, app selected second.\n\nFix: Move the \"Select App\" step to before the budget entry step in the scenario creation flow.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.143Z",
-    "updatedAt": "2026-07-03T14:10:07.693Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655645481473",
-    "title": "[QUERY-SP-01] Scenario Planner — Hybrid strategy CPA minimisation logic — confirm with Robert",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655645481473",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Strategy selection → Hybrid → Minimize CPA\nType: Clarification / Investigation\nPriority: Needs investigation\n\nQuestion raised:\nHybrid strategy with CPA minimisation shows the optimisation target as non-cohorted total orders only. Rhiannon Taplin questioned whether this is correct — since Hybrid covers both UA and UE campaigns, the expectation would be that the optimizer considers both cohorted (UA) and non-cohorted (UE) metrics, not just non-cohorted total.\n\nGary's view: \"I think that is right because the only way you could really do a hybrid across UA and engagement campaigns is to maximise the total non-cohorted.\" However, this needs formal confirmation from Robert.\n\nAction required:\n1. Gary Danks to confirm logic with Robert Pawlowicz\n2. If the logic is correct: add inline explanation in the UI clarifying why non-cohorted total orders is the right metric for hybrid CPA minimisation\n3. If the logic is incorrect: raise as a separate bug fix\n\nRaised by: Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.180Z",
-    "updatedAt": "2026-07-06T14:26:57.294Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Others",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655342089039",
-    "title": "[BUG-SP-07] Scenario Planner — Scenario tile shows no budget detail or constraint summary",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655342089039",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Scenario tile\nType: UX improvement\nPriority: Medium\n\nProblem:\nScenario tiles currently only display the scenario name, strategy, and whether the budget type is \"Fixed\" or \"Flexible\". They do not show the actual budget amounts, active constraints, or which networks have been turned off or capped. This means clients returning to a scenario later (e.g. the following day) cannot quickly recall what configuration they set.\n\nExpected behaviour: Scenario tile should display:\n- Total budget (monthly summary if weekly input)\n- Weekly vs monthly budget type indicator\n- Any active constraints (networks turned off, min/max values set)\n- Creator + date\n\nActual behaviour: Only shows name, strategy type, and Fixed/Flexible label.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nQuote: \"There needs to be more detail in that tile. It needs to say who created it, what the budget is, any constraints.\"\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.152Z",
-    "updatedAt": "2026-07-06T14:20:21.881Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "New Requirement",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655421259398",
-    "title": "[BUG-SP-08] Scenario Planner — No weekly vs monthly indicator on scenario tile",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421259398",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Scenario tile\nType: UX improvement\nPriority: Medium\n\nProblem:\nScenario tiles do not indicate whether the budget was entered as weekly or monthly. This creates ambiguity when reviewing existing scenarios.\n\nExpected behaviour: The tile should clearly indicate the budget cadence (weekly or monthly) alongside the budget summary.\n\nReported by: Guillermo Martinez — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.167Z",
-    "updatedAt": "2026-07-06T14:29:25.107Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "New Requirement",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655268983619",
-    "title": "[BUG-SP-12] Scenario Planner — Activation confirmation card lacks scenario summary",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268983619",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Activation confirmation modal\nType: UX improvement\nPriority: Medium\n\nProblem:\nWhen a client clicks Activate on a scenario, a confirmation card appears but it does not include a meaningful summary of what is being activated. If the scenario was created the day before or by a different team member, the client may not remember its configuration and is being asked to confirm something they cannot verify.\n\nExpected behaviour: Activation confirmation modal should display a full summary of the scenario:\n- Strategy and goal\n- Budget type (fixed/flexible) and total budget amount\n- Key constraints (networks turned off, min/max values)\n- App / model the scenario applies to\n\nFix for this could be a summary option where the user presses the summary button and a pop-up with a full summary of the scenario appears with an activation button. \n\nActual behaviour: Confirmation card shown with minimal detail.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.139Z",
-    "updatedAt": "2026-07-06T14:18:33.291Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "New Requirement",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655421284778",
-    "title": "[BUG-SP-06] Scenario Planner — Scenario tile has no creator attribution",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421284778",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Scenario tile\nType: Bug fix / Missing data\nPriority: Medium\n\nProblem:\nScenario tiles do not display who created the scenario or when. For multi-user accounts or teams, this causes confusion — \"who made this?\" is an obvious question that will arise in client accounts where multiple users have access.\n\nExpected behaviour: Scenario tile should show \"Created by [user] on [date]\".\nActual behaviour: No creator or creation date is shown.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.138Z",
-    "updatedAt": "2026-07-06T14:22:15.526Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Medium",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": "2026-06-25T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1215655340949463",
-    "title": "[BUG-SP-01] Scenario Planner — Fixed / Flexible budget type can be multi-selected",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655340949463",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Area: Scenario Planner → Budget step\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nBoth \"Fixed\" and \"Flexible\" budget options can be selected simultaneously. They should be mutually exclusive — only one should be selectable at a time.\n\nSteps to reproduce:\n1. Navigate to Scenario Planner → create new scenario\n2. Reach the budget type step\n3. Select \"Fixed\" — then also select \"Flexible\"\n4. Both remain selected — no deselect occurs\n\nExpected behaviour: Selecting one option should deselect the other (radio button behaviour).\nActual behaviour: Both can be selected simultaneously.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-06-12T11:37:43.130Z",
-    "updatedAt": "2026-07-03T14:10:56.356Z",
+    "updatedAt": "2026-07-08T11:28:47.709Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13174,6 +14074,906 @@
       {
         "name": "Time to Complete",
         "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655268081679",
+    "title": "[BUG-SP-02] Scenario Planner — App / Model selection step appears AFTER budget entry",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268081679",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Step order / flow\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe \"Select App\" step currently appears after the client has already entered their budget. This means the client enters a total budget without knowing which app or model it applies to, creating ambiguity about whether it is per-app or a total across all models.\n\nExpected behaviour: App / model selection must appear BEFORE the budget entry step so the client knows what they are budgeting for.\nActual behaviour: Budget is entered first, app selected second.\n\nFix: Move the \"Select App\" step to before the budget entry step in the scenario creation flow.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:30:00.415Z",
+    "createdAt": "2026-06-12T11:37:43.143Z",
+    "updatedAt": "2026-07-08T11:30:04.359Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "1w 6d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655421254947",
+    "title": "[BUG-SP-13] Scenario Planner — No edit functionality on active scenarios",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421254947",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Active scenario management\nType: New feature / Bug\nPriority: Medium\n\nProblem:\nOnce a scenario is activated, the edit button is grayed out / unavailable. This means if a client needs to update their budget mid-month (e.g. offline media budget is cut, or a new trading deal requires spend reallocation), they must deactivate the scenario and recreate it from scratch. In a mid-month scenario, this requires manual calculation of remaining budget — a significant overhead.\n\nExpected behaviour: Active scenarios should be editable. Clients should be able to update specific fields (network min/max, budget values) on an active scenario, with the optimizer re-running automatically on save.\n\nActual behaviour: Edit button grayed out / locked while scenario is active.\n\nNote: It is unclear whether deactivating a scenario and recreating it mid-month is the intended workflow or an oversight. Please confirm intended behaviour before fixing.\n\nReported by: Gary Danks + Guillermo Martinez — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:29:14.140Z",
+    "createdAt": "2026-06-12T11:37:43.123Z",
+    "updatedAt": "2026-07-08T11:29:18.516Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "New Requirement",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-07-03T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "5d 11h",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655421515245",
+    "title": "[BUG-SP-10] Scenario Planner — Flexible budget target CPA currency appears hardcoded to USD",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421515245",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Flexible budget → Target CPA field\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nThe target CPA field in the Flexible budget option appears to display USD regardless of the client's configured account currency. De Facto's account is configured in Turkish Lira (TRY) — if the field is hardcoded to USD, clients entering CPA targets in their local currency will be submitting incorrect values without knowing.\n\nExpected behaviour: The target CPA field currency must reflect the client's configured account currency (e.g. TRY for De Facto, EUR for European accounts).\nActual behaviour: Currency appears as USD regardless of account configuration.\n\nNote: This issue is likely present throughout the Scenario Planner, not just in the flexible budget CPA field. Rhiannon noted the dashboard also appears in USD when De Facto is configured in TRY. This may be a wider currency rendering bug.\n\nReported by: Gary Danks + Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:26:49.562Z",
+    "createdAt": "2026-06-12T11:37:43.623Z",
+    "updatedAt": "2026-07-08T11:26:53.469Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "3w 1d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655645481473",
+    "title": "[QUERY-SP-01] Scenario Planner — Hybrid strategy CPA minimisation logic — confirm with Robert",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655645481473",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Strategy selection → Hybrid → Minimize CPA\nType: Clarification / Investigation\nPriority: Needs investigation\n\nQuestion raised:\nHybrid strategy with CPA minimisation shows the optimisation target as non-cohorted total orders only. Rhiannon Taplin questioned whether this is correct — since Hybrid covers both UA and UE campaigns, the expectation would be that the optimizer considers both cohorted (UA) and non-cohorted (UE) metrics, not just non-cohorted total.\n\nGary's view: \"I think that is right because the only way you could really do a hybrid across UA and engagement campaigns is to maximise the total non-cohorted.\" However, this needs formal confirmation from Robert.\n\nAction required:\n1. Gary Danks to confirm logic with Robert Pawlowicz\n2. If the logic is correct: add inline explanation in the UI clarifying why non-cohorted total orders is the right metric for hybrid CPA minimisation\n3. If the logic is incorrect: raise as a separate bug fix\n\nRaised by: Rhiannon Taplin — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:25:01.771Z",
+    "createdAt": "2026-06-12T11:37:43.180Z",
+    "updatedAt": "2026-07-08T11:25:05.485Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Others",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "1w 6d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655342089039",
+    "title": "[BUG-SP-07] Scenario Planner — Scenario tile shows no budget detail or constraint summary",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655342089039",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Scenario tile\nType: UX improvement\nPriority: Medium\n\nProblem:\nScenario tiles currently only display the scenario name, strategy, and whether the budget type is \"Fixed\" or \"Flexible\". They do not show the actual budget amounts, active constraints, or which networks have been turned off or capped. This means clients returning to a scenario later (e.g. the following day) cannot quickly recall what configuration they set.\n\nExpected behaviour: Scenario tile should display:\n- Total budget (monthly summary if weekly input)\n- Weekly vs monthly budget type indicator\n- Any active constraints (networks turned off, min/max values set)\n- Creator + date\n\nActual behaviour: Only shows name, strategy type, and Fixed/Flexible label.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nQuote: \"There needs to be more detail in that tile. It needs to say who created it, what the budget is, any constraints.\"\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:24:30.519Z",
+    "createdAt": "2026-06-12T11:37:43.152Z",
+    "updatedAt": "2026-07-08T11:24:33.815Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "New Requirement",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "1w 6d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655421259398",
+    "title": "[BUG-SP-08] Scenario Planner — No weekly vs monthly indicator on scenario tile",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421259398",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Scenario tile\nType: UX improvement\nPriority: Medium\n\nProblem:\nScenario tiles do not indicate whether the budget was entered as weekly or monthly. This creates ambiguity when reviewing existing scenarios.\n\nExpected behaviour: The tile should clearly indicate the budget cadence (weekly or monthly) alongside the budget summary.\n\nReported by: Guillermo Martinez — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:24:17.248Z",
+    "createdAt": "2026-06-12T11:37:43.167Z",
+    "updatedAt": "2026-07-08T11:24:20.974Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "New Requirement",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "1w 6d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655340949463",
+    "title": "[BUG-SP-01] Scenario Planner — Fixed / Flexible budget type can be multi-selected",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655340949463",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Budget step\nType: Bug fix\nPriority: P1 — Critical\n\nProblem:\nBoth \"Fixed\" and \"Flexible\" budget options can be selected simultaneously. They should be mutually exclusive — only one should be selectable at a time.\n\nSteps to reproduce:\n1. Navigate to Scenario Planner → create new scenario\n2. Reach the budget type step\n3. Select \"Fixed\" — then also select \"Flexible\"\n4. Both remain selected — no deselect occurs\n\nExpected behaviour: Selecting one option should deselect the other (radio button behaviour).\nActual behaviour: Both can be selected simultaneously.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:23:41.387Z",
+    "createdAt": "2026-06-12T11:37:43.130Z",
+    "updatedAt": "2026-07-08T11:23:44.067Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Critical",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "3w 1d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655421284778",
+    "title": "[BUG-SP-06] Scenario Planner — Scenario tile has no creator attribution",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421284778",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Scenario tile\nType: Bug fix / Missing data\nPriority: Medium\n\nProblem:\nScenario tiles do not display who created the scenario or when. For multi-user accounts or teams, this causes confusion — \"who made this?\" is an obvious question that will arise in client accounts where multiple users have access.\n\nExpected behaviour: Scenario tile should show \"Created by [user] on [date]\".\nActual behaviour: No creator or creation date is shown.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:23:34.155Z",
+    "createdAt": "2026-06-12T11:37:43.138Z",
+    "updatedAt": "2026-07-08T11:23:37.589Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "Defect",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "1w 6d",
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1215655268983619",
+    "title": "[BUG-SP-12] Scenario Planner — Activation confirmation card lacks scenario summary",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655268983619",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Area: Scenario Planner → Activation confirmation modal\nType: UX improvement\nPriority: Medium\n\nProblem:\nWhen a client clicks Activate on a scenario, a confirmation card appears but it does not include a meaningful summary of what is being activated. If the scenario was created the day before or by a different team member, the client may not remember its configuration and is being asked to confirm something they cannot verify.\n\nExpected behaviour: Activation confirmation modal should display a full summary of the scenario:\n- Strategy and goal\n- Budget type (fixed/flexible) and total budget amount\n- Key constraints (networks turned off, min/max values)\n- App / model the scenario applies to\n\nFix for this could be a summary option where the user presses the summary button and a pop-up with a full summary of the scenario appears with an activation button. \n\nActual behaviour: Confirmation card shown with minimal detail.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
+    "completed": true,
+    "completedAt": "2026-07-08T11:23:27.567Z",
+    "createdAt": "2026-06-12T11:37:43.139Z",
+    "updatedAt": "2026-07-08T11:23:30.965Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "Medium",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": "New Requirement",
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-06-25T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": "1w 6d",
         "type": "number"
       },
       {

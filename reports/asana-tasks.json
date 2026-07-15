@@ -12427,7 +12427,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-08T12:26:50.732Z",
-    "updatedAt": "2026-07-08T12:26:53.004Z",
+    "updatedAt": "2026-07-14T20:12:41.903Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12827,107 +12827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-08T12:26:50.791Z",
-    "updatedAt": "2026-07-08T12:26:52.998Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216388137543913",
-    "title": "Scenario Planner QA — Review multi-step scenario creation UX for a future single-page configurator flow",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137543913",
-    "type": "ISSUE",
-    "status": "Escalations and Investigations",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nAs a phase-three design direction, scenario creation may work better as a single-page configurator with a persistent summary rather than a rigid stepped flow.\n\nProblem:\nThe current step-based flow can force users to think of dependent choices too late, causing backtracking.\n\nObserved behaviour:\n- During scenario creation, the user encountered decisions later in the flow that made them want to revisit earlier steps\n- The stepped experience did not feel fully intuitive\n\nSuggested future improvement:\n- Explore a one-page scenario configurator\n- Allow users to build the scenario while seeing a live summary/update panel as they move through the configuration\n- Reduce need for backward navigation when dependent choices become clearer later\n\nExpected benefit:\n- Stronger sense of configurator workflow\n- Better visibility of all selected settings at once\n- Fewer back-and-forth corrections\n\nAcceptance criteria:\n- Logged as phase-three UX/design exploration item\n- Design review considers single-page configurator with persistent summary\n\nPriority: Low\nType: Future enhancement / UX exploration",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.740Z",
-    "updatedAt": "2026-07-08T12:26:52.990Z",
+    "updatedAt": "2026-07-14T20:31:03.356Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13027,7 +12927,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-08T12:26:50.733Z",
-    "updatedAt": "2026-07-08T12:26:53.033Z",
+    "updatedAt": "2026-07-14T20:34:22.589Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13564,6 +13464,106 @@
       {
         "name": "Date Backlog",
         "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137543913",
+    "title": "Scenario Planner QA — Review multi-step scenario creation UX for a future single-page configurator flow",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137543913",
+    "type": "ISSUE",
+    "status": "Backlog",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nAs a phase-three design direction, scenario creation may work better as a single-page configurator with a persistent summary rather than a rigid stepped flow.\n\nProblem:\nThe current step-based flow can force users to think of dependent choices too late, causing backtracking.\n\nObserved behaviour:\n- During scenario creation, the user encountered decisions later in the flow that made them want to revisit earlier steps\n- The stepped experience did not feel fully intuitive\n\nSuggested future improvement:\n- Explore a one-page scenario configurator\n- Allow users to build the scenario while seeing a live summary/update panel as they move through the configuration\n- Reduce need for backward navigation when dependent choices become clearer later\n\nExpected benefit:\n- Stronger sense of configurator workflow\n- Better visibility of all selected settings at once\n- Fewer back-and-forth corrections\n\nAcceptance criteria:\n- Logged as phase-three UX/design exploration item\n- Design review considers single-page configurator with persistent summary\n\nPriority: Low\nType: Future enhancement / UX exploration",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.740Z",
+    "updatedAt": "2026-07-14T20:32:13.498Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": "2026-07-15T00:00:00.000Z",
         "type": "date"
       },
       {

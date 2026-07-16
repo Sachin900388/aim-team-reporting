@@ -11527,7 +11527,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-08T12:26:50.746Z",
-    "updatedAt": "2026-07-15T12:56:20.748Z",
+    "updatedAt": "2026-07-15T21:50:51.562Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11810,106 +11810,6 @@
     }
   },
   {
-    "id": "1216388137514167",
-    "title": "Scenario Planner QA — Make selected strategy summary more prominent on the strategy page",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137514167",
-    "type": "ISSUE",
-    "status": "Escalations and Investigations",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nThe strategy page includes a bottom row showing selected strategy items such as focus goal and metric, but it is not visually prominent enough.\n\nProblem:\nUsers should be able to clearly see what they have selected before moving on. The current summary area is too easy to miss.\n\nObserved behaviour:\n- Selected focus goal and metric are displayed in a horizontal row at the bottom\n- The row does not stand out enough visually\n\nSuggested fix:\n- Increase prominence of the selected-strategy summary\n- Consider pill-style summary chips/buttons for the chosen values\n- Ensure users can quickly confirm their current selections at a glance\n\nSteps to reproduce:\n1. Complete selections on the Strategy page\n2. Observe the selected values summary row at the bottom\n3. Note that it does not stand out sufficiently\n\nExpected behaviour:\n- Chosen strategy settings are clearly visible and easy to verify\n\nActual behaviour:\n- Selected summary row is present but lacks prominence\n\nAcceptance criteria:\n- Selected strategy summary is visually prominent\n- Users can quickly confirm focus goal and metric selections before proceeding\n\nPriority: Medium\nType: UX improvement",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.710Z",
-    "updatedAt": "2026-07-08T12:26:53.028Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1216387877272563",
     "title": "Scenario Planner QA — Fix budget toggle visual state and require valid budget input before progressing",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387877272563",
@@ -11927,207 +11827,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-08T12:26:50.732Z",
-    "updatedAt": "2026-07-15T12:45:51.704Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216388137360499",
-    "title": "Scenario Planner QA — Add clear loading and in-progress state when re-sync is triggered from scenario comparison",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137360499",
-    "type": "ISSUE",
-    "status": "Escalations and Investigations",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nWhen the user triggers re-sync from scenario comparison, the UI provides almost no feedback about what is happening. It temporarily leaves the comparison area empty and confusing.\n\nProblem:\nRe-sync appears to remove available comparison data without adequately telling the user what action was triggered, which scenarios are being re-run, or whether the process is in progress.\n\nObserved behaviour:\n- User clicked Re-sync from the comparison scenarios area\n- UI did not clearly state what Re-sync would do\n- After clicking, no scenarios were available for the user in comparison\n- UI showed: “no scenarios or generated previews available for comparison”\n- On the scenario homepage there was some indication that preview run was in progress, but comparison itself gave poor feedback\n\nWhy this matters:\n- Creates a moment of panic / confusion\n- Makes it unclear whether the action worked, failed, or deleted the current state\n- Reduces trust in preview/resync workflows\n\nSuggested fix:\n- Before or immediately after click, explain what Re-sync does\n- Show a clear “re-run / re-sync in progress” state in comparison\n- List the scenarios currently being re-synced or re-previewed\n- Prevent empty-state confusion by replacing “no scenarios...” with a contextual loading/in-progress message when applicable\n\nSteps to reproduce:\n1. Go to Scenario Comparison\n2. Click Re-sync\n3. Observe unclear behaviour and lack of in-progress messaging\n4. Observe empty-state message in comparison area\n\nExpected behaviour:\n- User is told exactly what Re-sync is doing\n- UI shows which scenarios are being re-run\n- Comparison page shows an in-progress state rather than a confusing empty state\n\nActual behaviour:\n- UI provides almost no meaningful feedback and falls back to a confusing empty message\n\nAcceptance criteria:\n- Re-sync action displays a clear explanation/state\n- Comparison page shows in-progress status for affected scenarios\n- Empty-state copy is suppressed when a re-sync is actively running\n\nPriority: High",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.740Z",
-    "updatedAt": "2026-07-08T12:26:52.993Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216388085786910",
-    "title": "Scenario Planner QA — Preserve newly created scenario tile and improve failed preview / queued preview feedback after scenario generation",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388085786910",
-    "type": "ISSUE",
-    "status": "Escalations and Investigations",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nAfter generating a new scenario, the scenario tile behaviour is unstable and messaging around failed preview vs queued preview is confusing.\n\nProblem:\nThe user saw a newly generated scenario tile, then received a red “failed to preview” warning. After attempting to preview again, the tile disappeared. Later, the scenario appeared to be present/ready and showed “preview queued,” but this state progression was not obvious.\n\nObserved behaviour:\n- Scenario tile initially displayed after creation\n- User saw red warning: failed to preview\n- User tried to preview again\n- Scenario tile then disappeared entirely\n- Later, preview queued messaging appeared, but the state change was unclear\n\nWhy this matters:\n- Creates fear that the scenario was lost or deleted\n- Makes preview state transitions hard to interpret\n- Reduces confidence in scenario creation reliability\n\nSuggested fix:\n- Ensure newly created scenario tiles remain visible even if preview generation fails\n- Show stable and explicit status states such as:\n  - Created\n  - Preview queued\n  - Preview running\n  - Preview failed\n  - Preview ready\n- Avoid removing the tile from the list when preview state changes or errors occur\n\nSteps to reproduce:\n1. Create a new scenario\n2. Observe tile creation\n3. Trigger preview / observe failed preview behaviour\n4. Attempt preview again\n5. Observe inconsistent tile/state behaviour\n\nExpected behaviour:\n- Scenario tile remains visible throughout lifecycle\n- Status transitions are explicit and easy to understand\n\nActual behaviour:\n- Tile disappears and preview status is confusing/inconsistent\n\nAcceptance criteria:\n- Newly created scenario tiles persist in the list regardless of preview status\n- Preview lifecycle states are explicit and stable\n- Failed preview does not make the scenario appear lost\n\nPriority: Critical",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.749Z",
-    "updatedAt": "2026-07-08T12:26:53.019Z",
+    "updatedAt": "2026-07-15T20:24:17.027Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12669,6 +12369,306 @@
       {
         "name": "Date In Progress",
         "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137514167",
+    "title": "Scenario Planner QA — Make selected strategy summary more prominent on the strategy page",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137514167",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nThe strategy page includes a bottom row showing selected strategy items such as focus goal and metric, but it is not visually prominent enough.\n\nProblem:\nUsers should be able to clearly see what they have selected before moving on. The current summary area is too easy to miss.\n\nObserved behaviour:\n- Selected focus goal and metric are displayed in a horizontal row at the bottom\n- The row does not stand out enough visually\n\nSuggested fix:\n- Increase prominence of the selected-strategy summary\n- Consider pill-style summary chips/buttons for the chosen values\n- Ensure users can quickly confirm their current selections at a glance\n\nSteps to reproduce:\n1. Complete selections on the Strategy page\n2. Observe the selected values summary row at the bottom\n3. Note that it does not stand out sufficiently\n\nExpected behaviour:\n- Chosen strategy settings are clearly visible and easy to verify\n\nActual behaviour:\n- Selected summary row is present but lacks prominence\n\nAcceptance criteria:\n- Selected strategy summary is visually prominent\n- Users can quickly confirm focus goal and metric selections before proceeding\n\nPriority: Medium\nType: UX improvement",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.710Z",
+    "updatedAt": "2026-07-15T19:36:27.054Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-07-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388137360499",
+    "title": "Scenario Planner QA — Add clear loading and in-progress state when re-sync is triggered from scenario comparison",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137360499",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nWhen the user triggers re-sync from scenario comparison, the UI provides almost no feedback about what is happening. It temporarily leaves the comparison area empty and confusing.\n\nProblem:\nRe-sync appears to remove available comparison data without adequately telling the user what action was triggered, which scenarios are being re-run, or whether the process is in progress.\n\nObserved behaviour:\n- User clicked Re-sync from the comparison scenarios area\n- UI did not clearly state what Re-sync would do\n- After clicking, no scenarios were available for the user in comparison\n- UI showed: “no scenarios or generated previews available for comparison”\n- On the scenario homepage there was some indication that preview run was in progress, but comparison itself gave poor feedback\n\nWhy this matters:\n- Creates a moment of panic / confusion\n- Makes it unclear whether the action worked, failed, or deleted the current state\n- Reduces trust in preview/resync workflows\n\nSuggested fix:\n- Before or immediately after click, explain what Re-sync does\n- Show a clear “re-run / re-sync in progress” state in comparison\n- List the scenarios currently being re-synced or re-previewed\n- Prevent empty-state confusion by replacing “no scenarios...” with a contextual loading/in-progress message when applicable\n\nSteps to reproduce:\n1. Go to Scenario Comparison\n2. Click Re-sync\n3. Observe unclear behaviour and lack of in-progress messaging\n4. Observe empty-state message in comparison area\n\nExpected behaviour:\n- User is told exactly what Re-sync is doing\n- UI shows which scenarios are being re-run\n- Comparison page shows an in-progress state rather than a confusing empty state\n\nActual behaviour:\n- UI provides almost no meaningful feedback and falls back to a confusing empty message\n\nAcceptance criteria:\n- Re-sync action displays a clear explanation/state\n- Comparison page shows in-progress status for affected scenarios\n- Empty-state copy is suppressed when a re-sync is actively running\n\nPriority: High",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.740Z",
+    "updatedAt": "2026-07-15T18:43:04.178Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-07-16T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1216388085786910",
+    "title": "Scenario Planner QA — Preserve newly created scenario tile and improve failed preview / queued preview feedback after scenario generation",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388085786910",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Lyazii Christopher",
+    "description": "Summary:\nAfter generating a new scenario, the scenario tile behaviour is unstable and messaging around failed preview vs queued preview is confusing.\n\nProblem:\nThe user saw a newly generated scenario tile, then received a red “failed to preview” warning. After attempting to preview again, the tile disappeared. Later, the scenario appeared to be present/ready and showed “preview queued,” but this state progression was not obvious.\n\nObserved behaviour:\n- Scenario tile initially displayed after creation\n- User saw red warning: failed to preview\n- User tried to preview again\n- Scenario tile then disappeared entirely\n- Later, preview queued messaging appeared, but the state change was unclear\n\nWhy this matters:\n- Creates fear that the scenario was lost or deleted\n- Makes preview state transitions hard to interpret\n- Reduces confidence in scenario creation reliability\n\nSuggested fix:\n- Ensure newly created scenario tiles remain visible even if preview generation fails\n- Show stable and explicit status states such as:\n  - Created\n  - Preview queued\n  - Preview running\n  - Preview failed\n  - Preview ready\n- Avoid removing the tile from the list when preview state changes or errors occur\n\nSteps to reproduce:\n1. Create a new scenario\n2. Observe tile creation\n3. Trigger preview / observe failed preview behaviour\n4. Attempt preview again\n5. Observe inconsistent tile/state behaviour\n\nExpected behaviour:\n- Scenario tile remains visible throughout lifecycle\n- Status transitions are explicit and easy to understand\n\nActual behaviour:\n- Tile disappears and preview status is confusing/inconsistent\n\nAcceptance criteria:\n- Newly created scenario tiles persist in the list regardless of preview status\n- Preview lifecycle states are explicit and stable\n- Failed preview does not make the scenario appear lost\n\nPriority: Critical",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-08T12:26:50.749Z",
+    "updatedAt": "2026-07-15T18:20:32.201Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": "2026-07-15T00:00:00.000Z",
         "type": "date"
       },
       {

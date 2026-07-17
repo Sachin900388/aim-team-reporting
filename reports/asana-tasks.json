@@ -12027,7 +12027,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-16T10:09:10.003Z",
-    "updatedAt": "2026-07-16T15:16:29.804Z",
+    "updatedAt": "2026-07-16T19:31:24.041Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -12114,20 +12114,20 @@
     "title": "[BUG-SP-05] Scenario Planner — No active scenario indicator on Recommendations page",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655694970411",
     "type": "ISSUE",
-    "status": "Intake",
+    "status": "Escalations and Investigations",
     "assignees": [
       {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
+        "gid": "1211767850221652",
+        "name": "Lyazii Christopher",
+        "email": "lchristopher@kochava.com"
       }
     ],
-    "primaryAssignee": "Mayank Ukey",
+    "primaryAssignee": "Lyazii Christopher",
     "description": "Area: Recommendations page\nType: Missing feature / Bug\nPriority: P1 — Critical\n\nProblem:\nThe Recommendations page shows no indication of which scenario is currently active. Users cannot determine what budget configuration is driving the recommendations displayed. This was previously raised as feedback and may have been worked on — needs confirmation.\n\nExpected behaviour: A summary banner at the top of the Recommendations page should show the name, budget total, strategy, and goal of the currently active scenario.\nActual behaviour: No active scenario information is shown anywhere on the Recommendations page.\n\nAction required: Confirm with engineering whether this was implemented. If not, raise as priority fix.\n\nReported by: Gary Danks — Optimiser Training session, 12 June 2026\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-12T11:37:43.163Z",
-    "updatedAt": "2026-06-18T13:15:44.472Z",
+    "updatedAt": "2026-07-16T19:32:39.311Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

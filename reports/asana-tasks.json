@@ -11510,124 +11510,24 @@
     }
   },
   {
-    "id": "1216388085594207",
-    "title": "Scenario Planner QA — Default media sources to active networks only instead of showing all historical networks as enabled",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388085594207",
+    "id": "1215292807970387",
+    "title": "[MMM Phase 2] T-ML-03: Notification triggers",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215292807970387",
     "type": "ISSUE",
-    "status": "Escalations and Investigations",
+    "status": "In Progress",
     "assignees": [
       {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
       }
     ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nThe Media Sources step currently appears to show all historical client networks, resulting in a very long active set such as 75/75 selected. This is unrealistic for typical scenario planning.\n\nProblem:\nUsers generally do not want to include every network ever used over years of history. Showing all historical networks as effectively active by default creates noise and unnecessary cleanup.\n\nObserved behaviour:\n- Media Sources displayed 75 out of 75\n- This appears to reflect all networks ever used by the client across several years of historical data\n- This is unrealistic for present-day scenario planning\n\nSuggested fix:\n- Default the active/selected state to currently active networks only\n- Show inactive/historical networks as off by default, while still allowing users to turn them on if needed\n- Keep active selections visible as blue pills on the right-hand side, with historical/inactive sources switched off initially\n\nSteps to reproduce:\n1. Go to Media Sources for a client with long history\n2. Observe large all-time network count and active set (example: 75/75)\n3. Note that many of these are likely stale/historical rather than current planning inputs\n\nExpected behaviour:\n- Currently active networks are enabled by default\n- Historical/inactive networks are off by default but still available\n\nActual behaviour:\n- All historical networks appear to be included, creating unrealistic defaults\n\nAcceptance criteria:\n- Default selection reflects active/current networks only\n- Historical/inactive networks are available but off by default\n- Media source list is easier to manage for realistic scenario setup\n\nPriority: High",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.733Z",
-    "updatedAt": "2026-07-16T17:30:59.658Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216620889189375",
-    "title": "Add warning for weekly and monthly budget input, base on recent spend.",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216620889189375",
-    "type": "ISSUE",
-    "status": "Escalations and Investigations",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
+    "primaryAssignee": "Anupam Bhattacharyya",
     "description": "",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-07-16T10:09:10.003Z",
-    "updatedAt": "2026-07-16T19:31:24.041Z",
+    "createdAt": "2026-06-01T15:21:45.084Z",
+    "updatedAt": "2026-07-20T12:22:22.474Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11700,6 +11600,46 @@
         "name": "Dev Escalation Resolution",
         "value": null,
         "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
       }
     ],
     "source": {
@@ -11764,306 +11704,6 @@
       {
         "name": "Date Backlog",
         "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216387877272563",
-    "title": "Scenario Planner QA — Fix budget toggle visual state and require valid budget input before progressing",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387877272563",
-    "type": "ISSUE",
-    "status": "On Hold",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nThe budget step has both visual-state and validation issues. Weekly/monthly toggle styling is unclear in the ON state, and the flow allows users to proceed without selecting a budget mode or entering a budget amount.\n\nProblem:\nThe toggle loses clarity when enabled, and required budget input is not enforced.\n\nObserved behaviour:\n- When weekly/monthly buttons are turned on, the circular button inside the pill disappears and the control becomes all blue\n- This makes ON state unclear compared with other toggles in the UI\n- The user can move forward without selecting weekly or monthly budget\n- The user can also move forward without entering a budget amount\n\nWhy this matters:\n- Weakens clarity of a critical setup step\n- Allows incomplete scenario configuration\n- Increases likelihood of downstream errors or confusing defaults\n\nSuggested fix:\n- Update ON-state styling to match the clearer pattern used elsewhere, e.g. white button on blue background or consistent grey/off blue/on pill treatment\n- Enforce required validation so the user cannot continue without:\n  - selecting weekly or monthly mode\n  - entering a valid budget amount\n\nSteps to reproduce:\n1. Go to Budget step\n2. Toggle weekly/monthly and observe unclear active styling\n3. Attempt to continue without selecting a budget mode and/or without entering a budget\n4. Observe that progression is allowed\n\nExpected behaviour:\n- Toggle state is visually clear\n- User cannot progress without valid budget configuration\n\nActual behaviour:\n- Toggle state is visually weak and progression is allowed with incomplete input\n\nAcceptance criteria:\n- Weekly/monthly controls have clear ON/OFF states\n- Budget type selection is required\n- Budget amount is required before progressing\n\nPriority: Critical",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.732Z",
-    "updatedAt": "2026-07-17T13:10:13.271Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216387901995112",
-    "title": "Scenario Planner QA — Review scenario creation IA: merge “Create” and “Select Apps” into a single step or clearer unified flow",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216387901995112",
-    "type": "ISSUE",
-    "status": "Backlog",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nThe scenario creation flow currently separates naming/description from app selection, but the user experience suggests these belong together.\n\nProblem:\nFrom a workflow perspective, naming a scenario, describing it, and choosing which app(s) it applies to feel like one creation action. Splitting them into separate steps adds friction.\n\nObserved behaviour:\n- User enters scenario name and description in the Create a New Scenario section\n- App selection happens in a separate Select Apps step\n- This feels like unnecessary separation of a single conceptual action\n\nWhy this matters:\n- Makes creation feel more fragmented than necessary\n- Increases steps for a simple mental model: “create a scenario for these apps”\n\nSuggested fix:\n- Review whether scenario metadata and app selection can be merged into one step\n- If not merged, improve the information architecture so it feels like one continuous creation action\n\nSteps to reproduce:\n1. Start creating a new scenario\n2. Enter scenario name and description\n3. Proceed to Select Apps\n4. Observe that this feels like an artificial split in the flow\n\nExpected behaviour:\n- Creation flow should match user mental model and minimise unnecessary steps\n\nActual behaviour:\n- Metadata entry and app selection are separated in a way that feels unintuitive\n\nAcceptance criteria:\n- Product/design team reviews whether the two steps should be merged\n- If kept separate, the flow is reframed to feel more cohesive and intentional\n\nPriority: Medium\nType: UX improvement / design review",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.746Z",
-    "updatedAt": "2026-07-17T13:09:37.220Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": "2026-07-17T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1216388137543913",
-    "title": "Scenario Planner QA — Review multi-step scenario creation UX for a future single-page configurator flow",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1216388137543913",
-    "type": "ISSUE",
-    "status": "Backlog",
-    "assignees": [
-      {
-        "gid": "1211767850221652",
-        "name": "Lyazii Christopher",
-        "email": "lchristopher@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Lyazii Christopher",
-    "description": "Summary:\nAs a phase-three design direction, scenario creation may work better as a single-page configurator with a persistent summary rather than a rigid stepped flow.\n\nProblem:\nThe current step-based flow can force users to think of dependent choices too late, causing backtracking.\n\nObserved behaviour:\n- During scenario creation, the user encountered decisions later in the flow that made them want to revisit earlier steps\n- The stepped experience did not feel fully intuitive\n\nSuggested future improvement:\n- Explore a one-page scenario configurator\n- Allow users to build the scenario while seeing a live summary/update panel as they move through the configuration\n- Reduce need for backward navigation when dependent choices become clearer later\n\nExpected benefit:\n- Stronger sense of configurator workflow\n- Better visibility of all selected settings at once\n- Fewer back-and-forth corrections\n\nAcceptance criteria:\n- Logged as phase-three UX/design exploration item\n- Design review considers single-page configurator with persistent summary\n\nPriority: Low\nType: Future enhancement / UX exploration",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-07-08T12:26:50.740Z",
-    "updatedAt": "2026-07-14T20:32:13.498Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": "2026-07-15T00:00:00.000Z",
         "type": "date"
       },
       {

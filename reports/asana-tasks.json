@@ -370,106 +370,6 @@
     }
   },
   {
-    "id": "1214136944008902",
-    "title": "[MMM] Incrementality: ML Fixes + K4A Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Phase 1 complete: aim-portal-ui (Angular), aim-portal-api (.NET), aim-incremental-service (Python/Airflow). Code audit identified 2 critical bugs + 4 ML enhancements from Robert. Phase 2 migrates to frontend-mos (Vue 3) + mmm-portal-api (Go). Design doc: docs/incrementality-k4a-migration/specs/2026-04-20-aim-incrementality-migration-design.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-04-20T11:35:40.890Z",
-    "updatedAt": "2026-05-25T09:43:44.003Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Business Unit",
-        "value": "AIM",
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1214148639889640",
     "title": "[MMM] AIM Self-Service Optimization Phase 1 — Migration to K4A",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214148639889640",
@@ -2045,196 +1945,6 @@
     }
   },
   {
-    "id": "1214097227461788",
-    "title": "Update ML Configs for Migrated Advertisers",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214097227461788",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Update IDs on Prod",
-    "completed": true,
-    "completedAt": "2026-04-16T18:13:00.863Z",
-    "createdAt": "2026-04-16T05:36:40.110Z",
-    "updatedAt": "2026-05-22T20:18:54.524Z",
-    "dueOn": "2026-04-16",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": "2026-04-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Completed",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1214100251608369",
-    "title": "K4A Bug Analysis & Patch",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214100251608369",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "",
-    "completed": true,
-    "completedAt": "2026-04-16T18:13:06.445Z",
-    "createdAt": "2026-04-16T07:40:07.470Z",
-    "updatedAt": "2026-04-17T04:46:12.120Z",
-    "dueOn": "2026-04-16",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": "2026-04-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Completed",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1214139765847233",
     "title": "[MMM] Save View",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214139765847233",
@@ -2289,101 +1999,6 @@
       {
         "name": "State",
         "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1214147756531999",
-    "title": "[MMM] Advertiser partner config does not let you create postbacks for agencies",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214147756531999",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "https://app.asana.com/1/8559678460204/project/1209063547332310/task/1214112672222205?focus=true",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-04-21T09:03:19.678Z",
-    "updatedAt": "2026-05-25T09:44:34.764Z",
-    "dueOn": "2026-04-21",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "In QA or Review",
         "type": "enum"
       },
       {
@@ -2867,17 +2482,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Jaya Kumar",
     "description": "",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-12T05:39:45.849Z",
-    "updatedAt": "2026-05-25T09:44:36.109Z",
+    "updatedAt": "2026-07-21T05:45:52.378Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -6080,106 +5695,6 @@
     }
   },
   {
-    "id": "1214136944008902",
-    "title": "[MMM] Incrementality: ML Fixes + K4A Migration",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214136944008902",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Phase 1 complete: aim-portal-ui (Angular), aim-portal-api (.NET), aim-incremental-service (Python/Airflow). Code audit identified 2 critical bugs + 4 ML enhancements from Robert. Phase 2 migrates to frontend-mos (Vue 3) + mmm-portal-api (Go). Design doc: docs/incrementality-k4a-migration/specs/2026-04-20-aim-incrementality-migration-design.md",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-04-20T11:35:40.890Z",
-    "updatedAt": "2026-05-25T09:43:44.003Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Business Unit",
-        "value": "AIM",
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1214148639889640",
     "title": "[MMM] AIM Self-Service Optimization Phase 1 — Migration to K4A",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214148639889640",
@@ -7755,196 +7270,6 @@
     }
   },
   {
-    "id": "1214097227461788",
-    "title": "Update ML Configs for Migrated Advertisers",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214097227461788",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Update IDs on Prod",
-    "completed": true,
-    "completedAt": "2026-04-16T18:13:00.863Z",
-    "createdAt": "2026-04-16T05:36:40.110Z",
-    "updatedAt": "2026-05-22T20:18:54.524Z",
-    "dueOn": "2026-04-16",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": "2026-04-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Completed",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1214100251608369",
-    "title": "K4A Bug Analysis & Patch",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214100251608369",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "",
-    "completed": true,
-    "completedAt": "2026-04-16T18:13:06.445Z",
-    "createdAt": "2026-04-16T07:40:07.470Z",
-    "updatedAt": "2026-04-17T04:46:12.120Z",
-    "dueOn": "2026-04-16",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": "2026-04-16T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Completed",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM Migration",
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1214139765847233",
     "title": "[MMM] Save View",
     "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214139765847233",
@@ -7999,101 +7324,6 @@
       {
         "name": "State",
         "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1214147756531999",
-    "title": "[MMM] Advertiser partner config does not let you create postbacks for agencies",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1214147756531999",
-    "type": "ISSUE",
-    "status": "In Progress",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "https://app.asana.com/1/8559678460204/project/1209063547332310/task/1214112672222205?focus=true",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-04-21T09:03:19.678Z",
-    "updatedAt": "2026-05-25T09:44:34.764Z",
-    "dueOn": "2026-04-21",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "In Progress",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "In QA or Review",
         "type": "enum"
       },
       {
@@ -8577,17 +7807,17 @@
     "status": "AIM / MMM Backlogs",
     "assignees": [
       {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
       }
     ],
-    "primaryAssignee": "Anupam Bhattacharyya",
+    "primaryAssignee": "Jaya Kumar",
     "description": "",
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-12T05:39:45.849Z",
-    "updatedAt": "2026-05-25T09:44:36.109Z",
+    "updatedAt": "2026-07-21T05:45:52.378Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11867,7 +11097,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-07-01T15:39:34.652Z",
+    "updatedAt": "2026-07-21T16:17:00.265Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13050,106 +12280,6 @@
     }
   },
   {
-    "id": "1215655421466196",
-    "title": "[BUG-SP-15] Recommendations page — Extremely slow loading and throwing errors across multiple clients",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215655421466196",
-    "type": "ISSUE",
-    "status": "Complete",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "Area: AIM Recommendations page\nType: Bug fix / Performance\nPriority: P1 — Critical\n\nProblem:\nThe Recommendations page is loading extremely slowly and throwing errors across multiple client accounts. Observed during the 12 June training session on the Adobe Acrobat Reader account. Rhiannon confirmed this is happening across multiple campaigns, not isolated to one account.\n\nBehaviour observed:\n- Page loads extremely slowly\n- Page throws errors before finally loading (or fails to load entirely)\n- Browser prompted user with \"wait for page to load\" dialogue\n\nImpact: This is client-facing. If clients are attempting to use Recommendations and seeing errors, this directly damages trust in the platform.\n\nReported by: Rhiannon Taplin (raised support card during session) + Gary Danks — 12 June 2026\nAffected accounts: Adobe Acrobat Reader confirmed. Likely wider — Rhiannon to confirm scope.\nSource: projects/transcripts/2026-06-12-optimiser-training-rhia-guillermo.md",
-    "completed": true,
-    "completedAt": "2026-06-23T09:07:59.558Z",
-    "createdAt": "2026-06-12T11:37:43.146Z",
-    "updatedAt": "2026-06-23T09:08:00.927Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Critical",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
     "id": "1215822226962694",
     "title": "[BUG-UI-01] Scenario list and Status UI alignment with exiting UI standard.",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1215822226962694",
@@ -13414,106 +12544,6 @@
       {
         "name": "Time to Complete",
         "value": "16h 25m",
-        "type": "number"
-      },
-      {
-        "name": "Focus",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Eng. Days",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Origin Type",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Domain Team",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Dev Escalation Resolution",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Unplanned Work",
-      "projectId": 7,
-      "projectGid": "1209147801260461"
-    }
-  },
-  {
-    "id": "1213972799393173",
-    "title": "Complete Status filter in incrementality page is not working",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1213972799393173",
-    "type": "ISSUE",
-    "status": "Complete",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "When using the status filter for the incrementality page the completed tests are not showing as expected. ",
-    "completed": true,
-    "completedAt": "2026-04-09T12:49:28.022Z",
-    "createdAt": "2026-04-07T17:32:18.579Z",
-    "updatedAt": "2026-04-09T12:51:18.264Z",
-    "dueOn": "2026-04-09",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Priority",
-        "value": "Low",
-        "type": "enum"
-      },
-      {
-        "name": "Req Type",
-        "value": "Defect",
-        "type": "enum"
-      },
-      {
-        "name": "Functional Area",
-        "value": "AIM",
-        "type": "enum"
-      },
-      {
-        "name": "QTR",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Contributors",
-        "value": "",
-        "type": "people"
-      },
-      {
-        "name": "Time to Pickup",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Date Backlog",
-        "value": "2026-04-07T00:00:00.000Z",
-        "type": "date"
-      },
-      {
-        "name": "Date In Progress",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Time to Complete",
-        "value": null,
         "type": "number"
       },
       {
@@ -14074,116 +13104,6 @@
       {
         "name": "Source",
         "value": "Asana",
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": "Not Started",
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": "AIM ETL Requirements",
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM ETL Requirements",
-      "projectId": 8,
-      "projectGid": "1209209910929196"
-    }
-  },
-  {
-    "id": "1214384460521786",
-    "title": "New ETL - Singular connector - AI SDLC",
-    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384460521786",
-    "type": "ISSUE",
-    "status": "Complete",
-    "assignees": [
-      {
-        "gid": "1211750460277076",
-        "name": "Mayank Ukey",
-        "email": "mukey@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Mayank Ukey",
-    "description": "",
-    "completed": true,
-    "completedAt": "2026-05-13T02:22:19.376Z",
-    "createdAt": "2026-04-29T09:40:07.268Z",
-    "updatedAt": "2026-05-13T02:22:19.526Z",
-    "dueOn": null,
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": "Complete",
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
         "type": "enum"
       },
       {
@@ -15210,6 +14130,101 @@
     }
   },
   {
+    "id": "1216726381206153",
+    "title": "New ETL - Add column campaign_type to feature views",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216726381206153",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-21T05:14:01.625Z",
+    "updatedAt": "2026-07-21T05:16:56.266Z",
+    "dueOn": "2026-07-21",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-07-21T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In QA or Review",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1216169003774850",
     "title": "Old ETL | Defacto |  Ingest Sessions metric from Adjust ",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216169003774850",
@@ -15274,6 +14289,101 @@
       {
         "name": "Source",
         "value": "Direct",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1216726381206160",
+    "title": "ETL - Compare PA Appsflyer and Adjust attribution",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216726381206160",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-21T05:15:33.026Z",
+    "updatedAt": "2026-07-21T05:19:04.560Z",
+    "dueOn": "2026-07-22",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-07-22T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "Not Started",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
         "type": "enum"
       },
       {
@@ -15417,8 +14527,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-06-02T04:33:04.333Z",
-    "updatedAt": "2026-07-02T05:51:14.567Z",
-    "dueOn": "2026-06-08",
+    "updatedAt": "2026-07-21T05:17:00.019Z",
+    "dueOn": null,
     "tags": [],
     "customFields": [
       {
@@ -15474,6 +14584,101 @@
       {
         "name": "Priority",
         "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1216726381206166",
+    "title": "Scalable advertiser init and data ingestion",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216726381206166",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-07-21T05:17:35.071Z",
+    "updatedAt": "2026-07-21T05:18:10.175Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-07-24T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
         "type": "enum"
       },
       {

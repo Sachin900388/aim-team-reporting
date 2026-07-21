@@ -3,7 +3,6 @@
     "Backlog for post-pilot launch",
     "AIM / MMM Backlogs",
     "Complete",
-    "In Progress",
     "Not Started",
     "Done",
     "Prod Deployment",
@@ -22,6 +21,7 @@
   "1209209910929196": [
     "Untitled section",
     "Complete",
-    "Blocked"
+    "Blocked",
+    "In Progress"
   ]
 }

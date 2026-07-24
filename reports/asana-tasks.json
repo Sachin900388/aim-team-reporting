@@ -2787,6 +2787,11 @@
         "type": "enum"
       },
       {
+        "name": "Task Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
         "name": "Rank ",
         "value": null,
         "type": "text"
@@ -8112,6 +8117,11 @@
         "type": "enum"
       },
       {
+        "name": "Task Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
         "name": "Rank ",
         "value": null,
         "type": "text"
@@ -10667,7 +10677,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-07-23T07:38:34.687Z",
+    "updatedAt": "2026-07-24T07:48:42.533Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -11097,7 +11107,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-07-23T15:23:26.781Z",
+    "updatedAt": "2026-07-24T16:02:01.204Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -14134,7 +14144,7 @@
     "title": "New ETL - Add column campaign_type to feature views",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216726381206153",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -14144,10 +14154,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-07-24T06:34:01.548Z",
     "createdAt": "2026-07-21T05:14:01.625Z",
-    "updatedAt": "2026-07-21T05:16:56.266Z",
+    "updatedAt": "2026-07-24T06:34:11.243Z",
     "dueOn": "2026-07-21",
     "tags": [],
     "customFields": [
@@ -14173,7 +14183,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -14183,7 +14193,7 @@
       },
       {
         "name": "State",
-        "value": "In QA or Review",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -14324,7 +14334,7 @@
     "title": "ETL - Compare PA Appsflyer and Adjust attribution",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216726381206160",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -14337,7 +14347,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-07-21T05:15:33.026Z",
-    "updatedAt": "2026-07-21T18:30:16.872Z",
+    "updatedAt": "2026-07-24T06:34:39.511Z",
     "dueOn": "2026-07-22",
     "tags": [],
     "customFields": [
@@ -14363,7 +14373,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -14373,7 +14383,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {

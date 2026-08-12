@@ -10867,7 +10867,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-08-07T11:21:32.977Z",
+    "updatedAt": "2026-08-12T09:58:02.384Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -10937,6 +10937,128 @@
       "projectName": "AIM Customer Integration",
       "projectId": 6,
       "projectGid": "1212696147313746"
+    }
+  },
+  {
+    "id": "1217405733469034",
+    "title": "Incorrect Cost // Missing Cost & Revenue",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1217405733469034",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Task Name:\nIncorrect Cost // Missing Cost & Revenue\n\nPerson Submitting Task:\nGuillermo Martinez\n\nEmail address:\ngmartinez@kochava.com\n\nAccounts:\nDefacto; 28596\n\nRed-Flag Account:\nNo\n\nApps:\nDefacto - Clothing & Shopping - Android; 86662\n\nNetwork(if applicable)::\nN/A\n\nUser:\nN/A\n\nURL Highlighting Issue:\nhttps://console.kochava.com/#/advertisertools/mmminsights?account_id=28596&app_id=86662&app_id_list=86662\n\nPlatform:\nAIM\n\nFunctional Area:\nAnalytics\n\nTask Type:\nBug/Escalation\n\nPriority:\nHigh\n\nRelated Tasks:\nN/A\n\nDescription/Steps to Reproduce Issue::\nSelect Defacto Android app, go to Media Partners tab and change the cadence to 'Custom'. Then, change the date range from 1st June 2026 to 11th August 2026, and add 'Revenue' to the metrics list.\n\nWhen scrolling over the grand totals metrics, you will see the following issues:\n\nAdSpend \n1- there's an unexpected spike in spend between 28th June and 12th July, around double the normal amount\n2- missing spend data from 13th July to 24th July\n\nRevenue\n1- missing spend data from 13th July to 24th July\n\nNote: I believe the issues mentioned above are not isolated to the Android app, but are across Defacto models over the same date ranges\n\n———————————————\nThis task was submitted through Escalation Template\nhttps://form.asana.com/?k=TbZ5O7anBN9ACOmbIu5ToQ&d=8559678460204",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-08-12T12:49:30.637Z",
+    "updatedAt": "2026-08-12T14:45:22.741Z",
+    "dueOn": null,
+    "tags": [
+      "Prod Ops"
+    ],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": "Analytics",
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Red-Flag",
+        "value": "No",
+        "type": "enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "AIM",
+        "type": "multi_enum"
+      },
+      {
+        "name": "Task Type",
+        "value": "Bug/Escalation",
+        "type": "enum"
+      },
+      {
+        "name": "Blocked",
+        "value": "No",
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
     }
   },
   {
@@ -11297,7 +11419,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-08-11T16:09:18.343Z",
+    "updatedAt": "2026-08-12T16:09:54.238Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -13859,7 +13981,7 @@
     "title": "Break Consolidation task into separate tasks",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1212774577516131",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -13869,11 +13991,11 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Break consolidation task into\n    Network discovery\n    Data aggregation\n    Actual Consolidation\n    Data transformation\n",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-08-12T11:53:45.294Z",
     "createdAt": "2026-01-13T14:59:10.091Z",
-    "updatedAt": "2026-04-07T04:55:52.556Z",
-    "dueOn": null,
+    "updatedAt": "2026-08-12T11:53:45.411Z",
+    "dueOn": "2026-08-12",
     "tags": [],
     "customFields": [
       {
@@ -13898,7 +14020,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -14809,7 +14931,7 @@
     "title": "Scalable advertiser init and data ingestion",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1216726381206166",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -14819,11 +14941,11 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-08-12T11:54:07.187Z",
     "createdAt": "2026-07-21T05:17:35.071Z",
-    "updatedAt": "2026-07-21T05:18:10.175Z",
-    "dueOn": null,
+    "updatedAt": "2026-08-12T11:54:07.303Z",
+    "dueOn": "2026-08-12",
     "tags": [],
     "customFields": [
       {
@@ -14848,7 +14970,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -14984,6 +15106,101 @@
       {
         "name": "Sprint",
         "value": "Sprint (Apr 1 - Apr 14)",
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
+    "id": "1217366387751179",
+    "title": "Old ETL - PA windsor customizations",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1217366387751179",
+    "type": "ISSUE",
+    "status": "In Progress",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Robert has requested for a couple of customisations for planet art.\n\n    app_bundle_id should be used to identify the account instead of account_name in windsor files for UK\n    US should use AF cost as fallback when windsor cost is not available for any network(example - AppLovin)\n",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-08-12T11:54:20.579Z",
+    "updatedAt": "2026-08-12T11:57:25.386Z",
+    "dueOn": "2026-08-13",
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P0",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": "2026-08-13T00:00:00.000Z",
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": "In Progress",
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": "AIM Unplanned Work",
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": "Direct",
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
         "type": "multi_enum"
       }
     ],

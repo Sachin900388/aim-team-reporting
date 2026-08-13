@@ -10940,9 +10940,9 @@
     }
   },
   {
-    "id": "1217405733469034",
-    "title": "Incorrect Cost // Missing Cost & Revenue",
-    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1217405733469034",
+    "id": "1217424582278135",
+    "title": "Planet Art (US) - client will restrict access to the data from the US apps",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1217424582278135",
     "type": "ISSUE",
     "status": "Escalations and Investigations",
     "assignees": [
@@ -10953,15 +10953,13 @@
       }
     ],
     "primaryAssignee": "Jaya Kumar",
-    "description": "Task Name:\nIncorrect Cost // Missing Cost & Revenue\n\nPerson Submitting Task:\nGuillermo Martinez\n\nEmail address:\ngmartinez@kochava.com\n\nAccounts:\nDefacto; 28596\n\nRed-Flag Account:\nNo\n\nApps:\nDefacto - Clothing & Shopping - Android; 86662\n\nNetwork(if applicable)::\nN/A\n\nUser:\nN/A\n\nURL Highlighting Issue:\nhttps://console.kochava.com/#/advertisertools/mmminsights?account_id=28596&app_id=86662&app_id_list=86662\n\nPlatform:\nAIM\n\nFunctional Area:\nAnalytics\n\nTask Type:\nBug/Escalation\n\nPriority:\nHigh\n\nRelated Tasks:\nN/A\n\nDescription/Steps to Reproduce Issue::\nSelect Defacto Android app, go to Media Partners tab and change the cadence to 'Custom'. Then, change the date range from 1st June 2026 to 11th August 2026, and add 'Revenue' to the metrics list.\n\nWhen scrolling over the grand totals metrics, you will see the following issues:\n\nAdSpend \n1- there's an unexpected spike in spend between 28th June and 12th July, around double the normal amount\n2- missing spend data from 13th July to 24th July\n\nRevenue\n1- missing spend data from 13th July to 24th July\n\nNote: I believe the issues mentioned above are not isolated to the Android app, but are across Defacto models over the same date ranges\n\n———————————————\nThis task was submitted through Escalation Template\nhttps://form.asana.com/?k=TbZ5O7anBN9ACOmbIu5ToQ&d=8559678460204",
+    "description": "Task Name:\nPlanet Art (US) - client will restrict access to the data from the US apps\n\nPerson Submitting Task:\nGuillermo Martinez\n\nEmail address:\ngmartinez@kochava.com\n\nAccounts:\nPlanet Art; 27043\n\nRed-Flag Account:\nNo\n\nApps:\nUS FreePrints - Print Photos; 87361; kous-freeprints-print-photos-2albroj\nUS FreePrints - Android; 87360; kous-freeprints-android-1q85\n\n\nNetwork(if applicable)::\nN/A\n\nUser:\nN/A\n\nURL Highlighting Issue:\nN/A\n\nPlatform:\nAIM\n\nFunctional Area:\nAIM\n\nTask Type:\nBug/Escalation\n\nPriority:\nHigh\n\nRelated Tasks:\nhttps://app.asana.com/0/search?q=windsor&searched_type=task&locatedIn=anywhere&child=1214768519227082\n\nDescription/Steps to Reproduce Issue::\nAs a result of the US models being dropped from the PlanetArt account, the client decided to limit/restrict access to the Windsor.ai data from the US apps. In a nutshell, they will be looking to create a subset of the data that does not contain the US data in it, allowing only the non-US data through. \n\nThey're thinking about changing the URL of the S3 directory bucket that contains all the data (and we have access to), keeping the files pretty much the same with subdirectories for all ad networks, but renaming the windsor.ai level to something different (like 'kochava' directory or so), and within that directory they'll have the same underlying directory of a folder for each ad partner and a clean directory within there. (This is so there's only one place that needs to change on our end, which would be replacing those words windsor.ai with Kochava. Would this work for us?)\n\nTheir current plan to achieve this consists of adding a function to filter out data where currency_code = USD or country_code = US or account_name,  \nand store the resulting files (non-US) in the new 'Kochava directory'.\n\nDo we have any callouts or suggestions we can share with the client so this update is successful and the data needed for the UK models is not impacted?\n\n———————————————\nThis task was submitted through Escalation Template\nhttps://form.asana.com/?k=TbZ5O7anBN9ACOmbIu5ToQ&d=8559678460204",
     "completed": false,
     "completedAt": null,
-    "createdAt": "2026-08-12T12:49:30.637Z",
-    "updatedAt": "2026-08-12T14:45:22.741Z",
+    "createdAt": "2026-08-12T17:07:15.449Z",
+    "updatedAt": "2026-08-13T17:26:52.715Z",
     "dueOn": null,
-    "tags": [
-      "Prod Ops"
-    ],
+    "tags": [],
     "customFields": [
       {
         "name": "Priority",
@@ -10975,7 +10973,7 @@
       },
       {
         "name": "Functional Area",
-        "value": "Analytics",
+        "value": "AIM",
         "type": "enum"
       },
       {
@@ -11034,6 +11032,11 @@
         "type": "enum"
       },
       {
+        "name": "Blocked",
+        "value": "No",
+        "type": "enum"
+      },
+      {
         "name": "Red-Flag",
         "value": "No",
         "type": "enum"
@@ -11046,11 +11049,6 @@
       {
         "name": "Task Type",
         "value": "Bug/Escalation",
-        "type": "enum"
-      },
-      {
-        "name": "Blocked",
-        "value": "No",
         "type": "enum"
       }
     ],
@@ -11491,6 +11489,128 @@
       {
         "name": "Dev Escalation Resolution",
         "value": null,
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
+    "id": "1217405733469034",
+    "title": "Incorrect Cost // Missing Cost & Revenue",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1217405733469034",
+    "type": "ISSUE",
+    "status": "Complete",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "Task Name:\nIncorrect Cost // Missing Cost & Revenue\n\nPerson Submitting Task:\nGuillermo Martinez\n\nEmail address:\ngmartinez@kochava.com\n\nAccounts:\nDefacto; 28596\n\nRed-Flag Account:\nNo\n\nApps:\nDefacto - Clothing & Shopping - Android; 86662\n\nNetwork(if applicable)::\nN/A\n\nUser:\nN/A\n\nURL Highlighting Issue:\nhttps://console.kochava.com/#/advertisertools/mmminsights?account_id=28596&app_id=86662&app_id_list=86662\n\nPlatform:\nAIM\n\nFunctional Area:\nAnalytics\n\nTask Type:\nBug/Escalation\n\nPriority:\nHigh\n\nRelated Tasks:\nN/A\n\nDescription/Steps to Reproduce Issue::\nSelect Defacto Android app, go to Media Partners tab and change the cadence to 'Custom'. Then, change the date range from 1st June 2026 to 11th August 2026, and add 'Revenue' to the metrics list.\n\nWhen scrolling over the grand totals metrics, you will see the following issues:\n\nAdSpend \n1- there's an unexpected spike in spend between 28th June and 12th July, around double the normal amount\n2- missing spend data from 13th July to 24th July\n\nRevenue\n1- missing spend data from 13th July to 24th July\n\nNote: I believe the issues mentioned above are not isolated to the Android app, but are across Defacto models over the same date ranges\n\n———————————————\nThis task was submitted through Escalation Template\nhttps://form.asana.com/?k=TbZ5O7anBN9ACOmbIu5ToQ&d=8559678460204",
+    "completed": true,
+    "completedAt": "2026-08-13T14:54:33.363Z",
+    "createdAt": "2026-08-12T12:49:30.637Z",
+    "updatedAt": "2026-08-13T14:54:34.813Z",
+    "dueOn": null,
+    "tags": [
+      "Prod Ops"
+    ],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": "Analytics",
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Red-Flag",
+        "value": "No",
+        "type": "enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "AIM",
+        "type": "multi_enum"
+      },
+      {
+        "name": "Task Type",
+        "value": "Bug/Escalation",
+        "type": "enum"
+      },
+      {
+        "name": "Blocked",
+        "value": "No",
         "type": "enum"
       }
     ],

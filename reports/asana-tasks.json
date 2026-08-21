@@ -11417,7 +11417,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-08-20T09:46:50.904Z",
+    "updatedAt": "2026-08-21T10:01:59.954Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -14114,7 +14114,7 @@
     "completed": true,
     "completedAt": "2026-08-12T11:53:45.294Z",
     "createdAt": "2026-01-13T14:59:10.091Z",
-    "updatedAt": "2026-08-12T11:53:45.411Z",
+    "updatedAt": "2026-08-21T10:07:14.209Z",
     "dueOn": "2026-08-12",
     "tags": [],
     "customFields": [
@@ -14150,7 +14150,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -14196,7 +14196,7 @@
     "title": "Raw data tables with original column names for debug and audit purposes",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1212513486746361",
     "type": "ISSUE",
-    "status": "Blocked",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -14206,11 +14206,11 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Currently, we do not store the raw customer data as it is anywhere on our side. We perform some level of transformation before saving the data. But this may not be useful for Auditing or Debugging from source purposes",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-08-21T10:05:54.586Z",
     "createdAt": "2025-12-18T10:27:13.477Z",
-    "updatedAt": "2026-04-07T05:14:47.369Z",
-    "dueOn": null,
+    "updatedAt": "2026-08-21T10:07:02.743Z",
+    "dueOn": "2026-08-21",
     "tags": [],
     "customFields": [
       {
@@ -14235,7 +14235,7 @@
       },
       {
         "name": "Status",
-        "value": "Blocked",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -14245,7 +14245,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -14969,7 +14969,7 @@
     "completed": true,
     "completedAt": "2026-07-27T05:19:09.785Z",
     "createdAt": "2026-06-02T04:33:04.333Z",
-    "updatedAt": "2026-07-27T05:19:09.895Z",
+    "updatedAt": "2026-08-21T10:07:31.613Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -15005,7 +15005,7 @@
       },
       {
         "name": "State",
-        "value": "In QA or Review",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -15241,7 +15241,7 @@
     "title": "Old ETL - PA windsor customizations",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1217366387751179",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -15251,11 +15251,11 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Robert has requested for a couple of customisations for planet art.\n\n    app_bundle_id should be used to identify the account instead of account_name in windsor files for UK\n    US should use AF cost as fallback when windsor cost is not available for any network(example - AppLovin)\n",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-08-21T10:06:45.593Z",
     "createdAt": "2026-08-12T11:54:20.579Z",
-    "updatedAt": "2026-08-12T18:30:17.997Z",
-    "dueOn": "2026-08-13",
+    "updatedAt": "2026-08-21T10:06:45.709Z",
+    "dueOn": "2026-08-21",
     "tags": [],
     "customFields": [
       {
@@ -15280,7 +15280,7 @@
       },
       {
         "name": "Status",
-        "value": "In Progress",
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -15290,7 +15290,7 @@
       },
       {
         "name": "State",
-        "value": "In Progress",
+        "value": "Completed",
         "type": "enum"
       },
       {

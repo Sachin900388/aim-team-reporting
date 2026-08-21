@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T02:25:04.989Z",
+  "timestamp": "2026-08-21T17:34:21.819Z",
   "masterProjectGid": "1213645932471387",
   "masterProjectUrl": "https://app.asana.com/1/8559678460204/project/1213645932471387",
   "stats": {
@@ -16,8 +16,7 @@
   },
   "tasksByStatus": {
     "Ready": 85,
-    "Done": 97,
-    "In Progress": 4,
-    "Blocked": 1
+    "Done": 99,
+    "In Progress": 3
   }
 }

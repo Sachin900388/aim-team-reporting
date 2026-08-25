@@ -10854,7 +10854,7 @@
     "title": " AIM | Cabify Integration",
     "url": "https://app.asana.com/1/8559678460204/project/1210582837025370/task/1211849869355688",
     "type": "ISSUE",
-    "status": "On Track",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1206564252383966",
@@ -10864,10 +10864,10 @@
     ],
     "primaryAssignee": "Anupam Bhattacharyya",
     "description": "Account Name:\nCabify\n\nPriority:\nMedium\n\nRequestor: \njmanfred@kochava.com, kfisher@kochava.com \n\nDetails/Description:\nCabify is a new customer who will be using AIM. Their data sources for the Feature tables will be Google Drive. Can we please integrate those sources to collect data into their AIM datasets? Credentials and details for each integration are in the subtasks below. ",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-08-25T11:53:10.816Z",
     "createdAt": "2025-11-05T14:33:44.666Z",
-    "updatedAt": "2026-08-12T09:58:02.384Z",
+    "updatedAt": "2026-08-25T11:53:12.667Z",
     "dueOn": "2026-03-13",
     "tags": [],
     "customFields": [
@@ -10898,7 +10898,7 @@
       },
       {
         "name": "TW Status",
-        "value": "On Track",
+        "value": "Complete",
         "type": "enum"
       },
       {

@@ -17,8 +17,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-09-02T15:09:04.799Z",
-    "updatedAt": "2026-09-02T15:13:05.890Z",
-    "dueOn": null,
+    "updatedAt": "2026-09-03T18:30:25.259Z",
+    "dueOn": "2026-09-04",
     "tags": [],
     "customFields": [
       {
@@ -85,6 +85,46 @@
         "name": "Sprint",
         "value": null,
         "type": "multi_enum"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Project Type",
+        "value": "Type C",
+        "type": "enum"
+      },
+      {
+        "name": "ProjectPhase",
+        "value": "Coding",
+        "type": "enum"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Overdue Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Engineering Start Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Team",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "PhaseDate",
+        "value": null,
+        "type": "date"
       }
     ],
     "source": {
@@ -5537,8 +5577,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-09-02T15:09:04.799Z",
-    "updatedAt": "2026-09-02T15:13:05.890Z",
-    "dueOn": null,
+    "updatedAt": "2026-09-03T18:30:25.259Z",
+    "dueOn": "2026-09-04",
     "tags": [],
     "customFields": [
       {
@@ -5605,6 +5645,46 @@
         "name": "Sprint",
         "value": null,
         "type": "multi_enum"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Project Type",
+        "value": "Type C",
+        "type": "enum"
+      },
+      {
+        "name": "ProjectPhase",
+        "value": "Coding",
+        "type": "enum"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Overdue Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Engineering Start Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Team",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "PhaseDate",
+        "value": null,
+        "type": "date"
       }
     ],
     "source": {
@@ -11507,7 +11587,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-09-02T06:20:35.035Z",
+    "updatedAt": "2026-09-03T14:45:56.177Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

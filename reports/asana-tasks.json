@@ -125,6 +125,11 @@
         "name": "PhaseDate",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "WDI Weight",
+        "value": null,
+        "type": "enum"
       }
     ],
     "source": {
@@ -5685,6 +5690,11 @@
         "name": "PhaseDate",
         "value": null,
         "type": "date"
+      },
+      {
+        "name": "WDI Weight",
+        "value": null,
+        "type": "enum"
       }
     ],
     "source": {

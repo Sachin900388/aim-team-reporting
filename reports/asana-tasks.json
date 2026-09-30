@@ -11220,6 +11220,126 @@
     }
   },
   {
+    "id": "1219041418930539",
+    "title": "AiM platform - add Turkish language translation",
+    "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1219041418930539",
+    "type": "ISSUE",
+    "status": "Escalations and Investigations",
+    "assignees": [
+      {
+        "gid": "1206564252383966",
+        "name": "Anupam Bhattacharyya",
+        "email": "abhattacharyya@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Anupam Bhattacharyya",
+    "description": "Task Name:\nAiM platform - add Turkish language translation\n\nPerson Submitting Task:\nGuillermo Martinez\n\nEmail address:\ngmartinez@kochava.com\n\nAccounts:\nDefacto; 28596\n\nRed-Flag Account:\n🚩🚩🚩\n\nApps:\nN/A\n\nNetwork(if applicable)::\nN/A\n\nUser:\nN/A\n\nURL Highlighting Issue:\nhttps://console.kochava.com/#/advertisertools/appconfigurations/appsassets/settings?account_id=28596&app_id=86662\n\nPlatform:\nK4A\n\nFunctional Area:\nAIM\n\nTask Type:\nRequest\n\nPriority:\nHigh\n\nRelated Tasks:\nN/A\n\nDescription/Steps to Reproduce Issue::\nMost of the team members on the client side have a limited level of English, which makes the use of the platform quite challenging for them.\nAs a solution, we would like to include Turkish as an option for language translation on the AiM platform.\n\n \n\n———————————————\nThis task was submitted through Escalation Template\nhttps://form.asana.com/?k=TbZ5O7anBN9ACOmbIu5ToQ&d=8559678460204",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-09-30T17:48:51.601Z",
+    "updatedAt": "2026-09-30T18:21:08.824Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Priority",
+        "value": "High",
+        "type": "enum"
+      },
+      {
+        "name": "Req Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Functional Area",
+        "value": "AIM",
+        "type": "enum"
+      },
+      {
+        "name": "QTR",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Contributors",
+        "value": "",
+        "type": "people"
+      },
+      {
+        "name": "Time to Pickup",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Date Backlog",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Date In Progress",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Time to Complete",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Focus",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Eng. Days",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Origin Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Domain Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Blocked",
+        "value": "No",
+        "type": "enum"
+      },
+      {
+        "name": "Red-Flag",
+        "value": "🚩🚩🚩",
+        "type": "enum"
+      },
+      {
+        "name": "Business Unit",
+        "value": "K4A",
+        "type": "multi_enum"
+      },
+      {
+        "name": "Task Type",
+        "value": "Request",
+        "type": "enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM Unplanned Work",
+      "projectId": 7,
+      "projectGid": "1209147801260461"
+    }
+  },
+  {
     "id": "1217424582278135",
     "title": "Planet Art (US) - client will restrict access to the data from the US apps",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1217424582278135",
@@ -11597,7 +11717,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-09-29T16:13:16.813Z",
+    "updatedAt": "2026-09-30T16:49:09.209Z",
     "dueOn": null,
     "tags": [],
     "customFields": [

@@ -1,145 +1,5 @@
 [
   {
-    "id": "1218102387896845",
-    "title": "MMM Demo account - Add scenario planner and Incrementally tests to AIM Demo  ",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1218102387896845",
-    "type": "ISSUE",
-    "status": "AIM / MMM Backlogs",
-    "assignees": [
-      {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Anupam Bhattacharyya",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-09-02T15:09:04.799Z",
-    "updatedAt": "2026-10-07T14:53:35.517Z",
-    "dueOn": "2026-09-08",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Project Type",
-        "value": "Type C",
-        "type": "enum"
-      },
-      {
-        "name": "ProjectPhase",
-        "value": "Dev Testing",
-        "type": "enum"
-      },
-      {
-        "name": "Sprint",
-        "value": "2026-10R1",
-        "type": "enum"
-      },
-      {
-        "name": "Overdue Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Engineering Start Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Team",
-        "value": "AIM",
-        "type": "enum"
-      },
-      {
-        "name": "PhaseDate",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "WDI Weight",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Bug Tracking",
-      "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
     "id": "1214583850265071",
     "title": "[BUG-06] Predictive Models — BAU and Target Range lines flip / tooltip shows incorrect values when single model selected",
     "url": "https://app.asana.com/1/8559678460204/project/1211285481658610/task/1214583850265071",
@@ -5561,146 +5421,6 @@
       "platform": "asana",
       "projectName": "AIM Migration Bug Tracking",
       "projectId": 4,
-      "projectGid": "1212206740699577"
-    }
-  },
-  {
-    "id": "1218102387896845",
-    "title": "MMM Demo account - Add scenario planner and Incrementally tests to AIM Demo  ",
-    "url": "https://app.asana.com/1/8559678460204/project/1212206740699577/task/1218102387896845",
-    "type": "ISSUE",
-    "status": "AIM / MMM Backlogs",
-    "assignees": [
-      {
-        "gid": "1206564252383966",
-        "name": "Anupam Bhattacharyya",
-        "email": "abhattacharyya@kochava.com"
-      }
-    ],
-    "primaryAssignee": "Anupam Bhattacharyya",
-    "description": "",
-    "completed": false,
-    "completedAt": null,
-    "createdAt": "2026-09-02T15:09:04.799Z",
-    "updatedAt": "2026-10-07T14:53:35.517Z",
-    "dueOn": "2026-09-08",
-    "tags": [],
-    "customFields": [
-      {
-        "name": "Rank ",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Efforts ( Mandays)",
-        "value": null,
-        "type": "number"
-      },
-      {
-        "name": "Release Planned",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Pick Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Status",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "End Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "State",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Workstream",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Source",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Repo Name",
-        "value": null,
-        "type": "text"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Last Activity Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Sprint",
-        "value": null,
-        "type": "multi_enum"
-      },
-      {
-        "name": "Priority",
-        "value": null,
-        "type": "enum"
-      },
-      {
-        "name": "Project Type",
-        "value": "Type C",
-        "type": "enum"
-      },
-      {
-        "name": "ProjectPhase",
-        "value": "Dev Testing",
-        "type": "enum"
-      },
-      {
-        "name": "Sprint",
-        "value": "2026-10R1",
-        "type": "enum"
-      },
-      {
-        "name": "Overdue Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Engineering Start Date",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "Team",
-        "value": "AIM",
-        "type": "enum"
-      },
-      {
-        "name": "PhaseDate",
-        "value": null,
-        "type": "date"
-      },
-      {
-        "name": "WDI Weight",
-        "value": null,
-        "type": "enum"
-      }
-    ],
-    "source": {
-      "platform": "asana",
-      "projectName": "AIM Migration Project",
-      "projectId": 5,
       "projectGid": "1212206740699577"
     }
   },
@@ -11237,7 +10957,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-09-30T17:48:51.601Z",
-    "updatedAt": "2026-10-01T18:10:12.446Z",
+    "updatedAt": "2026-10-08T15:20:09.741Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -14691,7 +14411,7 @@
     "title": "Create a migration script for table schema changes",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1211586259661426",
     "type": "ISSUE",
-    "status": "Untitled section",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -14701,11 +14421,11 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "If we add/modify a column in Cost and Attribution model, then we need to apply those changes to existing tables in redshift using a migration script",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-10-08T16:48:36.270Z",
     "createdAt": "2025-10-09T05:47:51.694Z",
-    "updatedAt": "2026-04-07T04:55:43.342Z",
-    "dueOn": null,
+    "updatedAt": "2026-10-08T16:48:46.577Z",
+    "dueOn": "2026-10-08",
     "tags": [],
     "customFields": [
       {
@@ -14730,7 +14450,7 @@
       },
       {
         "name": "Status",
-        "value": null,
+        "value": "Complete",
         "type": "enum"
       },
       {
@@ -14740,7 +14460,7 @@
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {
@@ -15464,8 +15184,8 @@
     "completed": true,
     "completedAt": "2026-10-07T17:14:29.262Z",
     "createdAt": "2026-03-30T09:25:19.750Z",
-    "updatedAt": "2026-10-07T17:14:29.425Z",
-    "dueOn": null,
+    "updatedAt": "2026-10-08T16:50:07.748Z",
+    "dueOn": "2026-10-08",
     "tags": [],
     "customFields": [
       {
@@ -15495,12 +15215,12 @@
       },
       {
         "name": "End Date",
-        "value": null,
+        "value": "2026-10-08T00:00:00.000Z",
         "type": "date"
       },
       {
         "name": "State",
-        "value": "Not Started",
+        "value": "Completed",
         "type": "enum"
       },
       {

@@ -13492,6 +13492,101 @@
     }
   },
   {
+    "id": "1219573727567540",
+    "title": "New Metric default flag behaviour",
+    "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1219573727567540",
+    "type": "ISSUE",
+    "status": "Untitled section",
+    "assignees": [
+      {
+        "gid": "1210331029137256",
+        "name": "Jaya Kumar",
+        "email": "jkumar@kochava.com"
+      }
+    ],
+    "primaryAssignee": "Jaya Kumar",
+    "description": "We need to set all \"Default\" flags as false and all \"Suitable\" flags as true for every new metric created or any metric updated from CSI network page",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2026-10-16T08:55:09.514Z",
+    "updatedAt": "2026-10-16T09:01:21.718Z",
+    "dueOn": null,
+    "tags": [],
+    "customFields": [
+      {
+        "name": "Rank ",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Efforts ( Mandays)",
+        "value": null,
+        "type": "number"
+      },
+      {
+        "name": "Release Planned",
+        "value": null,
+        "type": "multi_enum"
+      },
+      {
+        "name": "Pick Priority",
+        "value": "P1",
+        "type": "enum"
+      },
+      {
+        "name": "Status",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "End Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "State",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Workstream",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Source",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Repo Name",
+        "value": null,
+        "type": "text"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Last Activity Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "multi_enum"
+      }
+    ],
+    "source": {
+      "platform": "asana",
+      "projectName": "AIM ETL Requirements",
+      "projectId": 8,
+      "projectGid": "1209209910929196"
+    }
+  },
+  {
     "id": "1214384697661087",
     "title": "Raw data tables with original column names for debug and audit purposes",
     "url": "https://app.asana.com/1/8559678460204/project/1209209910929196/task/1214384697661087",

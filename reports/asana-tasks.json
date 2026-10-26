@@ -13509,8 +13509,8 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-10-16T08:55:09.514Z",
-    "updatedAt": "2026-10-16T09:01:21.718Z",
-    "dueOn": null,
+    "updatedAt": "2026-10-26T05:24:09.754Z",
+    "dueOn": "2026-10-27",
     "tags": [],
     "customFields": [
       {

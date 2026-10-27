@@ -10957,7 +10957,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-09-30T17:48:51.601Z",
-    "updatedAt": "2026-10-27T06:05:42.840Z",
+    "updatedAt": "2026-10-27T11:59:06.712Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11469,7 +11469,7 @@
     "title": "Planet Art - Migration from AppsFlyer to Adjust",
     "url": "https://app.asana.com/1/8559678460204/project/1209147801260461/task/1214769262042310",
     "type": "ISSUE",
-    "status": "In Progress",
+    "status": "Complete",
     "assignees": [
       {
         "gid": "1210331029137256",
@@ -11479,10 +11479,10 @@
     ],
     "primaryAssignee": "Jaya Kumar",
     "description": "Planet Art has informed us that they're considering moving from AppsFlyer to Adjust and plan to start the Adjust integration at the beginning of June with a 3-month transition, during which they will keep AF in parallel.\n\nThey're wondering about the potential impact and implications of this transition, looking for potential call-outs/limitations and a transition plan from our side.",
-    "completed": false,
-    "completedAt": null,
+    "completed": true,
+    "completedAt": "2026-10-27T14:24:02.767Z",
     "createdAt": "2026-05-13T10:24:58.055Z",
-    "updatedAt": "2026-10-13T11:22:07.228Z",
+    "updatedAt": "2026-10-27T14:24:02.931Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11528,7 +11528,7 @@
       },
       {
         "name": "Time to Complete",
-        "value": null,
+        "value": "19w 6d",
         "type": "number"
       },
       {

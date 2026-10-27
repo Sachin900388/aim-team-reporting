@@ -10957,7 +10957,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-09-30T17:48:51.601Z",
-    "updatedAt": "2026-10-13T08:32:12.999Z",
+    "updatedAt": "2026-10-27T06:05:42.840Z",
     "dueOn": null,
     "tags": [],
     "customFields": [
@@ -11028,6 +11028,51 @@
       },
       {
         "name": "Dev Escalation Resolution",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Priority",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Project Type",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "ProjectPhase",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Sprint",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "Overdue Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Engineering Start Date",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "Team",
+        "value": null,
+        "type": "enum"
+      },
+      {
+        "name": "PhaseDate",
+        "value": null,
+        "type": "date"
+      },
+      {
+        "name": "WDI Weight",
         "value": null,
         "type": "enum"
       },
@@ -13509,7 +13554,7 @@
     "completed": false,
     "completedAt": null,
     "createdAt": "2026-10-16T08:55:09.514Z",
-    "updatedAt": "2026-10-26T18:30:05.487Z",
+    "updatedAt": "2026-10-27T05:34:41.357Z",
     "dueOn": "2026-10-27",
     "tags": [],
     "customFields": [
